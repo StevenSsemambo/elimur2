@@ -1,0 +1,37 @@
+{
+  "topic_id": "s1_bio_cells",
+  "topic_title": "Cell Structure & Function",
+  "subject": "biology",
+  "class_level": "S1",
+  "lessons": [
+    {
+      "id": "s1_bio_cells_l1",
+      "title": "The Cell — Basic Unit of Life",
+      "duration_minutes": 22,
+      "xp_reward": 50,
+      "content": [
+        { "type": "text", "body": "All living things are made of cells. The cell is the basic structural and functional unit of all living organisms. Some organisms like bacteria consist of only one cell (unicellular), while others like humans have trillions of cells (multicellular)." },
+        { "type": "formula", "body": "Cell Theory:\n1. All living things are made of one or more cells\n2. The cell is the basic unit of life\n3. All cells come from pre-existing cells" },
+        { "type": "text", "body": "There are two main types of cells: Prokaryotic cells — found in bacteria, they have no membrane-bound nucleus. Eukaryotic cells — found in plants, animals, and fungi, they have a true nucleus enclosed in a membrane." },
+        { "type": "example", "title": "Animal Cell Parts", "body": "Cell membrane — controls what enters and leaves the cell\nNucleus — contains DNA and controls cell activities\nCytoplasm — jelly-like fluid where chemical reactions happen\nMitochondria — produces energy (ATP) through respiration\nRibosomes — where proteins are made\nEndoplasmic reticulum — transports materials within the cell" },
+        { "type": "example", "title": "Plant Cell — Extra Parts", "body": "Cell wall — rigid outer layer made of cellulose, gives shape\nChloroplasts — contains chlorophyll for photosynthesis\nVacuole — large central space filled with cell sap\nPlasma membrane — inside the cell wall" },
+        { "type": "text", "body": "Plant cells differ from animal cells in three main ways: plant cells have a cell wall, chloroplasts, and a large permanent vacuole. Animal cells have none of these three features." }
+      ],
+      "quiz": {
+        "pass_score": 60,
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "What is the basic unit of life?", "options": ["Organ", "Tissue", "Cell", "Atom"], "answer": "Cell", "explanation": "The cell is the basic structural and functional unit of all living organisms." },
+          { "id": "q2", "type": "multiple_choice", "question": "Which organelle controls cell activities?", "options": ["Ribosome", "Nucleus", "Mitochondria", "Vacuole"], "answer": "Nucleus", "explanation": "The nucleus contains DNA and controls the activities of the cell." },
+          { "id": "q3", "type": "multiple_choice", "question": "Where does energy production (respiration) occur?", "options": ["Nucleus", "Cell wall", "Mitochondria", "Chloroplast"], "answer": "Mitochondria", "explanation": "Mitochondria are the powerhouse of the cell — they produce energy through respiration." },
+          { "id": "q4", "type": "multiple_choice", "question": "Which structure is found in plant cells but NOT animal cells?", "options": ["Nucleus", "Cell membrane", "Cell wall", "Ribosome"], "answer": "Cell wall", "explanation": "Plant cells have a cell wall made of cellulose. Animal cells do not." },
+          { "id": "q5", "type": "multiple_choice", "question": "What is the function of chloroplasts?", "options": ["Produce energy from food", "Store water", "Carry out photosynthesis", "Control cell activities"], "answer": "Carry out photosynthesis", "explanation": "Chloroplasts contain chlorophyll and are the site of photosynthesis in plant cells." },
+          { "id": "q6", "type": "multiple_choice", "question": "What does the cell membrane do?", "options": ["Produces energy", "Controls what enters and leaves the cell", "Makes proteins", "Stores DNA"], "answer": "Controls what enters and leaves the cell", "explanation": "The cell membrane is selectively permeable — it controls what substances pass in and out." },
+          { "id": "q7", "type": "multiple_choice", "question": "Which cells have no membrane-bound nucleus?", "options": ["Animal cells", "Plant cells", "Prokaryotic cells", "Fungal cells"], "answer": "Prokaryotic cells", "explanation": "Prokaryotic cells (like bacteria) have no nucleus surrounded by a membrane." },
+          { "id": "q8", "type": "multiple_choice", "question": "Where are proteins made inside a cell?", "options": ["Mitochondria", "Nucleus", "Ribosomes", "Vacuole"], "answer": "Ribosomes", "explanation": "Ribosomes are the site of protein synthesis in the cell." },
+          { "id": "q9", "type": "multiple_choice", "question": "What fills the large vacuole in plant cells?", "options": ["Air", "Cell sap", "Blood", "Chlorophyll"], "answer": "Cell sap", "explanation": "The large central vacuole in plant cells is filled with cell sap (water and dissolved substances)." },
+          { "id": "q10", "type": "multiple_choice", "question": "Which statement is part of the Cell Theory?", "options": ["Cells only exist in animals", "All cells come from non-living matter", "All living things are made of cells", "Only plants have cells"], "answer": "All living things are made of cells", "explanation": "Cell Theory states: all living things are made of cells, cells are the basic unit of life, and all cells come from pre-existing cells." }
+        ]
+      }
+    }
+  ]
+}

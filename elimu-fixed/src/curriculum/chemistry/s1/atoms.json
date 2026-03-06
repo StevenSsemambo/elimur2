@@ -1,0 +1,37 @@
+{
+  "topic_id": "s1_chem_atoms",
+  "topic_title": "Atomic Structure",
+  "subject": "chemistry",
+  "class_level": "S1",
+  "lessons": [
+    {
+      "id": "s1_chem_atoms_l1",
+      "title": "Structure of the Atom",
+      "duration_minutes": 22,
+      "xp_reward": 50,
+      "content": [
+        { "type": "text", "body": "All matter is made up of tiny particles called atoms. Atoms are the smallest particles of an element that can exist and still retain the chemical properties of that element. Every element has its own unique type of atom." },
+        { "type": "text", "body": "An atom has two main parts: the nucleus at the centre, and electron shells around it. The nucleus contains protons and neutrons. Electrons orbit the nucleus in shells (energy levels)." },
+        { "type": "formula", "body": "Proton: positively charged (+1), found in nucleus\nNeutron: no charge (0), found in nucleus\nElectron: negatively charged (−1), orbits nucleus in shells" },
+        { "type": "formula", "body": "Atomic Number = number of protons in an atom\nMass Number = number of protons + number of neutrons\nNumber of neutrons = Mass Number − Atomic Number" },
+        { "type": "example", "title": "Sodium Atom (Na)", "body": "Atomic Number = 11 (11 protons)\nMass Number = 23\nNeutrons = 23 − 11 = 12\nElectrons = 11 (same as protons in a neutral atom)\nElectron arrangement: 2, 8, 1 (shells fill from inside out)" },
+        { "type": "text", "body": "In a neutral atom, the number of protons equals the number of electrons. This balances the positive and negative charges. Electron shells fill up in order: first shell holds max 2 electrons, second shell holds max 8, third shell holds max 8." }
+      ],
+      "quiz": {
+        "pass_score": 60,
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "Where are protons and neutrons found in an atom?", "options": ["In electron shells", "In the nucleus", "Around the nucleus", "Everywhere in the atom"], "answer": "In the nucleus", "explanation": "Protons and neutrons are located in the nucleus at the centre of the atom." },
+          { "id": "q2", "type": "multiple_choice", "question": "What charge does a proton have?", "options": ["Negative", "No charge", "Positive", "Both positive and negative"], "answer": "Positive", "explanation": "Protons carry a positive charge (+1)." },
+          { "id": "q3", "type": "multiple_choice", "question": "Carbon has atomic number 6 and mass number 12. How many neutrons does it have?", "options": ["12", "6", "18", "2"], "answer": "6", "explanation": "Neutrons = Mass Number − Atomic Number = 12 − 6 = 6" },
+          { "id": "q4", "type": "multiple_choice", "question": "In a neutral atom, what equals the number of protons?", "options": ["Number of neutrons", "Number of electrons", "Mass number", "Atomic mass"], "answer": "Number of electrons", "explanation": "In a neutral atom, the number of electrons equals the number of protons, balancing the charges." },
+          { "id": "q5", "type": "multiple_choice", "question": "What is the maximum number of electrons in the first shell?", "options": ["8", "1", "2", "18"], "answer": "2", "explanation": "The first electron shell can hold a maximum of 2 electrons." },
+          { "id": "q6", "type": "multiple_choice", "question": "What does the atomic number of an element tell us?", "options": ["Number of neutrons", "Total mass of atom", "Number of protons", "Number of electron shells"], "answer": "Number of protons", "explanation": "The atomic number equals the number of protons in an atom of that element." },
+          { "id": "q7", "type": "multiple_choice", "question": "Oxygen has atomic number 8. What is its electron arrangement?", "options": ["8", "2,6", "2,8", "1,7"], "answer": "2,6", "explanation": "Oxygen has 8 electrons. First shell: 2, Second shell: 6. Arrangement: 2,6" },
+          { "id": "q8", "type": "multiple_choice", "question": "Which particle has no electrical charge?", "options": ["Proton", "Electron", "Neutron", "Ion"], "answer": "Neutron", "explanation": "Neutrons have no charge (neutral). Protons are positive, electrons are negative." },
+          { "id": "q9", "type": "multiple_choice", "question": "Aluminium has atomic number 13 and mass number 27. How many neutrons does it have?", "options": ["13", "27", "14", "40"], "answer": "14", "explanation": "Neutrons = 27 − 13 = 14" },
+          { "id": "q10", "type": "multiple_choice", "question": "What is the maximum number of electrons in the second shell?", "options": ["2", "18", "8", "6"], "answer": "8", "explanation": "The second electron shell can hold a maximum of 8 electrons." }
+        ]
+      }
+    }
+  ]
+}

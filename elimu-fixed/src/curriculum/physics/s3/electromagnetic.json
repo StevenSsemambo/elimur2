@@ -1,0 +1,33 @@
+{
+  "topic_id": "s3_phy_em",
+  "topic_title": "Electromagnetic Induction",
+  "subject": "physics",
+  "class_level": "S3",
+  "lessons": [
+    {
+      "id": "s3_phy_em_l1",
+      "title": "Electromagnetic Induction and Generators",
+      "duration_minutes": 28,
+      "xp_reward": 70,
+      "content": [
+        {"type":"text","body":"Electromagnetic induction is one of the most important discoveries in physics. Michael Faraday (1831) discovered that moving a magnet near a wire coil generates electricity. This principle underlies all electrical generators — turbines that power our cities."},
+        {"type":"formula","body":"Faraday's Law:\nAn EMF (electromotive force) is induced in a conductor when:\n• The conductor moves through a magnetic field\n• The magnetic field through the conductor changes\n\nThe size of the induced EMF increases when:\n• Speed of movement increases\n• Field strength increases\n• More turns on the coil\n• Using a stronger magnet"},
+        {"type":"formula","body":"Lenz's Law:\nThe induced current creates a magnetic field that OPPOSES the change that caused it.\n\nSimple rule: the induced current always tries to prevent the change in flux.\nThis is consistent with conservation of energy — you must do work against this opposition."},
+        {"type":"example","title":"AC Generator (Dynamo)","body":"A coil rotates in a magnetic field:\n• As coil rotates, flux through it changes → EMF is induced\n• Direction of induced current reverses every half turn → AC (alternating current)\n• Frequency of AC = speed of rotation (Uganda/UK mains: 50 Hz)\n• Slip rings and brushes connect rotating coil to external circuit\n\nOutput: sinusoidal wave (alternating between positive and negative)"},
+        {"type":"example","title":"Transformers","body":"A transformer changes voltage using electromagnetic induction:\n\nTransformer equation:\nVs/Vp = Ns/Np\n\nVp = primary voltage, Vs = secondary voltage\nNp = primary turns, Ns = secondary turns\n\nStep-UP transformer: Ns > Np → increases voltage\nStep-DOWN transformer: Ns < Np → decreases voltage\n\nIdeal transformer: Vp×Ip = Vs×Is (power is conserved)\n\nApplication: National Grid uses step-up transformers (to reduce energy loss in transmission at high voltage, low current), then step-down to household voltage."}
+      ],
+      "quiz":{"pass_score":60,"questions":[
+        {"id":"q1","type":"multiple_choice","question":"Electromagnetic induction is used in:","options":["Solar panels","Generators","Batteries","Resistors"],"answer":"Generators","explanation":"Generators convert kinetic energy to electrical energy using electromagnetic induction."},
+        {"id":"q2","type":"multiple_choice","question":"The induced EMF increases if you:","options":["Move the magnet slower","Use a weaker magnet","Increase the number of coil turns","Decrease the field strength"],"answer":"Increase the number of coil turns","explanation":"More turns in the coil means more conductors cutting field lines → greater induced EMF."},
+        {"id":"q3","type":"multiple_choice","question":"Lenz's Law states that the induced current:","options":["Adds to the change causing it","Has no relationship to the causing change","Opposes the change that caused it","Always flows clockwise"],"answer":"Opposes the change that caused it","explanation":"Lenz's Law: the induced EMF creates a current that opposes the change in magnetic flux that caused it."},
+        {"id":"q4","type":"multiple_choice","question":"An AC generator uses slip rings (not a split-ring commutator) to produce:","options":["Direct current","Alternating current","Constant voltage","Pulsed DC"],"answer":"Alternating current","explanation":"Slip rings allow continuous rotation and the output alternates direction — producing AC."},
+        {"id":"q5","type":"multiple_choice","question":"Transformer: Vp=240V, Np=1000, Ns=100. Find Vs.","options":["2400V","24V","100V","0.24V"],"answer":"24V","explanation":"Vs/Vp = Ns/Np → Vs = 240 × (100/1000) = 24V. Step-DOWN transformer."},
+        {"id":"q6","type":"multiple_choice","question":"A step-up transformer:","options":["Increases current, decreases voltage","Decreases voltage","Increases voltage and decreases current","Is used in homes only"],"answer":"Increases voltage and decreases current","explanation":"Step-up: Ns>Np → voltage increases. Since power is conserved (IV=const), current decreases."},
+        {"id":"q7","type":"multiple_choice","question":"Why does the National Grid transmit electricity at high voltage?","options":["To make it more dangerous","To reduce power losses in cables (P=I²R, less current = less loss)","To increase current","High voltage is safer"],"answer":"To reduce power losses in cables (P=I²R, less current = less loss)","explanation":"P_lost = I²R. High voltage means low current (for same power), dramatically reducing energy lost as heat in transmission cables."},
+        {"id":"q8","type":"multiple_choice","question":"Uganda's mains frequency is 50 Hz. This means current reverses direction:","options":["50 times per second","100 times per second","25 times per second","Once per second"],"answer":"100 times per second","explanation":"At 50 Hz, current completes 50 full cycles per second — reversing direction 100 times per second (twice per cycle)."},
+        {"id":"q9","type":"multiple_choice","question":"Transformer: Vp=12V, Ip=5A. Vs=120V (ideal). Find Is.","options":["50A","0.5A","5A","12A"],"answer":"0.5A","explanation":"Ideal: VpIp = VsIs → 12×5 = 120×Is → Is = 60/120 = 0.5A."},
+        {"id":"q10","type":"multiple_choice","question":"Faraday's discovery (1831) showed that:","options":["Magnets attract iron","Current-carrying wires create magnetic fields","Changing magnetic field induces EMF in a conductor","Like charges repel"],"answer":"Changing magnetic field induces EMF in a conductor","explanation":"Faraday discovered electromagnetic induction — a changing magnetic flux through a conductor induces an EMF."}
+      ]}
+    }
+  ]
+}

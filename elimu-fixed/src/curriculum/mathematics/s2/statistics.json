@@ -1,0 +1,57 @@
+{
+  "topic_id": "s2_math_statistics",
+  "topic_title": "Statistics Basics",
+  "subject": "mathematics",
+  "class_level": "S2",
+  "lessons": [
+    {
+      "id": "s2_math_stats_l1",
+      "title": "Mean, Median, Mode and Range",
+      "duration_minutes": 25,
+      "xp_reward": 60,
+      "content": [
+        {"type":"text","body":"Statistics involves collecting, organising, and interpreting data. Measures of central tendency describe the 'typical' value in a data set. Measures of spread describe how spread out the data is."},
+        {"type":"formula","body":"MEAN (Average):\nMean = Sum of all values ÷ Number of values\n\nMEDIAN (Middle value):\nArrange data in order, find the middle value.\nIf even number of values, median = average of the two middle values.\n\nMODE:\nThe value that appears most often.\nA data set can have no mode, one mode, or multiple modes.\n\nRANGE (Spread):\nRange = Highest value − Lowest value"},
+        {"type":"example","title":"Finding Averages","body":"Data: 3, 7, 5, 9, 5, 8, 4, 6, 5\n\nMean = (3+7+5+9+5+8+4+6+5)/9 = 52/9 = 5.78\n\nOrdered: 3, 4, 5, 5, 5, 6, 7, 8, 9\nMedian = 5 (5th value in 9 values)\n\nMode = 5 (appears 3 times)\n\nRange = 9 − 3 = 6"},
+        {"type":"example","title":"Even Number of Values","body":"Data: 12, 15, 8, 20, 14, 18\nOrdered: 8, 12, 14, 15, 18, 20\nMedian = (14+15)/2 = 14.5 (average of 3rd and 4th)\nMean = (8+12+14+15+18+20)/6 = 87/6 = 14.5\nMode = none (all values appear once)\nRange = 20 − 8 = 12"},
+        {"type":"text","body":"When to use each average:\nMean: best when data is symmetric with no extreme outliers\nMedian: best when data has outliers (e.g. income data where a few very rich people skew the mean)\nMode: best for categorical data (e.g. most popular shoe size)\n\nA very high or low value (outlier) greatly affects the mean but NOT the median."}
+      ],
+      "quiz":{"pass_score":60,"questions":[
+        {"id":"q1","type":"multiple_choice","question":"Find the mean of: 4, 8, 6, 10, 7","options":["7","6","8","35"],"answer":"7","explanation":"Mean = (4+8+6+10+7)/5 = 35/5 = 7."},
+        {"id":"q2","type":"multiple_choice","question":"Find the median of: 3, 1, 7, 9, 5","options":["7","5","4","6"],"answer":"5","explanation":"Ordered: 1, 3, 5, 7, 9. Middle (3rd) value = 5."},
+        {"id":"q3","type":"multiple_choice","question":"Find the mode of: 2, 5, 3, 2, 8, 5, 2","options":["5","3","2","8"],"answer":"2","explanation":"2 appears 3 times (most frequent). Mode = 2."},
+        {"id":"q4","type":"multiple_choice","question":"Find the range of: 15, 3, 22, 8, 17","options":["19","11","25","5"],"answer":"19","explanation":"Range = highest − lowest = 22 − 3 = 19."},
+        {"id":"q5","type":"multiple_choice","question":"Median of: 6, 9, 3, 12, 8, 4","options":["7","8","6","9"],"answer":"7","explanation":"Ordered: 3, 4, 6, 8, 9, 12. Median = (6+8)/2 = 7."},
+        {"id":"q6","type":"multiple_choice","question":"Ages: 12, 13, 12, 14, 12, 15. Find the mode.","options":["13","14","15","12"],"answer":"12","explanation":"12 appears 3 times — more than any other value. Mode = 12."},
+        {"id":"q7","type":"multiple_choice","question":"Why is median preferred over mean for income data?","options":["Median is easier to calculate","Mean is less accurate","Median is not affected by extreme outliers","Mean requires more data"],"answer":"Median is not affected by extreme outliers","explanation":"A few very high earners raise the mean significantly, making it misleading. The median better represents the 'typical' income."},
+        {"id":"q8","type":"multiple_choice","question":"Scores: 45, 60, 55, 70, 80, 65, 55, 70. Find mean.","options":["62.5","60","65","55"],"answer":"62.5","explanation":"Sum = 500. Mean = 500/8 = 62.5."},
+        {"id":"q9","type":"multiple_choice","question":"Data set has no repeated values. Its mode is:","options":["The median","Zero","Undefined/no mode","The mean"],"answer":"Undefined/no mode","explanation":"If no value appears more than once, the data set has no mode."},
+        {"id":"q10","type":"multiple_choice","question":"Mean of 5 numbers is 8. What is their sum?","options":["40","13","3","1.6"],"answer":"40","explanation":"Mean = Sum/n → Sum = Mean × n = 8 × 5 = 40."}
+      ]}
+    },
+    {
+      "id": "s2_math_stats_l2",
+      "title": "Frequency Tables and Histograms",
+      "duration_minutes": 25,
+      "xp_reward": 60,
+      "content": [
+        {"type":"text","body":"When dealing with large data sets, we organise data into frequency tables. This makes it easier to find averages and spot patterns. Histograms and bar charts let us visualise data."},
+        {"type":"formula","body":"Frequency Table Terms:\nFrequency (f): how many times a value occurs\nRelative frequency: f/total\nCumulative frequency: running total of frequencies\n\nMean from frequency table:\nMean = Σ(x × f) / Σf\n(multiply each value by its frequency, sum up, divide by total frequency)"},
+        {"type":"example","title":"Mean from Frequency Table","body":"Number of goals scored per match:\nGoals(x): 0  1  2  3  4\nFreq(f):   3  5  6  4  2\n\nΣf = 3+5+6+4+2 = 20 matches\nΣ(xf) = (0×3)+(1×5)+(2×6)+(3×4)+(4×2)\n     = 0 + 5 + 12 + 12 + 8 = 37\nMean = 37/20 = 1.85 goals per match"},
+        {"type":"example","title":"Bar Chart vs Histogram","body":"Bar chart: used for DISCRETE or CATEGORICAL data\n• Bars have gaps between them\n• Height = frequency\n\nHistogram: used for CONTINUOUS data in class intervals\n• NO gaps between bars\n• Area (not height) represents frequency\n• Frequency density = frequency / class width"}
+      ],
+      "quiz":{"pass_score":60,"questions":[
+        {"id":"q1","type":"multiple_choice","question":"In a frequency table, what does 'f' represent?","options":["The value","How often a value occurs","The mean","The range"],"answer":"How often a value occurs","explanation":"Frequency (f) is the count of how many times each value appears in the data."},
+        {"id":"q2","type":"multiple_choice","question":"x: 1,2,3; f: 4,6,2. Find Σf.","options":["6","12","10","14"],"answer":"12","explanation":"Σf = 4+6+2 = 12 (total number of values)."},
+        {"id":"q3","type":"multiple_choice","question":"x: 1,2,3; f: 4,6,2. Find Σ(xf).","options":["14","22","12","20"],"answer":"22","explanation":"Σ(xf) = (1×4)+(2×6)+(3×2) = 4+12+6 = 22."},
+        {"id":"q4","type":"multiple_choice","question":"Using above: mean = Σ(xf)/Σf = ?","options":["1.83","2.2","1.67","2"],"answer":"1.83","explanation":"Mean = 22/12 ≈ 1.83."},
+        {"id":"q5","type":"multiple_choice","question":"A histogram differs from a bar chart because:","options":["It uses pie shapes","There are no gaps between bars and it shows continuous data","It only shows one variable","It uses lines instead of bars"],"answer":"There are no gaps between bars and it shows continuous data","explanation":"Histograms show continuous data with no gaps — the area of each bar represents frequency."},
+        {"id":"q6","type":"multiple_choice","question":"Frequency density = ?","options":["Frequency × class width","Frequency / class width","Frequency + class width","Frequency − class width"],"answer":"Frequency / class width","explanation":"Frequency density = frequency ÷ class width. Used in histograms when class widths differ."},
+        {"id":"q7","type":"multiple_choice","question":"Cumulative frequency is:","options":["Frequency × frequency","Running total of all frequencies up to that point","The largest frequency","Frequency divided by total"],"answer":"Running total of all frequencies up to that point","explanation":"Cumulative frequency adds up all frequencies from the beginning to each point."},
+        {"id":"q8","type":"multiple_choice","question":"f: 5, 8, 7, 3, 2. Total = 25. Relative frequency of class with f=8:","options":["0.32","0.08","8","0.8"],"answer":"0.32","explanation":"Relative frequency = f/total = 8/25 = 0.32."},
+        {"id":"q9","type":"multiple_choice","question":"In a bar chart for shoe sizes, gaps between bars indicate:","options":["Missing data","Discrete data (shoe sizes are separate values)","Errors","Continuous data"],"answer":"Discrete data (shoe sizes are separate values)","explanation":"Bar charts with gaps are used for discrete (countable, separate) data like shoe sizes."},
+        {"id":"q10","type":"multiple_choice","question":"50 students' test scores. Modal class is 60-70 with f=18. What fraction scored in this range?","options":["18%","36%","0.36","0.18"],"answer":"0.36","explanation":"Relative frequency = 18/50 = 0.36 (or 36%)."}
+      ]}
+    }
+  ]
+}

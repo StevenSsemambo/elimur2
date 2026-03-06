@@ -1,0 +1,57 @@
+{
+  "topic_id": "s1_math_ratio",
+  "topic_title": "Ratio, Proportion & Indices",
+  "subject": "mathematics",
+  "class_level": "S1",
+  "lessons": [
+    {
+      "id": "s1_math_ratio_l1",
+      "title": "Ratio and Proportion",
+      "duration_minutes": 22,
+      "xp_reward": 50,
+      "content": [
+        {"type":"text","body":"A ratio compares two quantities of the same kind. Ratios are written using the colon symbol (:) or as fractions. They are used in mixing paint, cooking recipes, currency exchange, map scales, and many other everyday situations."},
+        {"type":"formula","body":"Writing and simplifying ratios:\nRatio a:b is simplified by dividing both sides by their HCF\nExample: 12:18 → HCF=6 → 2:3\n\nEquivalent ratios: multiply or divide both sides by the same number\n2:3 = 4:6 = 10:15 = 20:30\n\nUnit ratio: express as 1:n or n:1\n2:5 → divide by 2 → 1:2.5"},
+        {"type":"example","title":"Sharing in a Given Ratio","body":"Share 60,000 UGX between Alice and Bob in the ratio 2:3\n\nStep 1: Total parts = 2+3 = 5\nStep 2: Value of 1 part = 60,000 ÷ 5 = 12,000\nStep 3: Alice = 2 × 12,000 = 24,000 UGX\n         Bob = 3 × 12,000 = 36,000 UGX\nCheck: 24,000 + 36,000 = 60,000 ✓"},
+        {"type":"formula","body":"Direct Proportion: as one quantity increases, the other increases at the same rate\nIf y ∝ x, then y = kx (k is constant)\n\nInverse Proportion: as one increases, the other decreases\nIf y ∝ 1/x, then y = k/x\n\nTest: if doubling x doubles y → direct proportion\n      if doubling x halves y → inverse proportion"},
+        {"type":"example","title":"Proportion Problems","body":"Direct: 5 pens cost 2,500 UGX. Cost of 8 pens?\nMethod: 5 pens = 2,500 → 1 pen = 500 → 8 pens = 4,000 UGX\n\nInverse: 6 workers finish a job in 10 days. How long for 4 workers?\n6 × 10 = 60 worker-days needed\n4 workers: 60 ÷ 4 = 15 days"}
+      ],
+      "quiz":{"pass_score":60,"questions":[
+        {"id":"q1","type":"multiple_choice","question":"Simplify the ratio 24:36","options":["12:18","4:6","2:3","3:2"],"answer":"2:3","explanation":"HCF of 24 and 36 is 12. 24÷12 : 36÷12 = 2:3."},
+        {"id":"q2","type":"multiple_choice","question":"Share 90,000 UGX in ratio 1:2. Smaller share = ?","options":["45,000","60,000","30,000","22,500"],"answer":"30,000","explanation":"Total parts=3. One part=30,000. Smaller share=1×30,000=30,000 UGX."},
+        {"id":"q3","type":"multiple_choice","question":"3 notebooks cost 1,500 UGX. Cost of 7 notebooks?","options":["500","10,500","3,500","700"],"answer":"3,500","explanation":"1 notebook = 500 UGX. 7 × 500 = 3,500 UGX. Direct proportion."},
+        {"id":"q4","type":"multiple_choice","question":"4 taps fill a tank in 6 hours. How long for 3 taps?","options":["4.5 hours","8 hours","9 hours","2 hours"],"answer":"8 hours","explanation":"Inverse proportion: 4×6=24 tap-hours. 3 taps: 24÷3=8 hours."},
+        {"id":"q5","type":"multiple_choice","question":"Express 15:25 in simplest form","options":["5:8","3:5","15:25","1:2"],"answer":"3:5","explanation":"HCF=5. 15÷5:25÷5 = 3:5."},
+        {"id":"q6","type":"multiple_choice","question":"Share 120,000 UGX in ratio 3:4:5. Largest share = ?","options":["30,000","40,000","50,000","60,000"],"answer":"50,000","explanation":"Total parts=12. One part=10,000. Largest(5)=50,000."},
+        {"id":"q7","type":"multiple_choice","question":"If y is directly proportional to x and y=10 when x=4, find y when x=10","options":["4","25","40","2.5"],"answer":"25","explanation":"y=kx → 10=4k → k=2.5. y=2.5×10=25."},
+        {"id":"q8","type":"multiple_choice","question":"Map scale 1:50,000. Map distance 4cm = actual distance?","options":["200 km","2 km","200 m","200,000 cm"],"answer":"2 km","explanation":"Actual = 4×50,000 = 200,000 cm = 2,000 m = 2 km."},
+        {"id":"q9","type":"multiple_choice","question":"A recipe needs flour and sugar in ratio 3:1. For 600g flour, sugar needed?","options":["200g","300g","1800g","150g"],"answer":"200g","explanation":"flour:sugar=3:1. sugar = flour÷3 = 600÷3 = 200g."},
+        {"id":"q10","type":"multiple_choice","question":"Speed and time (fixed distance) are in:","options":["Direct proportion","No relationship","Inverse proportion","Equal ratio"],"answer":"Inverse proportion","explanation":"Speed × time = distance (constant). So speed and time are inversely proportional."}
+      ]}
+    },
+    {
+      "id": "s1_math_indices_l1",
+      "title": "Indices (Powers and Roots)",
+      "duration_minutes": 22,
+      "xp_reward": 55,
+      "content": [
+        {"type":"text","body":"An index (plural: indices) tells you how many times to multiply a number by itself. Indices are also called powers or exponents. They appear in science (very large/small numbers), computing (binary), and finance (compound interest)."},
+        {"type":"formula","body":"Index notation: aⁿ means a multiplied by itself n times\n2³ = 2×2×2 = 8\n5⁴ = 5×5×5×5 = 625\n\nSpecial cases:\na¹ = a (anything to power 1 = itself)\na⁰ = 1 (anything to power 0 = 1, except 0⁰)\na⁻ⁿ = 1/aⁿ (negative index = reciprocal)\na^(1/n) = ⁿ√a (fractional index = root)"},
+        {"type":"formula","body":"Laws of Indices:\n1. Multiplication: aᵐ × aⁿ = aᵐ⁺ⁿ\n2. Division: aᵐ ÷ aⁿ = aᵐ⁻ⁿ\n3. Power of power: (aᵐ)ⁿ = aᵐⁿ\n4. Product: (ab)ⁿ = aⁿbⁿ\n5. Quotient: (a/b)ⁿ = aⁿ/bⁿ"},
+        {"type":"example","title":"Applying Index Laws","body":"Simplify: x³ × x⁵ = x⁸  (add powers)\nSimplify: y⁷ ÷ y³ = y⁴  (subtract powers)\nSimplify: (z²)⁴ = z⁸  (multiply powers)\nSimplify: 2⁻³ = 1/2³ = 1/8\nSimplify: 27^(1/3) = ∛27 = 3\nSimplify: 16^(3/4) = (16^(1/4))³ = 2³ = 8"}
+      ],
+      "quiz":{"pass_score":60,"questions":[
+        {"id":"q1","type":"multiple_choice","question":"2⁴ = ?","options":["8","16","6","32"],"answer":"16","explanation":"2⁴ = 2×2×2×2 = 16."},
+        {"id":"q2","type":"multiple_choice","question":"x³ × x⁴ = ?","options":["x¹²","x⁷","2x⁷","x"],"answer":"x⁷","explanation":"Multiply: add indices. x³ × x⁴ = x^(3+4) = x⁷."},
+        {"id":"q3","type":"multiple_choice","question":"y⁸ ÷ y³ = ?","options":["y⁵","y¹¹","y²⁴","y"],"answer":"y⁵","explanation":"Divide: subtract indices. y⁸ ÷ y³ = y^(8-3) = y⁵."},
+        {"id":"q4","type":"multiple_choice","question":"(a²)⁵ = ?","options":["a⁷","a³","a¹⁰","2a⁵"],"answer":"a¹⁰","explanation":"Power of power: multiply indices. (a²)⁵ = a^(2×5) = a¹⁰."},
+        {"id":"q5","type":"multiple_choice","question":"5⁰ = ?","options":["0","5","1","undefined"],"answer":"1","explanation":"Any non-zero number to the power 0 equals 1."},
+        {"id":"q6","type":"multiple_choice","question":"3⁻² = ?","options":["-9","9","1/9","1/6"],"answer":"1/9","explanation":"a⁻ⁿ = 1/aⁿ. 3⁻² = 1/3² = 1/9."},
+        {"id":"q7","type":"multiple_choice","question":"64^(1/2) = ?","options":["32","4","8","16"],"answer":"8","explanation":"a^(1/2) = √a. √64 = 8."},
+        {"id":"q8","type":"multiple_choice","question":"8^(2/3) = ?","options":["4","2","16","64"],"answer":"4","explanation":"8^(2/3) = (8^(1/3))² = 2² = 4."},
+        {"id":"q9","type":"multiple_choice","question":"Simplify: (2x²)³","options":["6x⁵","8x⁶","2x⁶","6x⁶"],"answer":"8x⁶","explanation":"(2x²)³ = 2³×(x²)³ = 8×x⁶ = 8x⁶."},
+        {"id":"q10","type":"multiple_choice","question":"Which equals 1/32?","options":["2⁵","2⁻⁵","5⁻²","32⁻¹"],"answer":"2⁻⁵","explanation":"2⁻⁵ = 1/2⁵ = 1/32. ✓"}
+      ]}
+    }
+  ]
+}

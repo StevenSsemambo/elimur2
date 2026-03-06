@@ -1,0 +1,58 @@
+{
+  "topic_id": "s1_phy_energy",
+  "topic_title": "Work, Energy & Power",
+  "subject": "physics",
+  "class_level": "S1",
+  "lessons": [
+    {
+      "id": "s1_phy_energy_l1",
+      "title": "Work and Energy",
+      "duration_minutes": 25,
+      "xp_reward": 60,
+      "content": [
+        {"type":"text","body":"In physics, 'work' has a precise meaning. Work is done when a force moves an object in the direction of the force. Energy is the capacity to do work. Energy can neither be created nor destroyed — only converted from one form to another (Law of Conservation of Energy)."},
+        {"type":"formula","body":"Work Done:\nW = F × d × cos θ\nW = work (Joules, J)\nF = force (Newtons, N)\nd = displacement in direction of force (metres, m)\nθ = angle between force and displacement\n\nIf force and displacement are in SAME direction: θ=0, cos0=1\nW = F × d (simplest case)"},
+        {"type":"formula","body":"Types of Energy:\nKinetic Energy (KE): energy of motion\nKE = ½mv²  (m=mass in kg, v=speed in m/s)\n\nGravitational Potential Energy (GPE): energy due to height\nGPE = mgh  (m=mass, g=9.8 m/s², h=height in m)\n\nElastic PE: energy stored in stretched/compressed objects\nChemical, thermal, nuclear, electromagnetic, sound..."},
+        {"type":"example","title":"Energy Calculations","body":"A 2 kg ball is lifted 3 m high:\nGPE = mgh = 2 × 9.8 × 3 = 58.8 J\n\nThe ball is released and falls. At the bottom:\nAll GPE converts to KE (ignoring air resistance)\nKE = 58.8 J\n½mv² = 58.8 → v² = 58.8 × 2/2 = 58.8 → v = 7.67 m/s"},
+        {"type":"formula","body":"Conservation of Mechanical Energy:\nKE + GPE = constant (no friction)\n\nAt top: v=0, KE=0, all energy is GPE\nAt bottom: h=0, GPE=0, all energy is KE\n\nWork-Energy Theorem:\nNet work done on object = Change in kinetic energy\nW = ΔKE = ½mv² − ½mu²"}
+      ],
+      "quiz":{"pass_score":60,"questions":[
+        {"id":"q1","type":"multiple_choice","question":"Work done = F × d. Unit of work is:","options":["Newton","Watt","Joule","Pascal"],"answer":"Joule","explanation":"Work is measured in Joules (J). 1 Joule = 1 Newton × 1 metre."},
+        {"id":"q2","type":"multiple_choice","question":"Force = 20N, displacement = 5m (same direction). Work done = ?","options":["4 J","25 J","100 J","15 J"],"answer":"100 J","explanation":"W = F × d = 20 × 5 = 100 J."},
+        {"id":"q3","type":"multiple_choice","question":"KE = ½mv². Object m=4kg, v=3m/s. KE = ?","options":["6 J","36 J","18 J","24 J"],"answer":"18 J","explanation":"KE = ½ × 4 × 3² = ½ × 4 × 9 = 18 J."},
+        {"id":"q4","type":"multiple_choice","question":"GPE = mgh. m=5kg, h=10m, g=9.8m/s². GPE = ?","options":["490 J","50 J","98 J","980 J"],"answer":"490 J","explanation":"GPE = 5 × 9.8 × 10 = 490 J."},
+        {"id":"q5","type":"multiple_choice","question":"A ball falls from 5m. At bottom, speed is (g=10):","options":["10 m/s","5 m/s","50 m/s","√100=10 m/s"],"answer":"10 m/s","explanation":"GPE→KE: mgh=½mv² → gh=½v² → v²=2×10×5=100 → v=10 m/s."},
+        {"id":"q6","type":"multiple_choice","question":"When you carry a box horizontally (no vertical movement), work done against gravity is:","options":["mgh","Zero","Positive","F×d"],"answer":"Zero","explanation":"Work = F×d×cosθ. For gravity (vertical), horizontal displacement means θ=90°. cos90°=0. No work done against gravity."},
+        {"id":"q7","type":"multiple_choice","question":"Energy is measured in:","options":["Watts","Joules","Newtons","m/s"],"answer":"Joules","explanation":"Energy (like work) is measured in Joules (J)."},
+        {"id":"q8","type":"multiple_choice","question":"A stretched spring has:","options":["Kinetic energy","Gravitational PE","Elastic PE","No energy"],"answer":"Elastic PE","explanation":"A stretched or compressed spring stores elastic potential energy."},
+        {"id":"q9","type":"multiple_choice","question":"As an object falls freely, what happens to its KE and GPE?","options":["Both increase","Both decrease","KE increases, GPE decreases","GPE increases, KE decreases"],"answer":"KE increases, GPE decreases","explanation":"As height decreases, GPE converts to KE. Total mechanical energy stays constant."},
+        {"id":"q10","type":"multiple_choice","question":"No work is done when:","options":["A force moves an object","An object is lifted","The force and displacement are perpendicular","Energy is transferred"],"answer":"The force and displacement are perpendicular","explanation":"W = Fdcosθ. When θ=90°, cos90°=0, so W=0. No work is done."}
+      ]}
+    },
+    {
+      "id": "s1_phy_energy_l2",
+      "title": "Power and Efficiency",
+      "duration_minutes": 22,
+      "xp_reward": 55,
+      "content": [
+        {"type":"formula","body":"POWER:\nPower = Work done / Time taken\nP = W/t = F×v\nUnit: Watt (W). 1W = 1 J/s\n1 kW = 1000 W\n1 MW = 1,000,000 W\n\nPower tells us HOW FAST energy is transferred or work is done."},
+        {"type":"example","title":"Power Calculations","body":"A motor does 6000 J of work in 30 seconds. Find its power.\nP = W/t = 6000/30 = 200 W\n\nA car engine produces force 2000N and travels at 20 m/s. Find power.\nP = F×v = 2000 × 20 = 40,000 W = 40 kW"},
+        {"type":"formula","body":"EFFICIENCY:\nEfficiency = (Useful energy output / Total energy input) × 100%\n\nNo machine is 100% efficient — energy is always lost, usually as heat and sound.\n\nEfficiency tells us what fraction of input energy is usefully converted."},
+        {"type":"example","title":"Efficiency Calculations","body":"A light bulb receives 100 J of electrical energy.\nIt produces 15 J of light and 85 J of heat.\nEfficiency = (15/100) × 100% = 15%\n\nA motor is 80% efficient and receives 500 J.\nUseful work = 80% × 500 = 400 J\nWasted energy = 100 J (as heat/sound)"},
+        {"type":"text","body":"Energy sources:\nRenewable: solar, wind, hydro, geothermal, tidal — naturally replenished\nNon-renewable: coal, oil, natural gas, nuclear fuel — limited supply, cause pollution\nUganda's energy: mainly hydroelectric (Owen Falls/Jinja, Karuma, Isimba dams on River Nile)"}
+      ],
+      "quiz":{"pass_score":60,"questions":[
+        {"id":"q1","type":"multiple_choice","question":"Power is measured in:","options":["Joules","Watts","Newtons","Metres"],"answer":"Watts","explanation":"Power is measured in Watts (W). 1 Watt = 1 Joule per second."},
+        {"id":"q2","type":"multiple_choice","question":"W=1500J done in 5s. Find power.","options":["7500W","300W","1505W","1495W"],"answer":"300W","explanation":"P = W/t = 1500/5 = 300 W."},
+        {"id":"q3","type":"multiple_choice","question":"1 kW = ?","options":["100W","10W","1000W","10000W"],"answer":"1000W","explanation":"kilo = 1000. 1 kilowatt = 1000 watts."},
+        {"id":"q4","type":"multiple_choice","question":"Efficiency = (useful output / total input) × 100%. Motor: input=800J, useful output=600J. Efficiency = ?","options":["75%","133%","25%","200J"],"answer":"75%","explanation":"Efficiency = (600/800) × 100% = 75%."},
+        {"id":"q5","type":"multiple_choice","question":"Why is no machine 100% efficient?","options":["We don't build them properly","Energy is always lost, usually as heat or sound","The formula is wrong","Efficiency can be over 100%"],"answer":"Energy is always lost, usually as heat or sound","explanation":"Friction and air resistance convert some input energy to heat and sound — this energy cannot be usefully recovered."},
+        {"id":"q6","type":"multiple_choice","question":"A car engine force=3000N at v=25m/s. Power = ?","options":["75W","120W","75000W","3025W"],"answer":"75000W","explanation":"P = F×v = 3000 × 25 = 75,000 W = 75 kW."},
+        {"id":"q7","type":"multiple_choice","question":"Solar panels are a renewable energy source because:","options":["They never stop working","Sunlight is naturally and continuously replenished","They have no cost","They work at night too"],"answer":"Sunlight is naturally and continuously replenished","explanation":"Renewable energy comes from sources that are naturally replenished — the sun keeps shining."},
+        {"id":"q8","type":"multiple_choice","question":"Uganda's largest energy source is:","options":["Coal","Solar","Hydroelectric (from River Nile)","Nuclear"],"answer":"Hydroelectric (from River Nile)","explanation":"Uganda generates most of its electricity from hydroelectric dams on the River Nile, including Nalubaale (Owen Falls) and Karuma."},
+        {"id":"q9","type":"multiple_choice","question":"Motor is 70% efficient. Input=1000J. Wasted energy = ?","options":["700J","70J","300J","1300J"],"answer":"300J","explanation":"Useful = 70% × 1000 = 700J. Wasted = 1000 − 700 = 300J."},
+        {"id":"q10","type":"multiple_choice","question":"A person climbs 10m in 20s. Mass=60kg, g=10. Power output = ?","options":["30W","300W","600W","6000W"],"answer":"300W","explanation":"W = mgh = 60×10×10 = 6000J. P = W/t = 6000/20 = 300W."}
+      ]}
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "topic_id": "s2_math_quadratic",
+  "topic_title": "Quadratic Equations",
+  "subject": "mathematics",
+  "class_level": "S2",
+  "lessons": [
+    {
+      "id": "s2_math_quadratic_l1",
+      "title": "Introduction to Quadratic Equations",
+      "duration_minutes": 25,
+      "xp_reward": 65,
+      "content": [
+        { "type": "text", "body": "A quadratic equation is a polynomial equation of degree 2. It contains a variable squared (x²) as its highest power. Quadratic equations appear in physics, engineering, economics and many real-world problems." },
+        { "type": "formula", "body": "Standard form of a quadratic equation:\nax² + bx + c = 0\nWhere a ≠ 0, and a, b, c are constants.\nExamples: x² − 5x + 6 = 0, 2x² + 3x − 2 = 0" },
+        { "type": "example", "title": "Solving by Factorisation", "body": "Solve: x² − 5x + 6 = 0\nStep 1: Find two numbers that multiply to +6 and add to −5\nNumbers: −2 and −3 (−2 × −3 = 6, −2 + −3 = −5)\nStep 2: Factorise: (x − 2)(x − 3) = 0\nStep 3: Set each factor to zero:\nx − 2 = 0 → x = 2\nx − 3 = 0 → x = 3\nSolutions: x = 2 or x = 3" },
+        { "type": "example", "title": "Another Example", "body": "Solve: x² + x − 6 = 0\nNumbers that multiply to −6 and add to +1: +3 and −2\nFactorise: (x + 3)(x − 2) = 0\nx = −3 or x = 2" },
+        { "type": "text", "body": "A quadratic equation can have 2 solutions, 1 repeated solution, or no real solutions. When it factors nicely, factorisation is the fastest method. For equations that don't factorise easily, we use the quadratic formula." }
+      ],
+      "quiz": {
+        "pass_score": 60,
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "What is the standard form of a quadratic equation?", "options": ["ax + b = 0", "ax² + bx + c = 0", "ax³ + b = 0", "ax² = 0"], "answer": "ax² + bx + c = 0", "explanation": "The standard form is ax² + bx + c = 0 where a ≠ 0." },
+          { "id": "q2", "type": "multiple_choice", "question": "Solve: x² − 7x + 12 = 0", "options": ["x = 3 or x = 4", "x = −3 or x = −4", "x = 6 or x = 2", "x = 12 or x = 1"], "answer": "x = 3 or x = 4", "explanation": "Numbers that multiply to 12 and add to −7: −3 and −4. (x−3)(x−4)=0. x=3 or x=4." },
+          { "id": "q3", "type": "multiple_choice", "question": "Solve: x² + 5x + 6 = 0", "options": ["x = 2 or x = 3", "x = −2 or x = −3", "x = 5 or x = 6", "x = 1 or x = 6"], "answer": "x = −2 or x = −3", "explanation": "Numbers: +2 and +3 multiply to 6, add to 5. (x+2)(x+3)=0. x=−2 or x=−3." },
+          { "id": "q4", "type": "multiple_choice", "question": "Solve: x² − 9 = 0", "options": ["x = 9", "x = 3 only", "x = 3 or x = −3", "x = 81"], "answer": "x = 3 or x = −3", "explanation": "x² = 9, so x = ±√9 = ±3." },
+          { "id": "q5", "type": "multiple_choice", "question": "Which pair of factors is correct for x² − 2x − 8 = 0?", "options": ["(x+2)(x−4)", "(x−2)(x+4)", "(x+4)(x−2)", "(x−4)(x+2)"], "answer": "(x+2)(x−4)", "explanation": "+2 × −4 = −8 and +2 + (−4) = −2. So (x+2)(x−4) = 0." },
+          { "id": "q6", "type": "multiple_choice", "question": "How many solutions can a quadratic equation have?", "options": ["Always 2", "Always 1", "0, 1 or 2", "Always 0"], "answer": "0, 1 or 2", "explanation": "A quadratic can have 2 different solutions, 1 repeated solution, or no real solutions." },
+          { "id": "q7", "type": "multiple_choice", "question": "Solve: x² = 16", "options": ["x = 4 only", "x = 8", "x = 4 or x = −4", "x = 2 or x = −2"], "answer": "x = 4 or x = −4", "explanation": "x = ±√16 = ±4" },
+          { "id": "q8", "type": "multiple_choice", "question": "Solve: x² + 6x + 9 = 0", "options": ["x = 3", "x = −3", "x = 3 or x = −3", "x = 9"], "answer": "x = −3", "explanation": "(x+3)² = 0, so x = −3 (a repeated/double root)." },
+          { "id": "q9", "type": "multiple_choice", "question": "What is the first step in solving x² − 5x = 14?", "options": ["Divide by x", "Factorise immediately", "Rearrange to x² − 5x − 14 = 0", "Take the square root"], "answer": "Rearrange to x² − 5x − 14 = 0", "explanation": "Always rearrange a quadratic into standard form (=0) before solving." },
+          { "id": "q10", "type": "multiple_choice", "question": "Solve: x² − 5x − 14 = 0", "options": ["x = 7 or x = −2", "x = −7 or x = 2", "x = 7 or x = 2", "x = 5 or x = 14"], "answer": "x = 7 or x = −2", "explanation": "+7 × −2 = −14 and +7 + (−2) = 5... wait: −5. So (x−7)(x+2)=0. x=7 or x=−2." }
+        ]
+      }
+    },
+    {
+      "id": "s2_math_quadratic_l2",
+      "title": "The Quadratic Formula",
+      "duration_minutes": 28,
+      "xp_reward": 70,
+      "content": [
+        { "type": "text", "body": "When a quadratic equation cannot be factorised easily, we use the quadratic formula. This formula works for ALL quadratic equations and always gives the correct answer." },
+        { "type": "formula", "body": "The Quadratic Formula:\nx = (−b ± √(b² − 4ac)) / 2a\n\nFor ax² + bx + c = 0\nThe ± symbol means there are two solutions:\nx = (−b + √(b²−4ac)) / 2a  OR  x = (−b − √(b²−4ac)) / 2a" },
+        { "type": "formula", "body": "The Discriminant (b² − 4ac) tells us:\n• b²−4ac > 0: two different real solutions\n• b²−4ac = 0: one repeated solution\n• b²−4ac < 0: no real solutions" },
+        { "type": "example", "title": "Using the Formula", "body": "Solve: 2x² − 7x + 3 = 0\na=2, b=−7, c=3\nDiscriminant = (−7)² − 4(2)(3) = 49 − 24 = 25\nx = (7 ± √25) / 4 = (7 ± 5) / 4\nx = (7+5)/4 = 3  OR  x = (7−5)/4 = 0.5\nSolutions: x = 3 or x = 0.5" },
+        { "type": "example", "title": "Checking the Discriminant", "body": "For x² + 2x + 5 = 0:\na=1, b=2, c=5\nDiscriminant = 4 − 20 = −16\nSince discriminant < 0, there are NO real solutions." }
+      ],
+      "quiz": {
+        "pass_score": 60,
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "In ax²+bx+c=0, identify a, b, c for: 3x²−5x+2=0", "options": ["a=3, b=5, c=2", "a=3, b=−5, c=2", "a=−3, b=5, c=2", "a=3, b=5, c=−2"], "answer": "a=3, b=−5, c=2", "explanation": "Comparing 3x²−5x+2=0 with ax²+bx+c=0: a=3, b=−5, c=2." },
+          { "id": "q2", "type": "multiple_choice", "question": "What is the discriminant of x²−4x+4=0?", "options": ["0", "32", "−16", "16"], "answer": "0", "explanation": "b²−4ac = (−4)²−4(1)(4) = 16−16 = 0." },
+          { "id": "q3", "type": "multiple_choice", "question": "A discriminant of 0 means:", "options": ["No real solutions", "Two different solutions", "One repeated solution", "Infinitely many solutions"], "answer": "One repeated solution", "explanation": "When b²−4ac = 0, the ± term disappears and there is exactly one solution." },
+          { "id": "q4", "type": "multiple_choice", "question": "For x²+x+1=0, the discriminant is:", "options": ["5", "3", "−3", "1"], "answer": "−3", "explanation": "b²−4ac = 1²−4(1)(1) = 1−4 = −3. Negative means no real solutions." },
+          { "id": "q5", "type": "multiple_choice", "question": "Solve x²−5x+6=0 using the formula (a=1,b=−5,c=6):", "options": ["x=3 or x=2", "x=−3 or x=−2", "x=6 or x=1", "x=5 or x=1"], "answer": "x=3 or x=2", "explanation": "Discriminant = 25−24=1. x=(5±1)/2. x=3 or x=2." },
+          { "id": "q6", "type": "multiple_choice", "question": "What is the quadratic formula?", "options": ["x = (b±√(b²−4ac))/2a", "x = (−b±√(b²+4ac))/2a", "x = (−b±√(b²−4ac))/2a", "x = (b±√(b²+4ac))/a"], "answer": "x = (−b±√(b²−4ac))/2a", "explanation": "The quadratic formula is x = (−b ± √(b²−4ac)) / 2a." },
+          { "id": "q7", "type": "multiple_choice", "question": "A negative discriminant means:", "options": ["Two positive solutions", "One negative solution", "No real solutions", "Two negative solutions"], "answer": "No real solutions", "explanation": "A negative discriminant means √(negative) which has no real value." },
+          { "id": "q8", "type": "multiple_choice", "question": "For 2x²+3x−2=0, identify a,b,c:", "options": ["a=2,b=3,c=2", "a=2,b=−3,c=2", "a=2,b=3,c=−2", "a=−2,b=3,c=2"], "answer": "a=2,b=3,c=−2", "explanation": "a=2, b=3, c=−2." },
+          { "id": "q9", "type": "multiple_choice", "question": "Using the formula for x²−6x+9=0, what is x?", "options": ["x=3 only", "x=−3 only", "x=3 or −3", "No solution"], "answer": "x=3 only", "explanation": "Discriminant=36−36=0. x=(6±0)/2=3. One repeated root." },
+          { "id": "q10", "type": "multiple_choice", "question": "Which equation has two different real solutions?", "options": ["x²+x+1=0", "x²−2x+1=0", "x²−5x+4=0", "x²+4=0"], "answer": "x²−5x+4=0", "explanation": "Discriminant: 25−16=9>0, so two different real solutions." }
+        ]
+      }
+    }
+  ]
+}

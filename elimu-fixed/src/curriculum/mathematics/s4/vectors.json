@@ -1,0 +1,33 @@
+{
+  "topic_id": "s4_math_vectors",
+  "topic_title": "Vectors",
+  "subject": "mathematics",
+  "class_level": "S4",
+  "lessons": [
+    {
+      "id": "s4_math_vectors_l1",
+      "title": "Introduction to Vectors",
+      "duration_minutes": 28,
+      "xp_reward": 70,
+      "content": [
+        {"type":"text","body":"A vector is a quantity that has both magnitude (size) and direction. Scalars have magnitude only. Vectors are used in physics (forces, velocity), navigation, computer graphics, and engineering."},
+        {"type":"formula","body":"Scalar vs Vector:\nScalars: mass, temperature, speed, time, distance\nVectors: force, velocity, displacement, acceleration, weight\n\nVector notation:\n→AB (arrow from A to B)\nv or v (bold)\nColumn vector: (x/y) — top is x-component, bottom is y-component\n\nMagnitude of vector (x/y): |v| = √(x²+y²)"},
+        {"type":"example","title":"Vector Operations","body":"Let a = (3/4) and b = (1/−2)\n\nAddition: a+b = (3+1/4+(−2)) = (4/2)\nSubtraction: a−b = (3−1/4−(−2)) = (2/6)\nScalar mult: 3a = (9/12)\n\nMagnitude of a: |a| = √(3²+4²) = √(9+16) = √25 = 5"},
+        {"type":"formula","body":"Position Vectors:\nIf O is the origin, the position vector of point A is OA.\n\nMidpoint: if A has position vector a and B has position vector b,\nmidpoint M has position vector = (a+b)/2\n\nVector from A to B: AB = OB − OA = b − a"},
+        {"type":"example","title":"Finding Vectors Between Points","body":"A is at (1,3), B is at (5,7)\na = (1/3), b = (5/7)\n\nAB = b − a = (5−1/7−3) = (4/4)\n|AB| = √(16+16) = √32 = 4√2\n\nMidpoint M = ((1+5)/2 / (3+7)/2) = (3/5)"}
+      ],
+      "quiz":{"pass_score":60,"questions":[
+        {"id":"q1","type":"multiple_choice","question":"Which of these is a vector quantity?","options":["Mass","Temperature","Speed","Velocity"],"answer":"Velocity","explanation":"Velocity has both magnitude AND direction (e.g. 50 km/h northward). Speed only has magnitude."},
+        {"id":"q2","type":"multiple_choice","question":"Vector a=(3/4). Find |a|.","options":["7","5","√7","12"],"answer":"5","explanation":"|a| = √(3²+4²) = √(9+16) = √25 = 5."},
+        {"id":"q3","type":"multiple_choice","question":"a=(2/5), b=(1/3). Find a+b.","options":["(3/8)","(1/2)","(3/2)","(2/8)"],"answer":"(3/8)","explanation":"Add components: (2+1/5+3) = (3/8)."},
+        {"id":"q4","type":"multiple_choice","question":"a=(5/2), b=(3/4). Find a−b.","options":["(2/−2)","(8/6)","(2/2)","(−2/2)"],"answer":"(2/−2)","explanation":"(5−3/2−4) = (2/−2)."},
+        {"id":"q5","type":"multiple_choice","question":"3 × (2/1) = ?","options":["(5/4)","(6/1)","(6/3)","(2/3)"],"answer":"(6/3)","explanation":"Multiply each component by 3: (6/3)."},
+        {"id":"q6","type":"multiple_choice","question":"A=(1,2), B=(4,6). Find vector AB.","options":["(5/8)","(3/4)","(−3/−4)","(4/6)"],"answer":"(3/4)","explanation":"AB = b−a = (4−1/6−2) = (3/4)."},
+        {"id":"q7","type":"multiple_choice","question":"|AB| where AB=(3/4):","options":["7","5","1","25"],"answer":"5","explanation":"√(3²+4²) = √25 = 5."},
+        {"id":"q8","type":"multiple_choice","question":"A=(0,4), B=(6,4). Midpoint M=?","options":["(3,4)","(6,8)","(3,8)","(6,4)"],"answer":"(3,4)","explanation":"M = ((0+6)/2, (4+4)/2) = (3,4)."},
+        {"id":"q9","type":"multiple_choice","question":"Which is a scalar?","options":["Force","Displacement","Distance","Acceleration"],"answer":"Distance","explanation":"Distance is a scalar (just a number of metres with no direction). Displacement includes direction."},
+        {"id":"q10","type":"multiple_choice","question":"If a=2b, vectors a and b are:","options":["Perpendicular","Parallel","Equal","Anti-parallel only"],"answer":"Parallel","explanation":"If a = 2b, then a is in the same direction as b (just twice as long). They are parallel."}
+      ]}
+    }
+  ]
+}

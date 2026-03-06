@@ -1,0 +1,81 @@
+{
+  "topic_id": "s4_phy_circular",
+  "topic_title": "Circular Motion & Gravitation",
+  "subject": "physics",
+  "class_level": "S4",
+  "lessons": [
+    {
+      "id": "s4_phy_circular_l1",
+      "title": "Circular Motion",
+      "duration_minutes": 30,
+      "xp_reward": 80,
+      "content": [
+        {"type":"text","body":"Circular motion occurs when an object moves along a circular path. Even if the speed is constant, the velocity is always changing direction — meaning the object is always accelerating! This acceleration points toward the centre of the circle and is called centripetal acceleration."},
+        {"type":"formula","body":"Angular velocity (ω): rate of change of angle\nω = θ/t = 2π/T = 2πf\nUnit: radians per second (rad/s)\n\nLinear (tangential) speed: v = rω = 2πr/T\nr = radius, T = period, f = frequency\n\nCentripetal acceleration: a = v²/r = ω²r\n\nCentripetal force: F = mv²/r = mω²r\n(directed toward the centre — it's the NET inward force)"},
+        {"type":"example","title":"Circular Motion Calculations","body":"A car rounds a bend of radius 50m at 20 m/s.\nCentripetal acceleration = v²/r = 400/50 = 8 m/s²\nCentripetal force (m=1000kg) = mv²/r = 1000×8 = 8000 N\n(This force is provided by friction between tyres and road!)\n\nA ball on a string r=0.5m, T=2s:\nω = 2π/T = π rad/s\nv = rω = 0.5π ≈ 1.57 m/s\na = ω²r = π²×0.5 ≈ 4.93 m/s²"},
+        {"type":"text","body":"Sources of centripetal force:\n• Car turning: friction from road on tyres\n• Satellite orbiting: gravity\n• Ball on string: tension in string\n• Electron orbiting nucleus: electrostatic attraction\n• Plane banking: component of lift force\n\nIMPORTANT: Centripetal force is not a new force — it is just the name given to whatever NET force acts toward the centre of a circular path."}
+      ],
+      "quiz":{"pass_score":60,"questions":[
+        {"id":"q1","type":"multiple_choice","question":"Centripetal acceleration formula:","options":["v×r","v/r","v²/r","r/v²"],"answer":"v²/r","explanation":"Centripetal acceleration a = v²/r, directed toward the centre."},
+        {"id":"q2","type":"multiple_choice","question":"Object in circular motion at constant speed — is velocity constant?","options":["Yes, speed = velocity","No — direction changes so velocity changes","Yes, if radius is fixed","Only at the top of the circle"],"answer":"No — direction changes so velocity changes","explanation":"Velocity is a vector — it has magnitude (speed) AND direction. In circular motion, direction constantly changes even if speed doesn't."},
+        {"id":"q3","type":"multiple_choice","question":"A satellite orbits Earth. The centripetal force is provided by:","options":["Friction","Thrust","Gravity","Normal force"],"answer":"Gravity","explanation":"For orbiting satellites, gravity provides the centripetal force that keeps them in circular orbit."},
+        {"id":"q4","type":"multiple_choice","question":"v=10m/s, r=5m. Centripetal acceleration = ?","options":["2 m/s²","50 m/s²","20 m/s²","0.5 m/s²"],"answer":"20 m/s²","explanation":"a = v²/r = 100/5 = 20 m/s²."},
+        {"id":"q5","type":"multiple_choice","question":"m=2kg, v=4m/s, r=2m. Centripetal force = ?","options":["4N","16N","8N","32N"],"answer":"16N","explanation":"F = mv²/r = 2×16/2 = 16 N."},
+        {"id":"q6","type":"multiple_choice","question":"Period T = 4s. Angular velocity ω = ?","options":["4π rad/s","π/2 rad/s","2π/4 = π/2 rad/s","8π rad/s"],"answer":"π/2 rad/s","explanation":"ω = 2π/T = 2π/4 = π/2 rad/s."},
+        {"id":"q7","type":"multiple_choice","question":"Doubling the radius of circular motion (same speed): centripetal force is?","options":["Doubled","Quadrupled","Halved","Unchanged"],"answer":"Halved","explanation":"F = mv²/r. If r doubles with v and m constant: F halves."},
+        {"id":"q8","type":"multiple_choice","question":"A car takes a bend. What provides centripetal force?","options":["Engine thrust","Gravity","Friction between tyres and road","Air resistance"],"answer":"Friction between tyres and road","explanation":"Friction acts sideways (toward centre of bend) and provides the centripetal force for turning."},
+        {"id":"q9","type":"multiple_choice","question":"v = rω. If r=0.4m and ω=5 rad/s, find v.","options":["0.08 m/s","12.5 m/s","2 m/s","5 m/s"],"answer":"2 m/s","explanation":"v = rω = 0.4 × 5 = 2 m/s."},
+        {"id":"q10","type":"multiple_choice","question":"Centripetal force always points:","options":["Away from centre","Tangentially","Toward the centre","Downward"],"answer":"Toward the centre","explanation":"Centripetal means 'centre-seeking'. The net centripetal force always points toward the centre of the circular path."}
+      ]}
+    },
+    {
+      "id": "s4_phy_gravitation_l1",
+      "title": "Newton's Law of Universal Gravitation",
+      "duration_minutes": 28,
+      "xp_reward": 80,
+      "content": [
+        {"type":"text","body":"Every object in the universe with mass attracts every other object with mass. This force is called gravity. Isaac Newton (1687) formulated the universal law of gravitation after (legend says) observing a falling apple. This same force that pulls apples to Earth keeps the Moon in orbit and holds galaxies together."},
+        {"type":"formula","body":"Newton's Law of Universal Gravitation:\nF = G × m₁m₂ / r²\n\nF = gravitational force (N)\nG = gravitational constant = 6.67 × 10⁻¹¹ N m² kg⁻²\nm₁, m₂ = masses of the two objects (kg)\nr = distance between their centres (m)\n\nKey features:\n• Always attractive (never repulsive)\n• Acts along the line joining the centres\n• Inverse square law (double r → force quarters)"},
+        {"type":"formula","body":"Gravitational field strength g:\ng = GM/r²  (at distance r from mass M)\n\nOn Earth's surface: g ≈ 9.8 m/s²\nWeight W = mg\n\nOrbital velocity for circular orbit:\nv = √(GM/r)\n\nOrbital period: T² = 4π²r³/GM (Kepler's 3rd Law)"},
+        {"type":"example","title":"Gravitation Calculations","body":"Earth mass M = 6×10²⁴ kg, radius = 6.4×10⁶ m, G = 6.67×10⁻¹¹\n\ng at surface = GM/r² = (6.67×10⁻¹¹ × 6×10²⁴)/(6.4×10⁶)²\n= 3.99×10¹⁴/4.1×10¹³ ≈ 9.8 m/s² ✓\n\nAt height r above surface (r = 2× Earth radius):\ng = 9.8/4 = 2.45 m/s²  (inverse square — distance doubled)"},
+        {"type":"text","body":"Kepler's Laws of Planetary Motion (supported by Newton's gravity):\n1. Planets orbit the Sun in ellipses (Sun at one focus)\n2. Line from Sun to planet sweeps equal areas in equal times\n3. T² ∝ r³ (square of period proportional to cube of orbital radius)\n\nGeostationary orbit: satellite with T = 24h orbits directly above equator, appears stationary — used for weather satellites, TV broadcast, GPS."}
+      ],
+      "quiz":{"pass_score":60,"questions":[
+        {"id":"q1","type":"multiple_choice","question":"Newton's law of gravitation: F = ?","options":["Gm₁m₂r","Gm₁m₂/r","Gm₁m₂/r²","Gm₁/m₂r²"],"answer":"Gm₁m₂/r²","explanation":"F = Gm₁m₂/r² — force between two masses separated by distance r."},
+        {"id":"q2","type":"multiple_choice","question":"Gravitational force is always:","options":["Repulsive","Attractive","Zero in space","Equal to weight"],"answer":"Attractive","explanation":"Gravity is always an attractive force — masses always pull toward each other."},
+        {"id":"q3","type":"multiple_choice","question":"If distance between two masses doubles, gravitational force:","options":["Doubles","Halves","Quarters","Stays same"],"answer":"Quarters","explanation":"Inverse square law: F ∝ 1/r². Double r → F = original/4. Force quarters."},
+        {"id":"q4","type":"multiple_choice","question":"Weight of a 70kg person on Earth (g=9.8):","options":["70N","686N","7N","9.8N"],"answer":"686N","explanation":"W = mg = 70 × 9.8 = 686 N."},
+        {"id":"q5","type":"multiple_choice","question":"Gravitational field strength decreases as you:","options":["Gain mass","Move toward Earth","Move away from Earth","Stand on Earth"],"answer":"Move away from Earth","explanation":"g = GM/r². As r increases (moving away), g decreases."},
+        {"id":"q6","type":"multiple_choice","question":"A geostationary satellite has a period of:","options":["1 hour","12 hours","24 hours","1 month"],"answer":"24 hours","explanation":"Geostationary satellites orbit with T = 24 hours, matching Earth's rotation, appearing stationary over one point."},
+        {"id":"q7","type":"multiple_choice","question":"Kepler's 3rd Law states:","options":["Planets orbit in ellipses","T² ∝ r³","Equal areas in equal times","T ∝ r"],"answer":"T² ∝ r³","explanation":"Kepler's 3rd Law: square of orbital period is proportional to cube of orbital radius."},
+        {"id":"q8","type":"multiple_choice","question":"What provides centripetal force for a satellite?","options":["Rocket thrust","Normal force","Gravity","Magnetic force"],"answer":"Gravity","explanation":"Gravity acts as the centripetal force, pulling the satellite toward Earth's centre, keeping it in orbit."},
+        {"id":"q9","type":"multiple_choice","question":"The Moon orbits Earth because:","options":["It has engines","Earth's gravity provides centripetal force","Space is frictionless","Its speed exactly balances gravity"],"answer":"Earth's gravity provides centripetal force","explanation":"The Moon is in free fall toward Earth, but its orbital speed means it continually 'misses' Earth — gravity provides the centripetal force."},
+        {"id":"q10","type":"multiple_choice","question":"Mass vs Weight: which changes with location?","options":["Mass","Weight","Both","Neither"],"answer":"Weight","explanation":"Mass is a fixed property of matter. Weight = mg changes because g varies with location (less on Moon, zero in deep space)."}
+      ]}
+    },
+    {
+      "id": "s4_phy_gas_l1",
+      "title": "Gas Laws",
+      "duration_minutes": 28,
+      "xp_reward": 75,
+      "content": [
+        {"type":"text","body":"Gas laws describe how the pressure, volume, and temperature of a gas are related. These relationships were discovered experimentally in the 17th and 18th centuries and are vital in engineering, weather forecasting, and medicine."},
+        {"type":"formula","body":"Boyle's Law (constant temperature):\nP₁V₁ = P₂V₂\nPressure and volume are inversely proportional\n\nCharles' Law (constant pressure):\nV₁/T₁ = V₂/T₂\nVolume and temperature are directly proportional\nTemperature MUST be in Kelvin: T(K) = T(°C) + 273\n\nPressure Law / Gay-Lussac's (constant volume):\nP₁/T₁ = P₂/T₂\nPressure and temperature are directly proportional"},
+        {"type":"formula","body":"Combined Gas Law:\nP₁V₁/T₁ = P₂V₂/T₂\n\nIdeal Gas Equation:\nPV = nRT\nP = pressure (Pa), V = volume (m³)\nn = moles, R = 8.31 J mol⁻¹ K⁻¹, T = temperature (K)"},
+        {"type":"example","title":"Gas Law Calculations","body":"Boyle's Law: Gas at 2 atm, volume 3L. Pressure increases to 6 atm. New volume?\nP₁V₁ = P₂V₂ → 2×3 = 6×V₂ → V₂ = 1 L\n\nCharles' Law: Gas at 27°C, volume 500mL. Heated to 127°C. New volume?\nT₁ = 300K, T₂ = 400K\nV₂ = V₁ × T₂/T₁ = 500 × 400/300 = 667 mL\n\nPressure Law: Gas at 300K, pressure 100 kPa. Heated to 600K. New pressure?\nP₂ = P₁ × T₂/T₁ = 100 × 600/300 = 200 kPa"}
+      ],
+      "quiz":{"pass_score":60,"questions":[
+        {"id":"q1","type":"multiple_choice","question":"Boyle's Law: P increases → V (at constant T):","options":["Increases","Stays same","Decreases","Doubles"],"answer":"Decreases","explanation":"Boyle's Law: P and V are inversely proportional (PV = constant). Pressure up → volume down."},
+        {"id":"q2","type":"multiple_choice","question":"Convert 27°C to Kelvin:","options":["27K","246K","300K","373K"],"answer":"300K","explanation":"T(K) = 27 + 273 = 300K."},
+        {"id":"q3","type":"multiple_choice","question":"P₁=100kPa, V₁=4L, P₂=200kPa. Find V₂:","options":["8L","2L","200L","0.5L"],"answer":"2L","explanation":"P₁V₁=P₂V₂ → 100×4=200×V₂ → V₂=2L."},
+        {"id":"q4","type":"multiple_choice","question":"Charles' Law applies at constant:","options":["Volume","Temperature","Pressure","Mass"],"answer":"Pressure","explanation":"Charles' Law: V/T = constant at constant pressure."},
+        {"id":"q5","type":"multiple_choice","question":"Gas at 300K, 2L. Heated to 600K (constant P). New volume?","options":["1L","4L","3L","6L"],"answer":"4L","explanation":"V₂ = V₁×T₂/T₁ = 2×600/300 = 4L."},
+        {"id":"q6","type":"multiple_choice","question":"Gas at 300K, 150kPa. Cooled to 150K (constant V). New pressure?","options":["300kPa","75kPa","150kPa","100kPa"],"answer":"75kPa","explanation":"P₂ = P₁×T₂/T₁ = 150×150/300 = 75kPa."},
+        {"id":"q7","type":"multiple_choice","question":"The Ideal Gas Equation is:","options":["PV=mRT","PV=nRT","PV=nR/T","P=nRTV"],"answer":"PV=nRT","explanation":"PV = nRT where n=moles, R=8.31 J/mol/K, T in Kelvin."},
+        {"id":"q8","type":"multiple_choice","question":"Why must temperature be in Kelvin for gas laws?","options":["Kelvin is SI unit","0°C is arbitrary — Kelvin starts at absolute zero, making V∝T true","Gas laws only work in Kelvin","Celsius is too small"],"answer":"0°C is arbitrary — Kelvin starts at absolute zero, making V∝T true","explanation":"At 0°C (273K), gas still has volume and pressure. Kelvin starts at absolute zero where particles have minimum energy, making ratios meaningful."},
+        {"id":"q9","type":"multiple_choice","question":"Absolute zero is:","options":["0°C","−100°C","−273°C","−373°C"],"answer":"−273°C","explanation":"Absolute zero = 0K = −273°C. Theoretically, particles have minimum kinetic energy and gas volume/pressure approach zero."},
+        {"id":"q10","type":"multiple_choice","question":"Tyre pressure increases on a hot day because:","options":["Air enters the tyre","Gas molecules move faster and hit walls harder (more pressure)","The tyre shrinks","Gravity decreases"],"answer":"Gas molecules move faster and hit walls harder (more pressure)","explanation":"Higher temperature → greater kinetic energy → more frequent and harder collisions with tyre walls → higher pressure (constant volume)."}
+      ]}
+    }
+  ]
+}

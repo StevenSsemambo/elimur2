@@ -1,0 +1,36 @@
+{
+  "topic_id": "s1_phy_measurement",
+  "topic_title": "Measurements & Units",
+  "subject": "physics",
+  "class_level": "S1",
+  "lessons": [
+    {
+      "id": "s1_phy_measurement_l1",
+      "title": "SI Units and Measurement",
+      "duration_minutes": 20,
+      "xp_reward": 50,
+      "content": [
+        { "type": "text", "body": "Physics is a science of measurement. Every measurement has a number AND a unit. Without units, numbers are meaningless. The international system of units (SI) ensures scientists worldwide use the same standard units." },
+        { "type": "formula", "body": "The 7 SI Base Units:\nLength → metre (m)\nMass → kilogram (kg)\nTime → second (s)\nTemperature → kelvin (K)\nElectric current → ampere (A)\nAmount of substance → mole (mol)\nLuminous intensity → candela (cd)" },
+        { "type": "example", "title": "Derived Units", "body": "Derived units are combinations of base units:\nSpeed = distance/time → m/s\nForce = mass × acceleration → kg·m/s² = Newton (N)\nEnergy = force × distance → kg·m²/s² = Joule (J)\nPressure = force/area → N/m² = Pascal (Pa)" },
+        { "type": "formula", "body": "Metric Prefixes (common ones):\nMega (M) = × 10⁶    e.g. 1 MHz = 1,000,000 Hz\nKilo (k) = × 10³     e.g. 1 km = 1000 m\nCenti (c) = × 10⁻²   e.g. 1 cm = 0.01 m\nMilli (m) = × 10⁻³   e.g. 1 mm = 0.001 m\nMicro (μ) = × 10⁻⁶   e.g. 1 μm = 0.000001 m" },
+        { "type": "example", "title": "Unit Conversions", "body": "Convert 5.5 km to metres: 5.5 × 1000 = 5500 m\nConvert 250 cm to metres: 250 / 100 = 2.5 m\nConvert 3 hours to seconds: 3 × 60 × 60 = 10,800 s" }
+      ],
+      "quiz": {
+        "pass_score": 60,
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "What is the SI unit of mass?", "options": ["gram", "pound", "kilogram", "tonne"], "answer": "kilogram", "explanation": "The SI base unit of mass is the kilogram (kg)." },
+          { "id": "q2", "type": "multiple_choice", "question": "Convert 3.2 km to metres.", "options": ["32 m", "320 m", "3200 m", "32000 m"], "answer": "3200 m", "explanation": "1 km = 1000 m. 3.2 × 1000 = 3200 m." },
+          { "id": "q3", "type": "multiple_choice", "question": "What does the prefix 'milli' mean?", "options": ["× 1000", "× 100", "× 0.01", "× 0.001"], "answer": "× 0.001", "explanation": "Milli (m) = 10⁻³ = 0.001. So 1 mm = 0.001 m." },
+          { "id": "q4", "type": "multiple_choice", "question": "What is the SI unit of time?", "options": ["minute", "hour", "second", "millisecond"], "answer": "second", "explanation": "The SI base unit of time is the second (s)." },
+          { "id": "q5", "type": "multiple_choice", "question": "Which is a derived unit?", "options": ["Kilogram", "Metre", "Second", "Newton"], "answer": "Newton", "explanation": "The Newton (N) = kg·m/s² is derived from base units (mass, length, time)." },
+          { "id": "q6", "type": "multiple_choice", "question": "Convert 450 mm to cm.", "options": ["4500 cm", "45 cm", "4.5 cm", "0.45 cm"], "answer": "45 cm", "explanation": "10 mm = 1 cm. 450 ÷ 10 = 45 cm." },
+          { "id": "q7", "type": "multiple_choice", "question": "The SI unit of temperature is:", "options": ["Celsius", "Fahrenheit", "Kelvin", "Degree"], "answer": "Kelvin", "explanation": "The SI base unit of temperature is the Kelvin (K), not Celsius." },
+          { "id": "q8", "type": "multiple_choice", "question": "How many seconds are in 2 hours?", "options": ["120 s", "3600 s", "7200 s", "1200 s"], "answer": "7200 s", "explanation": "2 hours × 60 min × 60 s = 7200 s." },
+          { "id": "q9", "type": "multiple_choice", "question": "1 MHz = ?", "options": ["1000 Hz", "1,000,000 Hz", "0.001 Hz", "100 Hz"], "answer": "1,000,000 Hz", "explanation": "Mega (M) = 10⁶. 1 MHz = 1 × 10⁶ Hz = 1,000,000 Hz." },
+          { "id": "q10", "type": "multiple_choice", "question": "The unit of pressure (Pascal) equals:", "options": ["kg/m", "N·m", "N/m²", "J/s"], "answer": "N/m²", "explanation": "Pressure = Force/Area. Pascal (Pa) = N/m²." }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "topic_id": "s4_math_calculus",
+  "topic_title": "Introduction to Calculus",
+  "subject": "mathematics",
+  "class_level": "S4",
+  "lessons": [
+    {
+      "id": "s4_math_calculus_l1",
+      "title": "Differentiation — The Basics",
+      "duration_minutes": 30,
+      "xp_reward": 80,
+      "content": [
+        { "type": "text", "body": "Calculus is the mathematics of change. Differentiation measures how fast a function changes — its rate of change. The derivative of a function f(x) is written f'(x) or dy/dx." },
+        { "type": "formula", "body": "Power Rule (the most important rule):\nIf f(x) = xⁿ, then f'(x) = nxⁿ⁻¹\n\nMeaning: multiply by the power, then reduce the power by 1.\n\nExamples:\nd/dx(x³) = 3x²\nd/dx(x⁵) = 5x⁴\nd/dx(x) = 1 (since x = x¹, derivative = 1×x⁰ = 1)\nd/dx(constant) = 0" },
+        { "type": "formula", "body": "More Rules:\nSum/Difference: d/dx[f(x) ± g(x)] = f'(x) ± g'(x)\nConstant Multiple: d/dx[cf(x)] = c·f'(x)" },
+        { "type": "example", "title": "Finding Derivatives", "body": "Differentiate: y = 3x⁴ − 5x² + 7x − 2\ndy/dx = 3(4x³) − 5(2x) + 7(1) − 0\n= 12x³ − 10x + 7" },
+        { "type": "example", "title": "Finding the Gradient at a Point", "body": "f(x) = x² − 3x + 5. Find the gradient when x = 2.\nf'(x) = 2x − 3\nf'(2) = 2(2) − 3 = 4 − 3 = 1\nThe gradient of the curve at x=2 is 1." },
+        { "type": "text", "body": "Applications of differentiation: finding velocity from displacement (v = ds/dt), finding acceleration from velocity (a = dv/dt), finding turning points of curves, and solving optimisation problems (maximum/minimum values)." }
+      ],
+      "quiz": {
+        "pass_score": 60,
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "Differentiate: y = x⁴", "options": ["4x³", "x³", "4x⁵", "x⁵/5"], "answer": "4x³", "explanation": "Power rule: d/dx(xⁿ) = nxⁿ⁻¹. d/dx(x⁴) = 4x³." },
+          { "id": "q2", "type": "multiple_choice", "question": "Differentiate: y = 6x²", "options": ["6x", "12x", "12x³", "3x²"], "answer": "12x", "explanation": "d/dx(6x²) = 6 × 2x = 12x." },
+          { "id": "q3", "type": "multiple_choice", "question": "Differentiate: y = 5 (a constant)", "options": ["5", "1", "0", "5x"], "answer": "0", "explanation": "The derivative of any constant is 0." },
+          { "id": "q4", "type": "multiple_choice", "question": "Differentiate: y = x³ − 4x", "options": ["3x² − 4", "3x² + 4", "x² − 4", "3x³ − 4x"], "answer": "3x² − 4", "explanation": "d/dx(x³) = 3x², d/dx(4x) = 4. So dy/dx = 3x² − 4." },
+          { "id": "q5", "type": "multiple_choice", "question": "f(x) = 2x³ + x². Find f'(x).", "options": ["6x² + 2x", "6x + 2", "2x² + x", "6x³ + 2x"], "answer": "6x² + 2x", "explanation": "f'(x) = 2(3x²) + 2x = 6x² + 2x." },
+          { "id": "q6", "type": "multiple_choice", "question": "Find the gradient of y = x² + 3x at x = 1.", "options": ["2", "4", "5", "1"], "answer": "5", "explanation": "dy/dx = 2x + 3. At x=1: 2(1)+3 = 5." },
+          { "id": "q7", "type": "multiple_choice", "question": "Differentiate: y = 4x³ − 2x² + x − 7", "options": ["12x² − 4x + 1", "4x² − 2x + 1", "12x³ − 4x + 1", "12x² − 2x + 1"], "answer": "12x² − 4x + 1", "explanation": "dy/dx = 12x² − 4x + 1 − 0." },
+          { "id": "q8", "type": "multiple_choice", "question": "If displacement s = t³ − 2t, find velocity v = ds/dt.", "options": ["3t² − 2", "3t + 2", "t² − 2", "3t²"], "answer": "3t² − 2", "explanation": "v = ds/dt = 3t² − 2." },
+          { "id": "q9", "type": "multiple_choice", "question": "Differentiate y = √x = x^(1/2).", "options": ["x^(-1/2)", "(1/2)x^(-1/2)", "2x^(3/2)", "(1/2)x^(1/2)"], "answer": "(1/2)x^(-1/2)", "explanation": "d/dx(x^(1/2)) = (1/2)x^(1/2−1) = (1/2)x^(−1/2) = 1/(2√x)." },
+          { "id": "q10", "type": "multiple_choice", "question": "The derivative measures:", "options": ["Area under a curve", "The value of a function", "Rate of change of a function", "The length of a curve"], "answer": "Rate of change of a function", "explanation": "Differentiation gives the rate of change (gradient/slope) of a function at any point." }
+        ]
+      }
+    },
+    {
+      "id": "s4_math_calculus_l2",
+      "title": "Integration — The Basics",
+      "duration_minutes": 30,
+      "xp_reward": 80,
+      "content": [
+        { "type": "text", "body": "Integration is the reverse of differentiation. It finds the area under a curve. The integral of f(x) with respect to x is written ∫f(x)dx. There are two types: indefinite integrals (include constant C) and definite integrals (give a number)." },
+        { "type": "formula", "body": "Power Rule for Integration:\n∫xⁿ dx = xⁿ⁺¹/(n+1) + C  (where n ≠ −1)\n\nAdd 1 to the power, divide by the new power, add constant C.\n\nExamples:\n∫x² dx = x³/3 + C\n∫x³ dx = x⁴/4 + C\n∫4 dx = 4x + C" },
+        { "type": "example", "title": "Indefinite Integration", "body": "Find ∫(3x² − 4x + 5) dx\n= 3(x³/3) − 4(x²/2) + 5x + C\n= x³ − 2x² + 5x + C\n\nAlways add the constant of integration C for indefinite integrals!" },
+        { "type": "formula", "body": "Definite Integrals:\n∫[a to b] f(x) dx = F(b) − F(a)\nWhere F(x) is the integral of f(x)\nThis gives the exact area under the curve between x=a and x=b." },
+        { "type": "example", "title": "Definite Integral", "body": "Find ∫[1 to 3] (2x) dx\nF(x) = x²\n= F(3) − F(1) = 9 − 1 = 8\nThe area under y=2x from x=1 to x=3 is 8 square units." }
+      ],
+      "quiz": {
+        "pass_score": 60,
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "Find ∫x³ dx.", "options": ["3x²", "x⁴", "x⁴/4 + C", "4x⁴"], "answer": "x⁴/4 + C", "explanation": "∫xⁿdx = xⁿ⁺¹/(n+1)+C. ∫x³dx = x⁴/4 + C." },
+          { "id": "q2", "type": "multiple_choice", "question": "Find ∫6x² dx.", "options": ["12x + C", "2x³ + C", "18x³ + C", "3x³ + C"], "answer": "2x³ + C", "explanation": "∫6x²dx = 6(x³/3)+C = 2x³+C." },
+          { "id": "q3", "type": "multiple_choice", "question": "Find ∫5 dx.", "options": ["0", "5/x + C", "5x + C", "x + C"], "answer": "5x + C", "explanation": "∫5 dx = 5x + C (integral of a constant k is kx)." },
+          { "id": "q4", "type": "multiple_choice", "question": "Why do we add +C in indefinite integration?", "options": ["To make the answer bigger", "Because constants disappear in differentiation", "It makes calculation easier", "It is only sometimes needed"], "answer": "Because constants disappear in differentiation", "explanation": "Any constant differentiates to 0, so when integrating we must include an unknown constant C." },
+          { "id": "q5", "type": "multiple_choice", "question": "Evaluate ∫[0 to 2] x dx.", "options": ["4", "2", "1", "0"], "answer": "2", "explanation": "F(x)=x²/2. F(2)−F(0) = 4/2 − 0 = 2." },
+          { "id": "q6", "type": "multiple_choice", "question": "Find ∫(2x + 3) dx.", "options": ["x² + 3x + C", "2x² + 3 + C", "x + 3 + C", "2 + C"], "answer": "x² + 3x + C", "explanation": "∫2x dx = x², ∫3 dx = 3x. Total: x² + 3x + C." },
+          { "id": "q7", "type": "multiple_choice", "question": "Integration is the reverse of:", "options": ["Multiplication", "Differentiation", "Logarithms", "Factorisation"], "answer": "Differentiation", "explanation": "Integration and differentiation are inverse operations — they undo each other." },
+          { "id": "q8", "type": "multiple_choice", "question": "Evaluate ∫[1 to 4] 3x² dx.", "options": ["63", "21", "48", "12"], "answer": "63", "explanation": "F(x)=x³. F(4)−F(1) = 64−1 = 63." },
+          { "id": "q9", "type": "multiple_choice", "question": "What does a definite integral represent geometrically?", "options": ["The gradient of the curve", "The x-intercept", "Area under the curve", "The turning point"], "answer": "Area under the curve", "explanation": "A definite integral gives the area between the curve and the x-axis between two limits." },
+          { "id": "q10", "type": "multiple_choice", "question": "Find ∫(x² − x) dx.", "options": ["x³/3 − x²/2 + C", "2x − 1 + C", "x³ − x² + C", "3x² − 2x + C"], "answer": "x³/3 − x²/2 + C", "explanation": "∫x²dx = x³/3, ∫x dx = x²/2. Answer: x³/3 − x²/2 + C." }
+        ]
+      }
+    }
+  ]
+}

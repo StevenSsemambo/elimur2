@@ -1,0 +1,58 @@
+{
+  "topic_id": "s3_math_coordinate",
+  "topic_title": "Coordinate Geometry",
+  "subject": "mathematics",
+  "class_level": "S3",
+  "lessons": [
+    {
+      "id": "s3_math_coord_l1",
+      "title": "Straight Lines — Gradient and Equation",
+      "duration_minutes": 28,
+      "xp_reward": 65,
+      "content": [
+        {"type":"text","body":"Coordinate geometry combines algebra and geometry by placing shapes on a coordinate grid. The Cartesian plane has an x-axis (horizontal) and y-axis (vertical). Every point is uniquely described by coordinates (x, y). This branch of mathematics was developed by René Descartes in the 17th century."},
+        {"type":"formula","body":"Gradient (slope) of a line:\nm = (y₂ - y₁) / (x₂ - x₁)\n\nPositive gradient: line slopes upward left to right\nNegative gradient: line slopes downward left to right\nZero gradient: horizontal line\nUndefined gradient: vertical line\n\nEquation of a straight line:\ny = mx + c\nm = gradient, c = y-intercept"},
+        {"type":"example","title":"Finding Gradient and Equation","body":"Find the equation of the line through (1,3) and (3,7)\n\nGradient: m = (7-3)/(3-1) = 4/2 = 2\nUse y = mx + c with point (1,3):\n3 = 2(1) + c → c = 1\nEquation: y = 2x + 1\n\nCheck with (3,7): y = 2(3)+1 = 7 ✓"},
+        {"type":"formula","body":"Distance between two points:\nd = √[(x₂-x₁)² + (y₂-y₁)²]\n\nMidpoint of two points:\nM = ((x₁+x₂)/2, (y₁+y₂)/2)\n\nParallel lines have EQUAL gradients: m₁ = m₂\nPerpendicular lines: m₁ × m₂ = -1"},
+        {"type":"example","title":"Distance, Midpoint, Parallel/Perpendicular","body":"Points A(2,1) and B(6,4):\nDistance = √[(6-2)²+(4-1)²] = √[16+9] = √25 = 5\nMidpoint = ((2+6)/2, (1+4)/2) = (4, 2.5)\n\nLine 1: y = 3x + 2 (gradient 3)\nLine 2: y = 3x - 5 (gradient 3) → PARALLEL\nLine 3: y = -x/3 + 1 (gradient -1/3) → PERPENDICULAR to Line 1\n(3 × -1/3 = -1 ✓)"}
+      ],
+      "quiz":{"pass_score":60,"questions":[
+        {"id":"q1","type":"multiple_choice","question":"Gradient through (0,0) and (4,8):","options":["32","0.5","2","4"],"answer":"2","explanation":"m = (8-0)/(4-0) = 8/4 = 2."},
+        {"id":"q2","type":"multiple_choice","question":"y = 3x - 5. What is the y-intercept?","options":["3","5","-5","x"],"answer":"-5","explanation":"In y=mx+c, c is the y-intercept. Here c = -5."},
+        {"id":"q3","type":"multiple_choice","question":"y = 2x + 1. What is the gradient?","options":["1","2","3","0"],"answer":"2","explanation":"In y=mx+c, m is the gradient. Here m = 2."},
+        {"id":"q4","type":"multiple_choice","question":"Distance from (1,2) to (4,6):","options":["5","3","7","25"],"answer":"5","explanation":"d = √[(4-1)²+(6-2)²] = √[9+16] = √25 = 5."},
+        {"id":"q5","type":"multiple_choice","question":"Midpoint of (2,4) and (8,10):","options":["(5,7)","(10,14)","(3,3)","(6,6)"],"answer":"(5,7)","explanation":"M = ((2+8)/2, (4+10)/2) = (5, 7)."},
+        {"id":"q6","type":"multiple_choice","question":"Parallel to y = 4x + 1 means gradient =","options":["-1/4","1/4","4","-4"],"answer":"4","explanation":"Parallel lines have equal gradients. Gradient = 4."},
+        {"id":"q7","type":"multiple_choice","question":"Perpendicular to gradient 2 has gradient:","options":["2","-2","1/2","-1/2"],"answer":"-1/2","explanation":"Perpendicular: m₁ × m₂ = -1. So m₂ = -1/2."},
+        {"id":"q8","type":"multiple_choice","question":"Line through (0,3) with gradient 2: equation?","options":["y=2x","y=3x+2","y=2x+3","y=x+2"],"answer":"y=2x+3","explanation":"y = mx+c. m=2, y-intercept=3 (passes through (0,3)). y=2x+3."},
+        {"id":"q9","type":"multiple_choice","question":"Does (3,7) lie on y = 2x + 1?","options":["No, y would be 5","Yes, 2(3)+1=7","No, need more info","Yes, all points lie on it"],"answer":"Yes, 2(3)+1=7","explanation":"Substitute x=3: y = 2(3)+1 = 7. Yes, (3,7) is on the line."},
+        {"id":"q10","type":"multiple_choice","question":"A horizontal line has gradient:","options":["1","Undefined","0","-1"],"answer":"0","explanation":"Horizontal lines have zero gradient — they don't rise or fall."}
+      ]}
+    },
+    {
+      "id": "s3_math_sequences_l1",
+      "title": "Sequences and Series",
+      "duration_minutes": 25,
+      "xp_reward": 65,
+      "content": [
+        {"type":"text","body":"A sequence is an ordered list of numbers following a pattern. Each number in a sequence is called a term. Sequences appear in nature (Fibonacci in flowers), finance (compound interest), and computer science (algorithms)."},
+        {"type":"formula","body":"Arithmetic Sequence (AP):\nEach term differs by a constant amount called the common difference (d)\n\nnth term: aₙ = a + (n-1)d\nSum of n terms: Sₙ = n/2 × (2a + (n-1)d) = n/2 × (first + last)\n\nWhere a = first term, d = common difference\nExample: 3, 7, 11, 15, ... → a=3, d=4\nt₅ = 3 + 4(4) = 19"},
+        {"type":"formula","body":"Geometric Sequence (GP):\nEach term is multiplied by a constant called the common ratio (r)\n\nnth term: aₙ = ar^(n-1)\nSum of n terms: Sₙ = a(rⁿ-1)/(r-1)  for r≠1\n\nWhere a = first term, r = common ratio\nExample: 2, 6, 18, 54, ... → a=2, r=3\nt₄ = 2 × 3³ = 54"},
+        {"type":"example","title":"Identifying and Solving Sequences","body":"Is 5, 9, 13, 17, ... arithmetic or geometric?\nd = 9-5 = 4, 13-9 = 4 → constant difference → ARITHMETIC\na=5, d=4\n10th term = 5 + 9×4 = 41\n\nIs 3, 6, 12, 24, ... arithmetic or geometric?\nr = 6/3 = 2, 12/6 = 2 → constant ratio → GEOMETRIC\na=3, r=2\n8th term = 3 × 2⁷ = 384"},
+        {"type":"example","title":"Sum of Arithmetic Series","body":"Find sum of first 20 terms of 4, 7, 10, 13, ...\na=4, d=3, n=20\nLast term = 4 + 19×3 = 61\nS₂₀ = 20/2 × (4+61) = 10 × 65 = 650\n\nOR: S₂₀ = 20/2 × (2×4 + 19×3) = 10 × (8+57) = 650 ✓"}
+      ],
+      "quiz":{"pass_score":60,"questions":[
+        {"id":"q1","type":"multiple_choice","question":"Sequence: 2, 5, 8, 11, ... What is the common difference?","options":["2","5","3","11"],"answer":"3","explanation":"d = 5-2 = 3. Each term increases by 3. This is an arithmetic sequence."},
+        {"id":"q2","type":"multiple_choice","question":"AP: a=3, d=5. Find the 6th term.","options":["28","33","30","18"],"answer":"28","explanation":"t₆ = a + (n-1)d = 3 + 5×5 = 3+25 = 28."},
+        {"id":"q3","type":"multiple_choice","question":"GP: 2, 6, 18, 54... Common ratio = ?","options":["4","3","2","6"],"answer":"3","explanation":"r = 6/2 = 3. Each term is multiplied by 3."},
+        {"id":"q4","type":"multiple_choice","question":"GP: a=5, r=2. Find t₄.","options":["40","20","10","80"],"answer":"40","explanation":"t₄ = 5 × 2³ = 5×8 = 40."},
+        {"id":"q5","type":"multiple_choice","question":"AP: 1+3+5+7+...+19. Sum = ?","options":["100","50","95","110"],"answer":"100","explanation":"a=1, d=2, last=19, n=10. S = 10/2×(1+19) = 5×20 = 100."},
+        {"id":"q6","type":"multiple_choice","question":"Which is a geometric sequence?","options":["1,3,5,7","2,4,8,16","1,4,9,16","3,6,9,12"],"answer":"2,4,8,16","explanation":"2,4,8,16: ratio = 4/2 = 2, 8/4 = 2, 16/8 = 2. Constant ratio → geometric."},
+        {"id":"q7","type":"multiple_choice","question":"AP a=10, d=-3. Find t₅.","options":["-2","22","10","-5"],"answer":"-2","explanation":"t₅ = 10 + 4×(-3) = 10-12 = -2."},
+        {"id":"q8","type":"multiple_choice","question":"Sum of AP: n=8, a=2, d=3. Find S₈.","options":["100","88","76","112"],"answer":"100","explanation":"S₈ = 8/2×(2×2+7×3) = 4×(4+21) = 4×25 = 100."},
+        {"id":"q9","type":"multiple_choice","question":"Fibonacci sequence: 1,1,2,3,5,8,13... Next term?","options":["14","20","21","16"],"answer":"21","explanation":"Each term = sum of previous two. 13+8 = 21."},
+        {"id":"q10","type":"multiple_choice","question":"GP: a=4, r=1/2. Find t₄.","options":["0.5","1","2","0.25"],"answer":"0.5","explanation":"t₄ = 4 × (1/2)³ = 4 × 1/8 = 0.5."}
+      ]}
+    }
+  ]
+}

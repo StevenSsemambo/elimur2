@@ -1,0 +1,65 @@
+{
+  "topic_id": "s2_phy_waves",
+  "topic_title": "Waves & Sound",
+  "subject": "physics",
+  "class_level": "S2",
+  "lessons": [
+    {
+      "id": "s2_phy_waves_l1",
+      "title": "Properties of Waves",
+      "duration_minutes": 25,
+      "xp_reward": 65,
+      "content": [
+        { "type": "text", "body": "A wave is a transfer of energy through a medium (or vacuum) without the permanent transfer of matter. Waves are everywhere: sound, light, water ripples, seismic waves, and radio signals are all waves." },
+        { "type": "formula", "body": "Key wave properties:\nAmplitude (A): maximum displacement from rest position. Unit: metres (m)\nWavelength (λ): distance between two consecutive identical points. Unit: metres (m)\nFrequency (f): number of complete waves per second. Unit: Hertz (Hz)\nTime Period (T): time for one complete wave. T = 1/f. Unit: seconds (s)\nWave Speed (v): v = fλ. Unit: m/s" },
+        { "type": "example", "title": "Wave Calculations", "body": "A wave has frequency 50 Hz and wavelength 3 m. Find its speed.\nv = fλ = 50 × 3 = 150 m/s\n\nA wave has speed 340 m/s and frequency 170 Hz. Find wavelength.\nλ = v/f = 340/170 = 2 m" },
+        { "type": "text", "body": "Types of waves:\nTransverse waves: particles vibrate perpendicular to direction of travel. Examples: light, water waves.\nLongitudinal waves: particles vibrate parallel to direction of travel. Example: sound.\n\nIn longitudinal waves you see compressions (high pressure) and rarefactions (low pressure)." },
+        { "type": "example", "title": "Sound Waves", "body": "Sound is a longitudinal wave that travels through a medium.\nSpeed of sound in air ≈ 340 m/s\nSpeed of sound in water ≈ 1500 m/s\nSpeed of sound in steel ≈ 5000 m/s\nSound travels FASTER in denser/more rigid media.\nSound cannot travel in a vacuum (space)." }
+      ],
+      "quiz": {
+        "pass_score": 60,
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "What is the unit of frequency?", "options": ["metre", "second", "Hertz", "Newton"], "answer": "Hertz", "explanation": "Frequency is measured in Hertz (Hz) = waves per second." },
+          { "id": "q2", "type": "multiple_choice", "question": "Wave speed v = ?", "options": ["f/λ", "λ/f", "f × λ", "f + λ"], "answer": "f × λ", "explanation": "Wave speed = frequency × wavelength (v = fλ)." },
+          { "id": "q3", "type": "multiple_choice", "question": "A wave has f=200 Hz and λ=1.7 m. What is its speed?", "options": ["117.6 m/s", "340 m/s", "200 m/s", "1.7 m/s"], "answer": "340 m/s", "explanation": "v = fλ = 200 × 1.7 = 340 m/s." },
+          { "id": "q4", "type": "multiple_choice", "question": "In which type of wave do particles vibrate parallel to direction of travel?", "options": ["Transverse", "Longitudinal", "Electromagnetic", "Circular"], "answer": "Longitudinal", "explanation": "Longitudinal waves (like sound) have particles vibrating parallel to wave direction." },
+          { "id": "q5", "type": "multiple_choice", "question": "If T = 0.02 s, what is the frequency?", "options": ["0.02 Hz", "20 Hz", "50 Hz", "200 Hz"], "answer": "50 Hz", "explanation": "f = 1/T = 1/0.02 = 50 Hz." },
+          { "id": "q6", "type": "multiple_choice", "question": "Can sound travel through a vacuum?", "options": ["Yes, at 340 m/s", "Yes, but slowly", "No, it needs a medium", "Yes, faster than in air"], "answer": "No, it needs a medium", "explanation": "Sound is a mechanical wave — it needs particles to vibrate. A vacuum has no particles." },
+          { "id": "q7", "type": "multiple_choice", "question": "Light waves are:", "options": ["Longitudinal", "Mechanical", "Transverse", "Circular"], "answer": "Transverse", "explanation": "Light (electromagnetic waves) are transverse — they can travel through a vacuum." },
+          { "id": "q8", "type": "multiple_choice", "question": "Amplitude of a wave represents:", "options": ["Wavelength", "Speed", "Maximum displacement", "Frequency"], "answer": "Maximum displacement", "explanation": "Amplitude is the maximum displacement of particles from their rest position." },
+          { "id": "q9", "type": "multiple_choice", "question": "A wave travels at 300 m/s with wavelength 0.5 m. Find its frequency.", "options": ["150 Hz", "300 Hz", "600 Hz", "0.0017 Hz"], "answer": "600 Hz", "explanation": "f = v/λ = 300/0.5 = 600 Hz." },
+          { "id": "q10", "type": "multiple_choice", "question": "In which medium does sound travel fastest?", "options": ["Air", "Water", "Steel", "Vacuum"], "answer": "Steel", "explanation": "Sound travels faster in denser/more rigid materials. Steel is most rigid of these options." }
+        ]
+      }
+    },
+    {
+      "id": "s2_phy_electricity_l1",
+      "title": "Electric Current, Voltage and Resistance",
+      "duration_minutes": 28,
+      "xp_reward": 70,
+      "content": [
+        { "type": "text", "body": "Electricity is the flow of electric charge. In metal conductors, electrons flow from negative to positive (conventional current flows positive to negative). Understanding current, voltage, and resistance is fundamental to all electronics." },
+        { "type": "formula", "body": "Key quantities:\nElectric Current (I): rate of flow of charge. Unit: Ampere (A)\nVoltage / Potential Difference (V): energy per unit charge. Unit: Volt (V)\nResistance (R): opposition to current flow. Unit: Ohm (Ω)\n\nOhm's Law: V = IR\nAlso: I = V/R  and  R = V/I" },
+        { "type": "example", "title": "Using Ohm's Law", "body": "A resistor has V = 12 V and R = 4 Ω. Find the current.\nI = V/R = 12/4 = 3 A\n\nA current of 2 A flows through a 6 Ω resistor. Find the voltage.\nV = IR = 2 × 6 = 12 V" },
+        { "type": "formula", "body": "Series and Parallel Circuits:\n\nSERIES:\n• Total resistance: Rₜ = R₁ + R₂ + R₃\n• Same current everywhere: I₁ = I₂ = I\n• Voltages add: Vₜ = V₁ + V₂\n\nPARALLEL:\n• 1/Rₜ = 1/R₁ + 1/R₂\n• Same voltage everywhere: V₁ = V₂\n• Currents add: Iₜ = I₁ + I₂" },
+        { "type": "formula", "body": "Electrical Power and Energy:\nPower: P = IV = I²R = V²/R. Unit: Watt (W)\nEnergy: E = Pt = IVt. Unit: Joule (J)\nElectricity bill units: kilowatt-hour (kWh) = 1000 W × 3600 s = 3.6 × 10⁶ J" },
+        { "type": "example", "title": "Power Calculation", "body": "A bulb has V = 240 V and I = 0.5 A. Find its power rating.\nP = IV = 0.5 × 240 = 120 W\n\nHow much energy does it use in 2 hours?\nE = Pt = 120 × (2 × 3600) = 864,000 J = 864 kJ" }
+      ],
+      "quiz": {
+        "pass_score": 60,
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "State Ohm's Law.", "options": ["I = VR", "V = IR", "R = VI", "V = I/R"], "answer": "V = IR", "explanation": "Ohm's Law: Voltage = Current × Resistance (V = IR)." },
+          { "id": "q2", "type": "multiple_choice", "question": "V=24V, R=8Ω. Find I.", "options": ["192 A", "3 A", "16 A", "0.33 A"], "answer": "3 A", "explanation": "I = V/R = 24/8 = 3 A." },
+          { "id": "q3", "type": "multiple_choice", "question": "The unit of resistance is:", "options": ["Volt", "Ampere", "Ohm", "Watt"], "answer": "Ohm", "explanation": "Resistance is measured in Ohms (Ω)." },
+          { "id": "q4", "type": "multiple_choice", "question": "Two resistors 4Ω and 6Ω in series. Total resistance?", "options": ["2.4 Ω", "10 Ω", "24 Ω", "5 Ω"], "answer": "10 Ω", "explanation": "Series: Rₜ = R₁ + R₂ = 4 + 6 = 10 Ω." },
+          { "id": "q5", "type": "multiple_choice", "question": "Two resistors 4Ω and 4Ω in parallel. Total resistance?", "options": ["8 Ω", "2 Ω", "1 Ω", "0.5 Ω"], "answer": "2 Ω", "explanation": "1/Rₜ = 1/4 + 1/4 = 2/4. Rₜ = 2 Ω." },
+          { "id": "q6", "type": "multiple_choice", "question": "Power formula P = ?", "options": ["I/V", "IV", "I+V", "I-V"], "answer": "IV", "explanation": "Electrical power P = IV (current × voltage)." },
+          { "id": "q7", "type": "multiple_choice", "question": "I=3A, V=9V. Find power.", "options": ["3W", "27W", "6W", "0.33W"], "answer": "27W", "explanation": "P = IV = 3 × 9 = 27 W." },
+          { "id": "q8", "type": "multiple_choice", "question": "In a parallel circuit, voltage across each branch is:", "options": ["Different in each", "Zero", "The same", "Added together"], "answer": "The same", "explanation": "In a parallel circuit, all branches have the same voltage (potential difference)." },
+          { "id": "q9", "type": "multiple_choice", "question": "A 1000W heater runs for 3 hours. How many kWh?", "options": ["3000 kWh", "333 kWh", "3 kWh", "0.3 kWh"], "answer": "3 kWh", "explanation": "Energy = Power × Time = 1 kW × 3 h = 3 kWh." },
+          { "id": "q10", "type": "multiple_choice", "question": "Increasing resistance in a circuit (with fixed voltage) will:", "options": ["Increase current", "Decrease current", "Not affect current", "Double the voltage"], "answer": "Decrease current", "explanation": "I = V/R. If R increases and V is fixed, I decreases." }
+        ]
+      }
+    }
+  ]
+}

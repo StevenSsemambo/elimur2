@@ -1,0 +1,64 @@
+{
+  "topic_id": "s3_bio_genetics",
+  "topic_title": "Genetics & Inheritance",
+  "subject": "biology",
+  "class_level": "S3",
+  "lessons": [
+    {
+      "id": "s3_bio_genetics_l1",
+      "title": "DNA, Genes and Chromosomes",
+      "duration_minutes": 28,
+      "xp_reward": 70,
+      "content": [
+        { "type": "text", "body": "Genetics is the study of heredity — how characteristics are passed from parents to offspring. The key molecules carrying genetic information are DNA (deoxyribonucleic acid), organised into chromosomes and genes." },
+        { "type": "formula", "body": "Key definitions:\nDNA: double helix molecule made of nucleotides (sugar + phosphate + base). Carries genetic code.\nGene: a section of DNA that codes for a specific protein or trait.\nChromosome: tightly coiled DNA + protein structure. Humans have 46 chromosomes (23 pairs).\nAllele: different versions of the same gene (e.g. tall vs short allele for height).\nLocus: the specific position of a gene on a chromosome." },
+        { "type": "example", "title": "DNA Structure", "body": "DNA is a double helix — two strands wound around each other.\nBase pairing rules (ALWAYS pair the same way):\nAdenine (A) pairs with Thymine (T)\nGuanine (G) pairs with Cytosine (C)\n\nIf one strand reads: A-T-G-C-A\nThe complementary strand reads: T-A-C-G-T" },
+        { "type": "formula", "body": "Genotype vs Phenotype:\nGenotype: the genetic make-up (alleles present). e.g. Tt, TT, tt\nPhenotype: the physical appearance/characteristic. e.g. tall or short\n\nDominant allele (T): expressed even if only one copy present\nRecessive allele (t): only expressed if TWO copies present\n\nHomozygous dominant: TT (tall)\nHeterozygous: Tt (tall — dominant expressed)\nHomozygous recessive: tt (short)" },
+        { "type": "example", "title": "Monohybrid Cross — Punnett Square", "body": "Cross two heterozygous tall plants (Tt × Tt):\n\n     T    t\nT  [ TT ] [ Tt ]\nt  [ Tt ] [ tt ]\n\nResults: TT : Tt : tt = 1 : 2 : 1\nPhenotype ratio: 3 tall : 1 short\n75% tall, 25% short" }
+      ],
+      "quiz": {
+        "pass_score": 60,
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "How many chromosomes do human body cells contain?", "options": ["23", "46", "48", "92"], "answer": "46", "explanation": "Humans have 46 chromosomes in 23 pairs in each body (somatic) cell." },
+          { "id": "q2", "type": "multiple_choice", "question": "What does a gene code for?", "options": ["A chromosome", "A specific protein", "A cell", "An organ"], "answer": "A specific protein", "explanation": "A gene is a section of DNA that codes for a specific protein (or trait)." },
+          { "id": "q3", "type": "multiple_choice", "question": "Which bases pair together in DNA?", "options": ["A-G and T-C", "A-T and G-C", "A-C and G-T", "A-A and T-T"], "answer": "A-T and G-C", "explanation": "Base pairing rules: Adenine pairs with Thymine (A-T), Guanine pairs with Cytosine (G-C)." },
+          { "id": "q4", "type": "multiple_choice", "question": "A plant with genotype Tt is:", "options": ["Homozygous dominant", "Homozygous recessive", "Heterozygous", "Recessive only"], "answer": "Heterozygous", "explanation": "Heterozygous means having two different alleles (one dominant, one recessive) for a gene." },
+          { "id": "q5", "type": "multiple_choice", "question": "If T (tall) is dominant and t (short) is recessive, what is the phenotype of Tt?", "options": ["Short", "Neither tall nor short", "Tall", "Medium height"], "answer": "Tall", "explanation": "A dominant allele is expressed even when only one copy is present. Tt is tall." },
+          { "id": "q6", "type": "multiple_choice", "question": "In a Tt × Tt cross, what proportion of offspring are tt?", "options": ["1/4", "1/2", "3/4", "All of them"], "answer": "1/4", "explanation": "From Punnett square: TT, Tt, Tt, tt. One out of four (1/4 = 25%) is tt." },
+          { "id": "q7", "type": "multiple_choice", "question": "What is the phenotype ratio from a Tt × Tt cross?", "options": ["1:2:1", "1:1", "3:1", "All tall"], "answer": "3:1", "explanation": "3 tall (TT + Tt + Tt) : 1 short (tt) = 3:1 phenotype ratio." },
+          { "id": "q8", "type": "multiple_choice", "question": "Phenotype refers to:", "options": ["The alleles an organism has", "The physical characteristics an organism shows", "Only dominant alleles", "The chromosome number"], "answer": "The physical characteristics an organism shows", "explanation": "Phenotype is the observable physical characteristics (appearance) of an organism." },
+          { "id": "q9", "type": "multiple_choice", "question": "Different versions of the same gene are called:", "options": ["Chromosomes", "Alleles", "Genotypes", "Loci"], "answer": "Alleles", "explanation": "Alleles are different forms/versions of the same gene (e.g. tall allele T and short allele t)." },
+          { "id": "q10", "type": "multiple_choice", "question": "A cross between TT and tt gives offspring genotype:", "options": ["TT only", "tt only", "All Tt", "TT and tt equally"], "answer": "All Tt", "explanation": "TT × tt: every offspring gets T from one parent and t from the other. All offspring are Tt." }
+        ]
+      }
+    },
+    {
+      "id": "s3_bio_genetics_l2",
+      "title": "Sex Determination and Sex-Linked Inheritance",
+      "duration_minutes": 25,
+      "xp_reward": 65,
+      "content": [
+        { "type": "text", "body": "Sex in humans is determined by sex chromosomes. Females have two X chromosomes (XX). Males have one X and one Y chromosome (XY). The 23rd pair of human chromosomes are the sex chromosomes." },
+        { "type": "formula", "body": "Sex Determination Cross:\nMother (XX) × Father (XY)\n\n     X    X\nX  [ XX ] [ XX ]\nY  [ XY ] [ XY ]\n\nResult: 50% XX (female) : 50% XY (male)\nThe FATHER determines the sex of the child!" },
+        { "type": "text", "body": "Sex-linked characteristics are controlled by genes carried on the sex chromosomes (usually the X chromosome). Because males have only ONE X chromosome, they only need ONE copy of a recessive allele to show the trait. Females need TWO copies (one on each X)." },
+        { "type": "example", "title": "Colour Blindness (X-linked)", "body": "Colour blindness gene is on the X chromosome.\nLet Xᴺ = normal vision (dominant)\nLet Xⁿ = colour blind (recessive)\n\nFemale carrier (XᴺXⁿ) × Normal male (XᴺY):\n\n       Xᴺ    Xⁿ\nXᴺ  [XᴺXᴺ] [XᴺXⁿ]\nY   [XᴺY]  [XⁿY]\n\nXᴺXᴺ = normal female\nXᴺXⁿ = carrier female (normal vision)\nXᴺY = normal male\nXⁿY = colour blind male (50% of sons!)" },
+        { "type": "text", "body": "Other X-linked conditions: haemophilia (blood clotting disorder), Duchenne muscular dystrophy.\nWhy are males more often affected? They cannot be carriers — they either have the condition (Xⁿ Y) or not (Xᴺ Y). Females can be carriers (XᴺXⁿ) and appear normal." }
+      ],
+      "quiz": {
+        "pass_score": 60,
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "What are the sex chromosomes of a human female?", "options": ["XY", "YY", "XX", "X only"], "answer": "XX", "explanation": "Human females have two X chromosomes (XX). Males have XY." },
+          { "id": "q2", "type": "multiple_choice", "question": "Who determines the sex of a child?", "options": ["The mother (XX)", "The father (XY)", "Both equally", "Neither — it is random"], "answer": "The father (XY)", "explanation": "The mother can only give X. The father gives either X (→girl) or Y (→boy), so the father's sperm determines sex." },
+          { "id": "q3", "type": "multiple_choice", "question": "What percentage of children from any pregnancy are expected to be male?", "options": ["25%", "75%", "50%", "100%"], "answer": "50%", "explanation": "XX × XY cross always gives 50% XX (female) and 50% XY (male)." },
+          { "id": "q4", "type": "multiple_choice", "question": "Why are males more often colour blind than females?", "options": ["Males have weaker eyes", "Males have only one X chromosome, so one recessive allele causes the condition", "Females can never be colour blind", "The gene is on the Y chromosome"], "answer": "Males have only one X chromosome, so one recessive allele causes the condition", "explanation": "Males (XY) have only one X. One copy of the recessive colour blind allele (Xⁿ) is enough to cause colour blindness. Females need two copies." },
+          { "id": "q5", "type": "multiple_choice", "question": "A woman with genotype XᴺXⁿ is called:", "options": ["Colour blind", "A carrier", "Homozygous", "Affected"], "answer": "A carrier", "explanation": "A carrier has the recessive allele but doesn't show the condition (because the dominant allele masks it). She can pass it to her children." },
+          { "id": "q6", "type": "multiple_choice", "question": "X-linked genes are located on:", "options": ["Autosomes only", "The Y chromosome", "The X chromosome", "All chromosomes"], "answer": "The X chromosome", "explanation": "X-linked (sex-linked) characteristics are controlled by genes on the X chromosome." },
+          { "id": "q7", "type": "multiple_choice", "question": "A colour blind father (XⁿY) and normal homozygous mother (XᴺXᴺ). What are the sons' genotypes?", "options": ["All XⁿY (colour blind)", "All XᴺY (normal)", "XᴺXᴺ", "XᴺXⁿ"], "answer": "All XᴺY (normal)", "explanation": "Sons get Y from father and Xᴺ from mother. All sons: XᴺY = normal vision." },
+          { "id": "q8", "type": "multiple_choice", "question": "From the same cross (XⁿY father × XᴺXᴺ mother), what are the daughters?", "options": ["All colour blind", "All carriers (XᴺXⁿ)", "All homozygous normal", "50% colour blind"], "answer": "All carriers (XᴺXⁿ)", "explanation": "Daughters get Xⁿ from father and Xᴺ from mother → all daughters are XᴺXⁿ (carriers)." },
+          { "id": "q9", "type": "multiple_choice", "question": "Haemophilia is caused by:", "options": ["A dominant autosomal gene", "A recessive X-linked gene", "A Y-linked gene", "A recessive autosomal gene"], "answer": "A recessive X-linked gene", "explanation": "Haemophilia is caused by a recessive allele on the X chromosome — it is sex-linked." },
+          { "id": "q10", "type": "multiple_choice", "question": "Can a colour blind woman exist?", "options": ["No, never", "Yes — if she has genotype XⁿXⁿ", "Only if she inherits Y from her father", "Only if she has one X chromosome"], "answer": "Yes — if she has genotype XⁿXⁿ", "explanation": "A female can be colour blind if she inherits a recessive colour blind allele from BOTH parents (XⁿXⁿ), though this is rare." }
+        ]
+      }
+    }
+  ]
+}

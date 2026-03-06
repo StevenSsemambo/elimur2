@@ -1,0 +1,35 @@
+{
+  "topic_id": "s1_chem_matter",
+  "topic_title": "Matter & Mixtures",
+  "subject": "chemistry",
+  "class_level": "S1",
+  "lessons": [
+    {
+      "id": "s1_chem_matter_l1",
+      "title": "States of Matter and Particle Theory",
+      "duration_minutes": 22,
+      "xp_reward": 55,
+      "content": [
+        { "type": "text", "body": "All matter is made of tiny particles — atoms, molecules, or ions. The arrangement and movement of these particles determines whether a substance is solid, liquid, or gas. This is the Kinetic Theory of Matter." },
+        { "type": "formula", "body": "SOLID:\n• Particles closely packed in regular arrangement\n• Particles vibrate in fixed positions\n• Fixed shape and volume\n• Cannot flow\n• High density\n\nLIQUID:\n• Particles close together but can move past each other\n• Particles slide and flow\n• Fixed volume but no fixed shape\n• Can flow, takes shape of container\n\nGAS:\n• Particles far apart, random motion\n• Particles move very fast in all directions\n• No fixed shape or volume\n• Low density, can be compressed" },
+        { "type": "example", "title": "Changes of State", "body": "Melting: solid → liquid (heating)\nFreezing: liquid → solid (cooling)\nEvaporation/Boiling: liquid → gas (heating)\nCondensation: gas → liquid (cooling)\nSublimation: solid → gas directly (e.g. dry ice, iodine)\nDeposition: gas → solid directly" },
+        { "type": "text", "body": "Melting point and boiling point are fixed temperatures for pure substances at standard pressure. During melting and boiling, temperature stays constant — the energy is used to overcome forces between particles, not to increase temperature." }
+      ],
+      "quiz": {
+        "pass_score": 60,
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "In which state of matter do particles have the most energy?", "options": ["Solid", "Liquid", "Gas", "They are equal"], "answer": "Gas", "explanation": "Gas particles move fastest and have the highest kinetic energy." },
+          { "id": "q2", "type": "multiple_choice", "question": "What happens to particles during melting?", "options": ["They are destroyed", "They gain energy and move more freely", "They lose energy", "They move into a regular arrangement"], "answer": "They gain energy and move more freely", "explanation": "During melting, particles gain enough energy to break from fixed positions and move past each other." },
+          { "id": "q3", "type": "multiple_choice", "question": "Which state of matter has a fixed volume but no fixed shape?", "options": ["Solid", "Liquid", "Gas", "Plasma"], "answer": "Liquid", "explanation": "Liquids have fixed volume (particles close together) but no fixed shape (particles can flow)." },
+          { "id": "q4", "type": "multiple_choice", "question": "Sublimation is when:", "options": ["A solid melts to liquid", "A liquid evaporates", "A solid changes directly to gas", "A gas condenses to liquid"], "answer": "A solid changes directly to gas", "explanation": "Sublimation is the direct change from solid to gas, skipping the liquid state (e.g. iodine, carbon dioxide)." },
+          { "id": "q5", "type": "multiple_choice", "question": "Why does temperature stay constant during boiling?", "options": ["The fire is not hot enough", "Energy is used to overcome intermolecular forces, not raise temperature", "All particles are already moving fast", "Boiling doesn't require energy"], "answer": "Energy is used to overcome intermolecular forces, not raise temperature", "explanation": "At boiling point, all added energy breaks forces between liquid particles (latent heat of vaporisation) — temperature doesn't rise until all liquid has vaporised." },
+          { "id": "q6", "type": "multiple_choice", "question": "Condensation is the change from:", "options": ["Solid to liquid", "Gas to liquid", "Liquid to solid", "Liquid to gas"], "answer": "Gas to liquid", "explanation": "Condensation: gas → liquid. This occurs when a gas cools and loses energy." },
+          { "id": "q7", "type": "multiple_choice", "question": "Particles in a solid are:", "options": ["Far apart and random", "Close together, random arrangement", "Close together, regular arrangement, vibrating", "Moving very fast in straight lines"], "answer": "Close together, regular arrangement, vibrating", "explanation": "Solid particles are packed closely in an ordered/regular arrangement and vibrate around fixed positions." },
+          { "id": "q8", "type": "multiple_choice", "question": "Which state of matter is most easily compressed?", "options": ["Solid", "Liquid", "Gas", "All equally"], "answer": "Gas", "explanation": "Gas particles are far apart with lots of space between them, so gases can be compressed easily." },
+          { "id": "q9", "type": "multiple_choice", "question": "When water freezes, what change of state occurs?", "options": ["Evaporation", "Condensation", "Melting", "Freezing"], "answer": "Freezing", "explanation": "Freezing: liquid → solid. Water (liquid) becomes ice (solid) when cooled to 0°C." },
+          { "id": "q10", "type": "multiple_choice", "question": "The melting point of a substance is:", "options": ["Always 100°C", "Different for each pure substance", "The same as its boiling point", "Only for metals"], "answer": "Different for each pure substance", "explanation": "Each pure substance has its own fixed melting point — this is used to identify substances." }
+        ]
+      }
+    }
+  ]
+}

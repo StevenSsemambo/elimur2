@@ -1,0 +1,64 @@
+{
+  "topic_id": "s3_math_functions",
+  "topic_title": "Functions & Graphs",
+  "subject": "mathematics",
+  "class_level": "S3",
+  "lessons": [
+    {
+      "id": "s3_math_functions_l1",
+      "title": "Introduction to Functions",
+      "duration_minutes": 25,
+      "xp_reward": 70,
+      "content": [
+        { "type": "text", "body": "A function is a rule that assigns exactly one output to each input. Think of a function as a machine: put in a value (input/domain), get out exactly one result (output/range). Functions are written as f(x), g(x), etc." },
+        { "type": "formula", "body": "Function notation:\nf(x) = 2x + 3 means 'f of x equals 2x + 3'\nIf x = 4: f(4) = 2(4) + 3 = 11\n\nDomain: the set of all allowed input values\nRange: the set of all possible output values" },
+        { "type": "example", "title": "Evaluating Functions", "body": "f(x) = x² − 3x + 2\nFind: f(0), f(2), f(−1)\nf(0) = 0 − 0 + 2 = 2\nf(2) = 4 − 6 + 2 = 0\nf(−1) = 1 + 3 + 2 = 6" },
+        { "type": "example", "title": "Composite Functions", "body": "f(x) = 2x + 1 and g(x) = x²\nfg(x) means f(g(x)) — apply g first, then f\nfg(3) = f(g(3)) = f(9) = 2(9)+1 = 19\ngf(3) = g(f(3)) = g(7) = 49\nNote: fg ≠ gf usually!" },
+        { "type": "text", "body": "A function must pass the vertical line test: any vertical line drawn through the graph touches it at most once. If a vertical line touches the graph at two points, it is NOT a function." }
+      ],
+      "quiz": {
+        "pass_score": 60,
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "If f(x) = 3x − 4, find f(5).", "options": ["11", "19", "1", "15"], "answer": "11", "explanation": "f(5) = 3(5) − 4 = 15 − 4 = 11" },
+          { "id": "q2", "type": "multiple_choice", "question": "If g(x) = x² + 1, find g(−3).", "options": ["8", "10", "−8", "−10"], "answer": "10", "explanation": "g(−3) = (−3)² + 1 = 9 + 1 = 10" },
+          { "id": "q3", "type": "multiple_choice", "question": "A function assigns each input exactly ___ output(s).", "options": ["zero", "one", "two", "any number of"], "answer": "one", "explanation": "By definition, a function maps each input to exactly one output." },
+          { "id": "q4", "type": "multiple_choice", "question": "f(x)=2x+1, g(x)=x². Find fg(2).", "options": ["9", "10", "25", "5"], "answer": "9", "explanation": "fg(2) = f(g(2)) = f(4) = 2(4)+1 = 9" },
+          { "id": "q5", "type": "multiple_choice", "question": "f(x)=2x+1, g(x)=x². Find gf(2).", "options": ["9", "10", "25", "5"], "answer": "25", "explanation": "gf(2) = g(f(2)) = g(5) = 5² = 25" },
+          { "id": "q6", "type": "multiple_choice", "question": "If h(x) = (x+3)/2, find h(7).", "options": ["2", "5", "10", "3.5"], "answer": "5", "explanation": "h(7) = (7+3)/2 = 10/2 = 5" },
+          { "id": "q7", "type": "multiple_choice", "question": "What is the domain restriction for f(x) = 1/x?", "options": ["x must be positive", "x cannot be 1", "x cannot be 0", "x must be an integer"], "answer": "x cannot be 0", "explanation": "Division by zero is undefined, so x = 0 is excluded from the domain." },
+          { "id": "q8", "type": "multiple_choice", "question": "f(x) = √x. What is the domain?", "options": ["All real numbers", "x > 0 only", "x ≥ 0", "Integers only"], "answer": "x ≥ 0", "explanation": "Square root of negative numbers is not real, so x must be ≥ 0." },
+          { "id": "q9", "type": "multiple_choice", "question": "If f(a) = 10 and f(x) = 2x, find a.", "options": ["5", "20", "12", "8"], "answer": "5", "explanation": "2a = 10, so a = 5." },
+          { "id": "q10", "type": "multiple_choice", "question": "Is the vertical line test used to check if a graph is:", "options": ["A straight line", "A function", "Symmetrical", "An equation"], "answer": "A function", "explanation": "The vertical line test: if any vertical line touches the graph more than once, it's not a function." }
+        ]
+      }
+    },
+    {
+      "id": "s3_math_logarithms_l1",
+      "title": "Logarithms — Rules and Applications",
+      "duration_minutes": 30,
+      "xp_reward": 75,
+      "content": [
+        { "type": "text", "body": "A logarithm is the inverse of an exponent. If 2³ = 8, then log₂(8) = 3. Logarithms ask: 'What power do I raise the base to, to get this number?'" },
+        { "type": "formula", "body": "Definition: logₐ(x) = y ↔ aʸ = x\n\nCommon logs:\nlog₁₀(x) = log(x) (base 10, default)\nlogₑ(x) = ln(x) (natural log, base e≈2.718)\n\nlog(10) = 1,  log(100) = 2,  log(1000) = 3\nlog(1) = 0 for any base" },
+        { "type": "formula", "body": "Log Rules (very important!):\n1. Product: log(AB) = log A + log B\n2. Quotient: log(A/B) = log A − log B\n3. Power: log(Aⁿ) = n × log A\n4. Change of base: logₐ(x) = log(x)/log(a)" },
+        { "type": "example", "title": "Using Log Rules", "body": "Simplify: log 4 + log 25\n= log(4 × 25) = log 100 = 2\n\nSimplify: log 1000 − log 10\n= log(1000/10) = log 100 = 2\n\nSimplify: log 2⁵\n= 5 log 2 = 5 × 0.301 = 1.505" },
+        { "type": "example", "title": "Solving Logarithmic Equations", "body": "Solve: log₂(x) = 5\nConvert: 2⁵ = x\nx = 32\n\nSolve: log(x+1) = 2\nConvert: 10² = x+1\n100 = x+1\nx = 99" }
+      ],
+      "quiz": {
+        "pass_score": 60,
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "What is log₂(8)?", "options": ["4", "2", "3", "8"], "answer": "3", "explanation": "2³ = 8, so log₂(8) = 3." },
+          { "id": "q2", "type": "multiple_choice", "question": "What is log₁₀(1000)?", "options": ["100", "4", "3", "2"], "answer": "3", "explanation": "10³ = 1000, so log(1000) = 3." },
+          { "id": "q3", "type": "multiple_choice", "question": "Simplify: log 3 + log 4", "options": ["log 7", "log 12", "log 1", "7"], "answer": "log 12", "explanation": "log A + log B = log(AB) = log(3×4) = log 12." },
+          { "id": "q4", "type": "multiple_choice", "question": "Simplify: log 50 − log 5", "options": ["log 45", "log 10 = 1", "log 250", "log 55"], "answer": "log 10 = 1", "explanation": "log(50/5) = log 10 = 1." },
+          { "id": "q5", "type": "multiple_choice", "question": "Simplify: log 2³", "options": ["3log 2", "2log 3", "log 6", "3+log2"], "answer": "3log 2", "explanation": "log(Aⁿ) = n log A. So log 2³ = 3 log 2." },
+          { "id": "q6", "type": "multiple_choice", "question": "Solve: log₃(x) = 4", "options": ["x = 12", "x = 81", "x = 64", "x = 34"], "answer": "x = 81", "explanation": "3⁴ = 81. So x = 81." },
+          { "id": "q7", "type": "multiple_choice", "question": "What is log(1) for any base?", "options": ["1", "The base", "Undefined", "0"], "answer": "0", "explanation": "Any base raised to power 0 = 1. So logₐ(1) = 0 always." },
+          { "id": "q8", "type": "multiple_choice", "question": "Solve: log(x) = 3 (base 10)", "options": ["x=30", "x=1000", "x=300", "x=100"], "answer": "x=1000", "explanation": "10³ = 1000." },
+          { "id": "q9", "type": "multiple_choice", "question": "log 6 + log 5 − log 3 = ?", "options": ["log 8", "log 10 = 1", "log 90", "2"], "answer": "log 10 = 1", "explanation": "= log(6×5/3) = log(10) = 1." },
+          { "id": "q10", "type": "multiple_choice", "question": "If log 2 = 0.301, find log 8.", "options": ["0.602", "0.903", "1.204", "2.408"], "answer": "0.903", "explanation": "log 8 = log 2³ = 3 log 2 = 3 × 0.301 = 0.903." }
+        ]
+      }
+    }
+  ]
+}

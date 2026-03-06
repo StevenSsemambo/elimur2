@@ -1,0 +1,64 @@
+{
+  "topic_id": "s2_chem_acids",
+  "topic_title": "Acids, Bases & Salts",
+  "subject": "chemistry",
+  "class_level": "S2",
+  "lessons": [
+    {
+      "id": "s2_chem_acids_l1",
+      "title": "Acids and Bases — Properties and pH",
+      "duration_minutes": 25,
+      "xp_reward": 65,
+      "content": [
+        { "type": "text", "body": "Acids and bases are two of the most important classes of chemical compounds. They are found everywhere — in food, medicines, cleaning products, and our own bodies." },
+        { "type": "formula", "body": "Arrhenius definitions:\nAcid: produces H⁺ ions in water. e.g. HCl → H⁺ + Cl⁻\nBase: produces OH⁻ ions in water. e.g. NaOH → Na⁺ + OH⁻\n\nBrønsted-Lowry:\nAcid: a proton (H⁺) donor\nBase: a proton (H⁺) acceptor" },
+        { "type": "formula", "body": "pH Scale (0–14):\npH 0–6: Acidic (lower = more acidic)\npH 7: Neutral (pure water)\npH 8–14: Alkaline/Basic (higher = more alkaline)\n\nStrong acids: HCl (hydrochloric), H₂SO₄ (sulphuric), HNO₃ (nitric)\nStrong bases: NaOH (sodium hydroxide), KOH (potassium hydroxide)" },
+        { "type": "example", "title": "Common Acids and Bases in Daily Life", "body": "Acids:\n• Lemon juice / vinegar: pH 2-3 (citric acid, acetic acid)\n• Stomach acid: pH 1-2 (hydrochloric acid)\n• Fizzy drinks: pH 3-4 (carbonic acid)\n• Rain water: pH ~5.6 (carbonic acid from CO₂)\n\nBases:\n• Baking soda: pH ~8 (sodium bicarbonate)\n• Soap: pH 9-10\n• Ammonia cleaning solution: pH 11\n• Bleach: pH 12" },
+        { "type": "formula", "body": "Neutralisation reaction:\nAcid + Base → Salt + Water\nHCl + NaOH → NaCl + H₂O\nH₂SO₄ + 2KOH → K₂SO₄ + 2H₂O\n\nIndicators tell us if a solution is acidic/neutral/basic:\nLitmus: red in acid, blue in alkali\nUniversal indicator: full range of colours\nphenolphthalein: colourless in acid, pink in alkali" }
+      ],
+      "quiz": {
+        "pass_score": 60,
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "What pH is neutral?", "options": ["0", "7", "14", "5"], "answer": "7", "explanation": "pH 7 is neutral — pure water has pH 7." },
+          { "id": "q2", "type": "multiple_choice", "question": "An acid produces which ion in water?", "options": ["OH⁻", "Na⁺", "H⁺", "Cl⁻"], "answer": "H⁺", "explanation": "Acids donate protons (H⁺ ions) in water." },
+          { "id": "q3", "type": "multiple_choice", "question": "What is the product of acid + base reaction?", "options": ["Only water", "Only salt", "Salt + water", "Hydrogen gas"], "answer": "Salt + water", "explanation": "Neutralisation: Acid + Base → Salt + Water." },
+          { "id": "q4", "type": "multiple_choice", "question": "Stomach acid has pH of about 1-2. This means it is:", "options": ["Weakly acidic", "Neutral", "Strongly acidic", "Alkaline"], "answer": "Strongly acidic", "explanation": "pH 1-2 is at the very acidic end of the pH scale." },
+          { "id": "q5", "type": "multiple_choice", "question": "Litmus paper turns RED in:", "options": ["Alkaline solutions", "Neutral solutions", "Acidic solutions", "Any solution"], "answer": "Acidic solutions", "explanation": "Red litmus stays red in acid; blue litmus turns red in acid. Litmus turns blue in alkali." },
+          { "id": "q6", "type": "multiple_choice", "question": "Which of these is a strong base?", "options": ["Vinegar (CH₃COOH)", "NaOH (sodium hydroxide)", "Citric acid", "Carbonic acid"], "answer": "NaOH (sodium hydroxide)", "explanation": "Sodium hydroxide (NaOH) is a strong base used in drain cleaners, soap making, and paper production." },
+          { "id": "q7", "type": "multiple_choice", "question": "HCl + NaOH → ?", "options": ["NaCl only", "H₂ + Cl₂", "NaCl + H₂O", "Na + HCl₂"], "answer": "NaCl + H₂O", "explanation": "HCl + NaOH → NaCl + H₂O (salt sodium chloride + water)." },
+          { "id": "q8", "type": "multiple_choice", "question": "Universal indicator is used to:", "options": ["Only test for acids", "Give the exact pH of a solution", "Only test for bases", "Show if a reaction is complete"], "answer": "Give the exact pH of a solution", "explanation": "Universal indicator changes through a range of colours corresponding to different pH values." },
+          { "id": "q9", "type": "multiple_choice", "question": "Acid rain has a pH of about 4. It is caused by:", "options": ["Excess oxygen", "SO₂ and NOₓ from burning fossil fuels", "CO₂ from respiration", "Bacteria in clouds"], "answer": "SO₂ and NOₓ from burning fossil fuels", "explanation": "SO₂ and NOₓ from industrial/vehicle emissions dissolve in rainwater to form sulphuric and nitric acids." },
+          { "id": "q10", "type": "multiple_choice", "question": "A Brønsted-Lowry base is:", "options": ["A proton donor", "A proton acceptor", "A producer of H⁺ ions", "Any hydroxide compound"], "answer": "A proton acceptor", "explanation": "Brønsted-Lowry: acid = proton (H⁺) donor; base = proton (H⁺) acceptor." }
+        ]
+      }
+    },
+    {
+      "id": "s2_chem_periodic_l1",
+      "title": "The Periodic Table",
+      "duration_minutes": 28,
+      "xp_reward": 70,
+      "content": [
+        { "type": "text", "body": "The Periodic Table is the most important tool in chemistry. It organises all 118 known elements by atomic number, and reveals patterns in their properties. It was developed by Dmitri Mendeleev in 1869." },
+        { "type": "formula", "body": "Organisation of the Periodic Table:\nPeriods (rows): elements in the same row have the same number of electron shells\nGroups (columns): elements in the same column have the same number of outer electrons → similar chemical properties\n\nGroup 1: Alkali Metals (Li, Na, K, Rb, Cs, Fr)\nGroup 7: Halogens (F, Cl, Br, I, At)\nGroup 0/18: Noble Gases (He, Ne, Ar, Kr, Xe, Rn)\nMiddle section: Transition Metals (Fe, Cu, Zn, etc.)" },
+        { "type": "example", "title": "Group 1 — Alkali Metals", "body": "Properties of Group 1 metals:\n• Soft metals that can be cut with a knife\n• React vigorously with water, producing hydrogen gas and an alkali\n• 2Na + 2H₂O → 2NaOH + H₂\n• Reactivity INCREASES going DOWN the group (outer electron farther from nucleus, easier to lose)\n• Stored in oil to prevent reaction with air/moisture" },
+        { "type": "example", "title": "Group 7 — Halogens", "body": "Properties of Group 7 (non-metals):\n• F₂: pale yellow gas (most reactive)\n• Cl₂: green-yellow gas\n• Br₂: red-brown liquid\n• I₂: grey-black solid (purple vapour)\n• Reactivity DECREASES going DOWN the group\n• Form salts with metals: 2Na + Cl₂ → 2NaCl\n• More reactive halogen displaces less reactive: Cl₂ + 2KBr → 2KCl + Br₂" },
+        { "type": "text", "body": "Group 0 (Noble Gases): He, Ne, Ar, Kr, Xe, Rn.\nThey are extremely unreactive (inert) because they have full outer electron shells.\nHe is used in balloons. Ar is used in light bulbs. Ne is used in neon signs." }
+      ],
+      "quiz": {
+        "pass_score": 60,
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "Who developed the Periodic Table?", "options": ["Dalton", "Bohr", "Mendeleev", "Rutherford"], "answer": "Mendeleev", "explanation": "Dmitri Mendeleev arranged elements by atomic mass and predicted properties of undiscovered elements in 1869." },
+          { "id": "q2", "type": "multiple_choice", "question": "Elements in the same GROUP have:", "options": ["Same mass number", "Same number of protons", "Same number of outer electrons", "Same atomic radius"], "answer": "Same number of outer electrons", "explanation": "Elements in the same group have the same number of electrons in their outer shell, giving similar chemical properties." },
+          { "id": "q3", "type": "multiple_choice", "question": "Which group are the alkali metals?", "options": ["Group 0", "Group 1", "Group 7", "Transition metals"], "answer": "Group 1", "explanation": "Group 1 contains the alkali metals: Li, Na, K, Rb, Cs, Fr." },
+          { "id": "q4", "type": "multiple_choice", "question": "Going DOWN Group 1, reactivity:", "options": ["Decreases", "Stays the same", "Increases", "First increases then decreases"], "answer": "Increases", "explanation": "Going down Group 1, the outer electron is farther from the nucleus and easier to lose → more reactive." },
+          { "id": "q5", "type": "multiple_choice", "question": "Why are noble gases unreactive?", "options": ["They have no protons", "They have a full outer electron shell", "They are very heavy", "They only exist as atoms"], "answer": "They have a full outer electron shell", "explanation": "Noble gases have 8 outer electrons (He has 2) — a full stable shell means no tendency to react." },
+          { "id": "q6", "type": "multiple_choice", "question": "What is produced when sodium reacts with water?", "options": ["NaCl + O₂", "NaOH + H₂", "Na₂O + H₂O", "NaH + O₂"], "answer": "NaOH + H₂", "explanation": "2Na + 2H₂O → 2NaOH + H₂↑. Sodium hydroxide (alkali) and hydrogen gas are produced." },
+          { "id": "q7", "type": "multiple_choice", "question": "Going DOWN Group 7, reactivity:", "options": ["Increases", "Decreases", "Stays same", "Unpredictable"], "answer": "Decreases", "explanation": "Going down Group 7, halogens become less reactive. Fluorine is most reactive, iodine least." },
+          { "id": "q8", "type": "multiple_choice", "question": "Chlorine reacts with potassium bromide solution. What happens?", "options": ["Nothing — Cl₂ is less reactive than Br₂", "Cl₂ displaces Br₂ from solution", "Br₂ displaces Cl₂", "They both dissolve"], "answer": "Cl₂ displaces Br₂ from solution", "explanation": "More reactive halogens displace less reactive ones. Cl₂ is above Br₂ in reactivity, so Cl₂ displaces Br₂." },
+          { "id": "q9", "type": "multiple_choice", "question": "What is the state of bromine at room temperature?", "options": ["Gas", "Solid", "Liquid", "Plasma"], "answer": "Liquid", "explanation": "Bromine (Br₂) is a red-brown liquid at room temperature — it is the only non-metal liquid element." },
+          { "id": "q10", "type": "multiple_choice", "question": "Argon gas is used in light bulbs because:", "options": ["It makes bulbs brighter", "It is cheap and inert — won't react with the filament", "It conducts electricity", "It is lighter than air"], "answer": "It is cheap and inert — won't react with the filament", "explanation": "Argon is a noble gas — completely unreactive. This prevents the tungsten filament from burning." }
+        ]
+      }
+    }
+  ]
+}

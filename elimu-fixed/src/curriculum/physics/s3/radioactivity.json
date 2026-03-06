@@ -1,0 +1,65 @@
+{
+  "topic_id": "s3_phy_radioactivity",
+  "topic_title": "Radioactivity",
+  "subject": "physics",
+  "class_level": "S3",
+  "lessons": [
+    {
+      "id": "s3_phy_radioactivity_l1",
+      "title": "Radioactive Decay and Nuclear Radiation",
+      "duration_minutes": 28,
+      "xp_reward": 70,
+      "content": [
+        { "type": "text", "body": "Radioactivity is the spontaneous emission of radiation from unstable atomic nuclei. When a nucleus is unstable, it decays by emitting particles or energy to become more stable. This process is random and cannot be sped up or slowed down by external conditions." },
+        { "type": "formula", "body": "The three types of nuclear radiation:\nAlpha (α): 2 protons + 2 neutrons (helium nucleus). Charge: +2\nBeta (β): high-speed electron from nucleus. Charge: −1\nGamma (γ): high-frequency electromagnetic radiation. No charge, no mass" },
+        { "type": "example", "title": "Penetrating Power and Ionisation", "body": "Alpha (α):\n• Penetration: stopped by a sheet of paper or few cm of air\n• Ionisation: STRONGEST ioniser\n• Most dangerous if inhaled/ingested (inside body)\n\nBeta (β):\n• Penetration: stopped by a few mm of aluminium\n• Ionisation: moderate\n\nGamma (γ):\n• Penetration: needs several cm of lead or metres of concrete\n• Ionisation: weakest ioniser\n• Most dangerous externally (penetrates the body)" },
+        { "type": "formula", "body": "Nuclear Equations:\nAlpha decay: mass number decreases by 4, atomic number decreases by 2\n²³⁸₉₂U → ²³⁴₉₀Th + ⁴₂He\n\nBeta decay: atomic number increases by 1, mass number unchanged\n¹⁴₆C → ¹⁴₇N + ⁰₋₁e" },
+        { "type": "formula", "body": "Half-Life (t₁/₂): time for half of the radioactive nuclei in a sample to decay.\n\nAfter 1 half-life: N/2 remain\nAfter 2 half-lives: N/4 remain\nAfter 3 half-lives: N/8 remain\nAfter n half-lives: N/2ⁿ remain" },
+        { "type": "example", "title": "Half-Life Calculation", "body": "A sample has 800 atoms. Half-life = 3 days. How many remain after 9 days?\n9 days = 3 half-lives\nAfter 3 half-lives: 800/2³ = 800/8 = 100 atoms remain" }
+      ],
+      "quiz": {
+        "pass_score": 60,
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "Which radiation has the greatest penetrating power?", "options": ["Alpha", "Beta", "Gamma", "They are equal"], "answer": "Gamma", "explanation": "Gamma radiation penetrates furthest — it requires lead or thick concrete to stop it." },
+          { "id": "q2", "type": "multiple_choice", "question": "An alpha particle consists of:", "options": ["2 electrons and 2 neutrons", "2 protons and 2 neutrons", "1 proton and 1 neutron", "4 electrons"], "answer": "2 protons and 2 neutrons", "explanation": "An alpha particle is a helium-4 nucleus: 2 protons and 2 neutrons." },
+          { "id": "q3", "type": "multiple_choice", "question": "What stops alpha radiation?", "options": ["Lead", "Aluminium", "Paper or a few cm of air", "Concrete"], "answer": "Paper or a few cm of air", "explanation": "Alpha particles are heavy and slow — stopped by paper or a few centimetres of air." },
+          { "id": "q4", "type": "multiple_choice", "question": "In alpha decay, the mass number:", "options": ["Increases by 4", "Decreases by 4", "Stays the same", "Decreases by 2"], "answer": "Decreases by 4", "explanation": "An alpha particle has mass number 4. When emitted, mass number of parent decreases by 4." },
+          { "id": "q5", "type": "multiple_choice", "question": "Half-life is the time for:", "options": ["All atoms to decay", "Half the sample to decay", "The sample to lose half its mass", "Half the radiation to be emitted"], "answer": "Half the sample to decay", "explanation": "Half-life is the time for half of the radioactive atoms in a sample to decay." },
+          { "id": "q6", "type": "multiple_choice", "question": "A sample of 1600 atoms. After 2 half-lives, how many remain?", "options": ["800", "400", "200", "100"], "answer": "400", "explanation": "After 2 half-lives: 1600/2² = 1600/4 = 400 atoms." },
+          { "id": "q7", "type": "multiple_choice", "question": "Beta radiation is:", "options": ["A helium nucleus", "An electromagnetic wave", "A high-speed electron", "A neutron"], "answer": "A high-speed electron", "explanation": "Beta particles are high-speed electrons emitted from the nucleus during beta decay." },
+          { "id": "q8", "type": "multiple_choice", "question": "Gamma radiation has:", "options": ["Mass 4, charge +2", "Mass 0, charge −1", "No mass and no charge", "Mass 1, charge 0"], "answer": "No mass and no charge", "explanation": "Gamma radiation is electromagnetic — it has no mass and no charge." },
+          { "id": "q9", "type": "multiple_choice", "question": "Which radiation is most ionising?", "options": ["Gamma", "Beta", "X-rays", "Alpha"], "answer": "Alpha", "explanation": "Alpha particles are the strongest ionisers because they are large, slow, and highly charged." },
+          { "id": "q10", "type": "multiple_choice", "question": "Half-life = 5 years. After 15 years, what fraction of the sample remains?", "options": ["1/2", "1/4", "1/8", "1/16"], "answer": "1/8", "explanation": "15 years = 3 half-lives. Fraction remaining = (1/2)³ = 1/8." }
+        ]
+      }
+    },
+    {
+      "id": "s3_phy_radioactivity_l2",
+      "title": "Uses and Dangers of Radiation",
+      "duration_minutes": 22,
+      "xp_reward": 60,
+      "content": [
+        { "type": "text", "body": "While radioactive materials are dangerous, they have many important applications in medicine, industry, and energy production. Understanding both uses and safety measures is essential." },
+        { "type": "example", "title": "Medical Uses", "body": "Cancer treatment (radiotherapy): gamma rays from Cobalt-60 kill cancer cells\nDiagnosis (tracers): radioactive iodine-131 accumulates in thyroid — scanned to detect problems\nSterilisation: gamma rays sterilise medical equipment without heat\nPET scans: positron emitters trace metabolic activity in the brain" },
+        { "type": "example", "title": "Industrial Uses", "body": "Thickness gauges: beta radiation measures paper/metal sheet thickness\nSmoke detectors: alpha source (Americium-241) ionises air — smoke breaks current, triggering alarm\nRadiocarbon dating: Carbon-14 (half-life 5730 years) used to date ancient organic material\nNuclear power stations: controlled fission of Uranium-235 produces enormous amounts of electricity" },
+        { "type": "text", "body": "Dangers of radiation:\n• Ionisation damages DNA, potentially causing mutations and cancer\n• High doses cause radiation sickness (nausea, hair loss, organ failure)\n• Long-term low-dose exposure increases cancer risk\n• Alpha particles most dangerous internally (inside body)" },
+        { "type": "formula", "body": "Safety precautions:\n• Wear protective clothing and dosimeter badges\n• Handle sources with long-handled tongs (never with bare hands)\n• Store radioactive materials in lead-lined containers\n• Minimise time of exposure\n• Maximise distance from source (intensity drops with square of distance)\n• Use lead/concrete shielding" }
+      ],
+      "quiz": {
+        "pass_score": 60,
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "Radiocarbon dating uses Carbon-14 because:", "options": ["It has a very short half-life", "It has a half-life of ~5730 years (useful timescale)", "It emits gamma rays", "It is not radioactive"], "answer": "It has a half-life of ~5730 years (useful timescale)", "explanation": "Carbon-14's half-life of ~5730 years is ideal for dating objects thousands of years old." },
+          { "id": "q2", "type": "multiple_choice", "question": "How do smoke detectors use radioactivity?", "options": ["Gamma rays heat air", "Alpha source ionises air; smoke stops ionisation, triggering alarm", "Beta rays detect smoke particles", "Gamma rays react with smoke chemically"], "answer": "Alpha source ionises air; smoke stops ionisation, triggering alarm", "explanation": "An alpha source (Americium-241) ionises air allowing current to flow. Smoke absorbs alpha particles, breaking the current and triggering the alarm." },
+          { "id": "q3", "type": "multiple_choice", "question": "Why is gamma radiation used to sterilise medical equipment?", "options": ["It is cheap", "It penetrates packaging and kills bacteria without heat", "It is not harmful", "It makes instruments stronger"], "answer": "It penetrates packaging and kills bacteria without heat", "explanation": "Gamma radiation penetrates sealed packaging and kills microorganisms without needing to open or heat the equipment." },
+          { "id": "q4", "type": "multiple_choice", "question": "Why should radioactive sources be handled with tongs?", "options": ["They are too heavy to pick up", "To reduce exposure by maximising distance", "They are magnetic", "Tongs are required by law only"], "answer": "To reduce exposure by maximising distance", "explanation": "Greater distance from the source reduces radiation exposure." },
+          { "id": "q5", "type": "multiple_choice", "question": "What type of radiation is used in cancer radiotherapy?", "options": ["Alpha", "Beta", "Gamma", "Infrared"], "answer": "Gamma", "explanation": "Gamma radiation from Cobalt-60 is used to target and kill cancer cells in radiotherapy." },
+          { "id": "q6", "type": "multiple_choice", "question": "Why is alpha radiation most dangerous inside the body?", "options": ["It travels fastest", "It has the most penetrating power", "It causes the most ionisation and damage to nearby cells", "It converts to gamma inside the body"], "answer": "It causes the most ionisation and damage to nearby cells", "explanation": "Alpha particles are the strongest ionisers. Inside the body, they are close to cells and cause extensive DNA damage." },
+          { "id": "q7", "type": "multiple_choice", "question": "Radioactive tracers in medicine are usually:", "options": ["Alpha emitters with long half-lives", "Short half-life gamma/beta emitters that leave the body quickly", "Stable isotopes", "Only used for brain scans"], "answer": "Short half-life gamma/beta emitters that leave the body quickly", "explanation": "Medical tracers must emit detectable radiation (gamma/beta) and have short half-lives so they decay quickly and don't remain harmful in the body." },
+          { "id": "q8", "type": "multiple_choice", "question": "Nuclear power stations generate electricity through:", "options": ["Nuclear fusion", "Controlled nuclear fission", "Radioactive beta decay", "Gamma ray heating"], "answer": "Controlled nuclear fission", "explanation": "Nuclear power stations split (fission) heavy nuclei like Uranium-235, releasing enormous heat energy to generate electricity." },
+          { "id": "q9", "type": "multiple_choice", "question": "What material is used to store radioactive sources safely?", "options": ["Glass containers", "Plastic bags", "Lead-lined containers", "Wooden boxes"], "answer": "Lead-lined containers", "explanation": "Lead is dense and absorbs radiation effectively, making it ideal for shielding and storage." },
+          { "id": "q10", "type": "multiple_choice", "question": "Radiation causes cancer by:", "options": ["Heating cells", "Damaging/mutating DNA", "Dehydrating cells", "Producing acid in cells"], "answer": "Damaging/mutating DNA", "explanation": "Ionising radiation damages DNA strands. If the damage causes mutations in cell division genes, this can lead to cancer." }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "topic_id": "s1_phy_forces",
+  "topic_title": "Forces & Motion",
+  "subject": "physics",
+  "class_level": "S1",
+  "lessons": [
+    {
+      "id": "s1_phy_forces_l1",
+      "title": "What is a Force?",
+      "duration_minutes": 20,
+      "xp_reward": 50,
+      "content": [
+        { "type": "text", "body": "A force is a push or a pull on an object. Forces can make objects start moving, stop moving, speed up, slow down, or change direction. Forces can also change the shape of an object." },
+        { "type": "formula", "body": "Force is measured in Newtons (N). Named after Sir Isaac Newton." },
+        { "type": "text", "body": "There are many types of forces: Gravity pulls objects downward toward the Earth. Friction opposes motion between two surfaces. Normal force acts perpendicular to a surface. Applied force is a push or pull by a person or machine. Tension acts through ropes and strings." },
+        { "type": "example", "title": "Forces in Daily Life", "body": "When you kick a football:\n• Your foot applies a force on the ball (applied force)\n• The ball moves in the direction of the force\n• Eventually friction and air resistance slow it down\n• Gravity pulls it back to the ground" },
+        { "type": "formula", "body": "Newton's Second Law: Force = Mass × Acceleration\nF = ma\nWhere F is in Newtons (N), m is in kilograms (kg), a is in metres per second squared (m/s²)" },
+        { "type": "example", "title": "Calculating Force", "body": "A box of mass 5 kg accelerates at 3 m/s². What force acts on it?\nF = ma = 5 × 3 = 15 N" }
+      ],
+      "quiz": {
+        "pass_score": 60,
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "What is a force?", "options": ["A type of energy", "A push or pull on an object", "The speed of an object", "The weight of an object"], "answer": "A push or pull on an object", "explanation": "A force is defined as a push or pull acting on an object." },
+          { "id": "q2", "type": "multiple_choice", "question": "What unit is force measured in?", "options": ["Kilograms", "Metres", "Newtons", "Joules"], "answer": "Newtons", "explanation": "Force is measured in Newtons (N), named after Sir Isaac Newton." },
+          { "id": "q3", "type": "multiple_choice", "question": "A 10 kg object accelerates at 2 m/s². What force acts on it?", "options": ["5 N", "12 N", "20 N", "8 N"], "answer": "20 N", "explanation": "F = ma = 10 × 2 = 20 N" },
+          { "id": "q4", "type": "multiple_choice", "question": "Which force always pulls objects toward the Earth?", "options": ["Friction", "Tension", "Gravity", "Normal force"], "answer": "Gravity", "explanation": "Gravity is the force that pulls all objects toward the centre of the Earth." },
+          { "id": "q5", "type": "multiple_choice", "question": "What does friction do to moving objects?", "options": ["Speeds them up", "Changes their colour", "Opposes or slows their motion", "Makes them float"], "answer": "Opposes or slows their motion", "explanation": "Friction is a force that opposes motion between two surfaces in contact." },
+          { "id": "q6", "type": "multiple_choice", "question": "If F = 30 N and m = 6 kg, what is the acceleration?", "options": ["180 m/s²", "5 m/s²", "24 m/s²", "0.2 m/s²"], "answer": "5 m/s²", "explanation": "a = F/m = 30/6 = 5 m/s²" },
+          { "id": "q7", "type": "multiple_choice", "question": "What happens to an object when a net force acts on it?", "options": ["Nothing changes", "It changes its mass", "It accelerates", "It disappears"], "answer": "It accelerates", "explanation": "A net force causes an object to accelerate (change its velocity)." },
+          { "id": "q8", "type": "multiple_choice", "question": "Which force acts through a rope?", "options": ["Gravity", "Friction", "Normal force", "Tension"], "answer": "Tension", "explanation": "Tension is the force transmitted through a rope, string or cable." },
+          { "id": "q9", "type": "multiple_choice", "question": "What does Newton's Second Law state?", "options": ["F = m/a", "F = ma", "F = a/m", "F = m + a"], "answer": "F = ma", "explanation": "Newton's Second Law: Force equals mass multiplied by acceleration (F = ma)." },
+          { "id": "q10", "type": "multiple_choice", "question": "A force of 24 N acts on a 8 kg mass. What is the acceleration?", "options": ["192 m/s²", "16 m/s²", "3 m/s²", "32 m/s²"], "answer": "3 m/s²", "explanation": "a = F/m = 24/8 = 3 m/s²" }
+        ]
+      }
+    },
+    {
+      "id": "s1_phy_forces_l2",
+      "title": "Speed, Velocity and Acceleration",
+      "duration_minutes": 25,
+      "xp_reward": 60,
+      "content": [
+        { "type": "text", "body": "Speed is how fast an object moves — it tells us the distance covered per unit of time. Velocity is speed in a specific direction. Acceleration is the rate at which velocity changes." },
+        { "type": "formula", "body": "Speed = Distance ÷ Time\nv = d/t\nUnit: metres per second (m/s)" },
+        { "type": "formula", "body": "Acceleration = Change in Velocity ÷ Time\na = (v − u) ÷ t\nWhere v = final velocity, u = initial velocity, t = time\nUnit: m/s²" },
+        { "type": "example", "title": "Calculating Speed", "body": "A car travels 120 m in 8 seconds. What is its speed?\nv = d/t = 120/8 = 15 m/s" },
+        { "type": "example", "title": "Calculating Acceleration", "body": "A motorbike goes from 0 m/s to 20 m/s in 5 seconds. What is its acceleration?\na = (v − u)/t = (20 − 0)/5 = 4 m/s²" },
+        { "type": "text", "body": "Deceleration is negative acceleration — when an object slows down. If a car goes from 30 m/s to 10 m/s in 4 seconds: a = (10 − 30)/4 = −5 m/s² (the negative sign shows deceleration)." }
+      ],
+      "quiz": {
+        "pass_score": 60,
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "What is the formula for speed?", "options": ["Speed = Time ÷ Distance", "Speed = Distance × Time", "Speed = Distance ÷ Time", "Speed = Distance − Time"], "answer": "Speed = Distance ÷ Time", "explanation": "Speed = Distance ÷ Time (v = d/t)" },
+          { "id": "q2", "type": "multiple_choice", "question": "A student runs 200 m in 25 seconds. What is their speed?", "options": ["8 m/s", "175 m/s", "4 m/s", "5000 m/s"], "answer": "8 m/s", "explanation": "v = d/t = 200/25 = 8 m/s" },
+          { "id": "q3", "type": "multiple_choice", "question": "What is the unit of acceleration?", "options": ["m/s", "m/s²", "N", "kg"], "answer": "m/s²", "explanation": "Acceleration is measured in metres per second squared (m/s²)." },
+          { "id": "q4", "type": "multiple_choice", "question": "A car accelerates from 10 m/s to 30 m/s in 5 s. What is its acceleration?", "options": ["6 m/s²", "4 m/s²", "8 m/s²", "2 m/s²"], "answer": "4 m/s²", "explanation": "a = (30−10)/5 = 20/5 = 4 m/s²" },
+          { "id": "q5", "type": "multiple_choice", "question": "How is velocity different from speed?", "options": ["Velocity is always larger", "Velocity includes direction", "They are exactly the same", "Speed includes direction"], "answer": "Velocity includes direction", "explanation": "Velocity is speed in a specific direction. Speed has no direction." },
+          { "id": "q6", "type": "multiple_choice", "question": "A bus travels at 20 m/s for 60 seconds. How far does it travel?", "options": ["3 m", "80 m", "1200 m", "40 m"], "answer": "1200 m", "explanation": "d = v × t = 20 × 60 = 1200 m" },
+          { "id": "q7", "type": "multiple_choice", "question": "What does a negative acceleration mean?", "options": ["The object is moving backwards", "The object is decelerating", "The object has no mass", "The object stopped"], "answer": "The object is decelerating", "explanation": "Negative acceleration means the object is slowing down (decelerating)." },
+          { "id": "q8", "type": "multiple_choice", "question": "A boda boda goes from 15 m/s to 0 m/s in 3 seconds. What is the deceleration?", "options": ["5 m/s²", "45 m/s²", "−5 m/s²", "0 m/s²"], "answer": "−5 m/s²", "explanation": "a = (0−15)/3 = −15/3 = −5 m/s² (negative = deceleration)" },
+          { "id": "q9", "type": "multiple_choice", "question": "If a car travels at 25 m/s, how long does it take to cover 500 m?", "options": ["10 s", "25 s", "20 s", "50 s"], "answer": "20 s", "explanation": "t = d/v = 500/25 = 20 s" },
+          { "id": "q10", "type": "multiple_choice", "question": "An object starts at rest and reaches 12 m/s in 4 seconds. What is its acceleration?", "options": ["48 m/s²", "16 m/s²", "3 m/s²", "8 m/s²"], "answer": "3 m/s²", "explanation": "a = (12−0)/4 = 12/4 = 3 m/s²" }
+        ]
+      }
+    }
+  ]
+}

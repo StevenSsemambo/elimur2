@@ -1,0 +1,56 @@
+{
+  "topic_id": "s1_chem_bonding",
+  "topic_title": "Chemical Bonding",
+  "subject": "chemistry",
+  "class_level": "S1",
+  "lessons": [
+    {
+      "id": "s1_chem_bonding_l1",
+      "title": "Ionic Bonding",
+      "duration_minutes": 25,
+      "xp_reward": 60,
+      "content": [
+        {"type":"text","body":"Chemical bonds form when atoms interact to achieve a stable electron configuration — typically a full outer shell (octet rule, 8 electrons). There are three main types of chemical bonds: ionic, covalent, and metallic. The type of bond determines the physical and chemical properties of the substance."},
+        {"type":"formula","body":"IONIC BONDING:\nFormed between a METAL and a NON-METAL\nMetal loses electrons → becomes positive ion (cation)\nNon-metal gains electrons → becomes negative ion (anion)\nOpposite charges attract → ionic bond\n\nElectrostatic attraction between oppositely charged ions\n\nExample:\nNa (2,8,1) → loses 1e⁻ → Na⁺ (2,8)\nCl (2,8,7) → gains 1e⁻ → Cl⁻ (2,8,8)\nNa⁺ and Cl⁻ form NaCl (sodium chloride = table salt)"},
+        {"type":"formula","body":"Properties of Ionic Compounds:\n• High melting and boiling points (strong electrostatic forces)\n• Solid at room temperature (giant ionic lattice structure)\n• Conduct electricity when DISSOLVED in water or MOLTEN (ions free to move)\n• Do NOT conduct when solid (ions fixed in lattice)\n• Usually soluble in water\n• Hard but brittle (layers shift under pressure, like charges repel)"},
+        {"type":"example","title":"Dot-and-Cross Diagrams","body":"Sodium chloride (NaCl) formation:\nNa has 1 outer electron — it TRANSFERS to Cl\nCl has 7 outer electrons — receives 1 to complete octet\nNa becomes Na⁺ (like Ne configuration: 2,8)\nCl becomes Cl⁻ (like Ar configuration: 2,8,8)\n\nMagnesium oxide (MgO):\nMg (2,8,2) → loses 2e⁻ → Mg²⁺\nO (2,6) → gains 2e⁻ → O²⁻\nFormula: MgO (charges balance 2+ and 2-)"}
+      ],
+      "quiz":{"pass_score":60,"questions":[
+        {"id":"q1","type":"multiple_choice","question":"Ionic bonds form between:","options":["Two non-metals","Two metals","Metal and non-metal","Non-metal and noble gas"],"answer":"Metal and non-metal","explanation":"Ionic bonds form when a metal (donates electrons) bonds with a non-metal (accepts electrons)."},
+        {"id":"q2","type":"multiple_choice","question":"Na loses 1 electron. The ion formed is:","options":["Na⁻","Na²⁺","Na⁺","Na⁰"],"answer":"Na⁺","explanation":"Losing one electron gives Na a positive charge of +1. Ion = Na⁺."},
+        {"id":"q3","type":"multiple_choice","question":"Ionic compounds conduct electricity when:","options":["Always","Never","Solid only","Molten or dissolved in water"],"answer":"Molten or dissolved in water","explanation":"Ionic compounds only conduct when ions are free to move — in molten state or solution. Solid ionic compounds have fixed ions and don't conduct."},
+        {"id":"q4","type":"multiple_choice","question":"Why do ionic compounds have high melting points?","options":["They contain metals","Strong electrostatic attraction between ions requires much energy to break","They are soluble","They are brittle"],"answer":"Strong electrostatic attraction between ions requires much energy to break","explanation":"The giant ionic lattice has strong forces between all ions. Much energy is needed to overcome these forces and separate the ions."},
+        {"id":"q5","type":"multiple_choice","question":"Magnesium ion Mg²⁺ is formed when Mg:","options":["Gains 2 electrons","Loses 2 electrons","Gains 2 protons","Shares 2 electrons"],"answer":"Loses 2 electrons","explanation":"Mg has 2 outer electrons. It loses both to form Mg²⁺ with a full outer shell."},
+        {"id":"q6","type":"multiple_choice","question":"Chloride ion Cl⁻ has the same electron configuration as:","options":["Na","Ne","Ar","K"],"answer":"Ar","explanation":"Cl⁻ has 2,8,8 — same as argon (Ar). Both have 18 electrons."},
+        {"id":"q7","type":"multiple_choice","question":"Formula of calcium oxide: Ca²⁺ and O²⁻","options":["CaO₂","Ca₂O","Ca₂O₂","CaO"],"answer":"CaO","explanation":"Ca²⁺ (+2) and O²⁻ (-2). Charges balance at ratio 1:1. Formula = CaO."},
+        {"id":"q8","type":"multiple_choice","question":"Ionic compounds are brittle because:","options":["Ions are soft","Layers shift under pressure — like charges align and repel","They contain non-metals","Bonds are weak"],"answer":"Layers shift under pressure — like charges align and repel","explanation":"When force is applied, ionic layers shift. Like charges end up adjacent — massive repulsion causes the crystal to shatter."},
+        {"id":"q9","type":"multiple_choice","question":"The octet rule states atoms are most stable with:","options":["8 protons","8 neutrons","8 outer electrons","8 bonds"],"answer":"8 outer electrons","explanation":"Most atoms are most stable with 8 electrons in their outer shell (except H and He which need 2)."},
+        {"id":"q10","type":"multiple_choice","question":"Which is an ionic compound?","options":["H₂O","CO₂","NaCl","HCl"],"answer":"NaCl","explanation":"NaCl (sodium chloride) is formed between Na (metal) and Cl (non-metal) — it is ionic."}
+      ]}
+    },
+    {
+      "id": "s1_chem_bonding_l2",
+      "title": "Covalent Bonding",
+      "duration_minutes": 25,
+      "xp_reward": 60,
+      "content": [
+        {"type":"formula","body":"COVALENT BONDING:\nFormed between TWO NON-METALS\nAtoms SHARE pairs of electrons (not transfer)\nEach atom provides one electron to each shared pair\nSingle bond: 1 shared pair (—)\nDouble bond: 2 shared pairs (=)\nTriple bond: 3 shared pairs (≡)"},
+        {"type":"example","title":"Simple Covalent Molecules","body":"Hydrogen (H₂): H–H (1 single bond)\nChlorine (Cl₂): Cl–Cl\nWater (H₂O): 2 O–H bonds, O has 2 lone pairs\nAmmonia (NH₃): 3 N–H bonds, N has 1 lone pair\nMethane (CH₄): 4 C–H bonds, tetrahedral shape\nCarbon dioxide (CO₂): O=C=O (2 double bonds)"},
+        {"type":"formula","body":"Properties of Simple Covalent Compounds:\n• Low melting and boiling points (weak intermolecular forces between molecules)\n• Usually gases or liquids at room temperature\n• Do NOT conduct electricity (no charged particles)\n• Insoluble in water (usually) but soluble in organic solvents"},
+        {"type":"example","title":"Giant Covalent Structures","body":"Some covalent substances form giant lattices:\n\nDiamond (carbon):\n• Each C bonded to 4 others (tetrahedral)\n• Very hard (all bonds must be broken)\n• Very high melting point\n• Does NOT conduct electricity\n\nSilicon dioxide (SiO₂) — quartz/sand:\n• Giant covalent lattice\n• Very hard, high melting point\n\nGraphite (carbon):\n• Layers of hexagonal rings\n• Conducts electricity (1 free electron per carbon)\n• Soft and slippery (layers slide over each other)\n• Used as lubricant and in pencils"}
+      ],
+      "quiz":{"pass_score":60,"questions":[
+        {"id":"q1","type":"multiple_choice","question":"Covalent bonds involve:","options":["Transfer of electrons","Sharing of electron pairs","Attraction between ions","Loss of protons"],"answer":"Sharing of electron pairs","explanation":"In covalent bonding, non-metal atoms share electron pairs to achieve full outer shells."},
+        {"id":"q2","type":"multiple_choice","question":"H₂O has how many covalent bonds?","options":["1","3","2","4"],"answer":"2","explanation":"Water: H–O–H. Two O–H single covalent bonds."},
+        {"id":"q3","type":"multiple_choice","question":"CO₂ structure is:","options":["C–O–O","O=C=O","O–C–O","O≡C=O"],"answer":"O=C=O","explanation":"Carbon dioxide: two C=O double bonds. Carbon forms 4 bonds total (2 double bonds = 4)."},
+        {"id":"q4","type":"multiple_choice","question":"Why do simple covalent compounds have low melting points?","options":["Weak covalent bonds","Weak intermolecular forces between molecules need little energy to overcome","No electrons","They are ionic"],"answer":"Weak intermolecular forces between molecules need little energy to overcome","explanation":"The COVALENT bonds within molecules are strong. But the forces BETWEEN molecules (intermolecular forces) are weak — these are broken on melting."},
+        {"id":"q5","type":"multiple_choice","question":"Diamond is hard because:","options":["It contains carbon","Each carbon forms 4 strong covalent bonds in a giant 3D lattice","It is ionic","It has metallic bonds"],"answer":"Each carbon forms 4 strong covalent bonds in a giant 3D lattice","explanation":"Diamond's giant covalent lattice — every atom bonded to 4 others by strong covalent bonds — makes it extremely hard."},
+        {"id":"q6","type":"multiple_choice","question":"Graphite conducts electricity because:","options":["It contains metals","It is ionic","One electron per carbon is delocalized and free to move","It has ionic layers"],"answer":"One electron per carbon is delocalized and free to move","explanation":"In graphite, each C forms 3 bonds. The 4th electron is delocalized (free) — these mobile electrons conduct electricity."},
+        {"id":"q7","type":"multiple_choice","question":"Which is a covalent compound?","options":["NaCl","MgO","H₂O","KBr"],"answer":"H₂O","explanation":"H₂O is formed between two non-metals (H and O) — covalent bonding."},
+        {"id":"q8","type":"multiple_choice","question":"Methane (CH₄) contains:","options":["1 double bond","4 single C–H bonds","2 single and 1 double bond","4 double bonds"],"answer":"4 single C–H bonds","explanation":"Carbon forms 4 single bonds. Methane: C bonded to 4 hydrogen atoms by 4 single C–H bonds."},
+        {"id":"q9","type":"multiple_choice","question":"Why doesn't simple covalent H₂O conduct electricity?","options":["It has no molecules","No free ions or electrons to carry charge","It is not polar","Water is ionic"],"answer":"No free ions or electrons to carry charge","explanation":"Covalent molecules have no charged particles (ions or free electrons), so they cannot conduct electrical current."},
+        {"id":"q10","type":"multiple_choice","question":"Silicon dioxide (SiO₂) has a high melting point because:","options":["It is ionic","It has a giant covalent lattice with many strong bonds to break","It is a metal","It contains oxygen"],"answer":"It has a giant covalent lattice with many strong bonds to break","explanation":"SiO₂ (sand/quartz) has a giant covalent structure. Enormous energy is needed to break all the strong covalent bonds throughout the lattice."}
+      ]}
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "topic_id": "s2_chem_reactions",
+  "topic_title": "Chemical Reactions & Metals",
+  "subject": "chemistry",
+  "class_level": "S2",
+  "lessons": [
+    {
+      "id": "s2_chem_reactions_l1",
+      "title": "Types of Chemical Reactions",
+      "duration_minutes": 25,
+      "xp_reward": 60,
+      "content": [
+        {"type":"text","body":"A chemical reaction converts reactants into products with different properties. Chemical changes (unlike physical changes) are usually irreversible and involve making or breaking chemical bonds. Recognising types of reactions helps predict products and write equations."},
+        {"type":"formula","body":"Types of reactions:\n1. SYNTHESIS: A + B → AB (two things combine)\n   2Na + Cl₂ → 2NaCl\n\n2. DECOMPOSITION: AB → A + B (one thing breaks apart)\n   CaCO₃ → CaO + CO₂ (thermal decomposition)\n\n3. DISPLACEMENT: more reactive metal displaces less reactive\n   Zn + CuSO₄ → ZnSO₄ + Cu (Zn displaces Cu)\n\n4. NEUTRALISATION: acid + base → salt + water\n   HCl + NaOH → NaCl + H₂O\n\n5. COMBUSTION: fuel + oxygen → CO₂ + H₂O\n   CH₄ + 2O₂ → CO₂ + 2H₂O\n\n6. OXIDATION/REDUCTION: transfer of electrons (redox)"},
+        {"type":"formula","body":"Signs of a chemical reaction:\n• Colour change\n• Gas produced (effervescence)\n• Precipitate formed (solid forms in solution)\n• Temperature change (heat given out or absorbed)\n• Light emitted\n• Smell produced\n• Irreversible change"},
+        {"type":"example","title":"Writing and Balancing Chemical Equations","body":"Word equation: hydrogen + oxygen → water\nFormula equation (unbalanced): H₂ + O₂ → H₂O\nBalanced: 2H₂ + O₂ → 2H₂O\n\nRules:\n1. Write correct formulas for all reactants and products\n2. Balance by changing coefficients (big numbers in front)\n3. NEVER change subscripts (small numbers in formula)\n4. Check atoms of each element balance\n5. Add state symbols: (s) solid (l) liquid (g) gas (aq) aqueous"}
+      ],
+      "quiz":{"pass_score":60,"questions":[
+        {"id":"q1","type":"multiple_choice","question":"CaCO₃ → CaO + CO₂ is an example of:","options":["Synthesis","Neutralisation","Decomposition","Combustion"],"answer":"Decomposition","explanation":"Decomposition: one substance breaks down into two or more products. CaCO₃ decomposes when heated."},
+        {"id":"q2","type":"multiple_choice","question":"Zn + CuSO₄ → ZnSO₄ + Cu is:","options":["Neutralisation","Displacement","Decomposition","Synthesis"],"answer":"Displacement","explanation":"Zinc (more reactive) displaces copper from copper sulphate solution — a displacement reaction."},
+        {"id":"q3","type":"multiple_choice","question":"Balancing: H₂ + O₂ → H₂O. Balanced equation?","options":["H₂+O₂→H₂O","2H₂+O₂→2H₂O","H₂+O₂→2H₂O","2H₂+2O₂→2H₂O"],"answer":"2H₂+O₂→2H₂O","explanation":"Left: 4H, 2O. Right: 4H, 2O. 2H₂ + O₂ → 2H₂O is balanced."},
+        {"id":"q4","type":"multiple_choice","question":"A precipitate is:","options":["A gas formed in a reaction","A solid formed when two solutions react","An acid produced","A catalyst"],"answer":"A solid formed when two solutions react","explanation":"A precipitate is an insoluble solid that forms when two solutions react — it appears as a cloudy solid in solution."},
+        {"id":"q5","type":"multiple_choice","question":"Which is NOT a sign of chemical reaction?","options":["Colour change","Gas produced","Change in state from liquid to gas by heating","Temperature change"],"answer":"Change in state from liquid to gas by heating","explanation":"Boiling is a physical change (no new substances formed). The others — colour change, gas, temperature change — indicate chemical reactions."},
+        {"id":"q6","type":"multiple_choice","question":"2H₂ + O₂ → 2H₂O. State symbols: water is liquid, O₂ is gas. Write with symbols:","options":["2H₂(g)+O₂(l)→2H₂O(g)","2H₂(g)+O₂(g)→2H₂O(l)","2H₂(l)+O₂(g)→2H₂O(s)","2H₂(aq)+O₂(g)→2H₂O(g)"],"answer":"2H₂(g)+O₂(g)→2H₂O(l)","explanation":"H₂ is a gas (g), O₂ is a gas (g), liquid water is (l)."},
+        {"id":"q7","type":"multiple_choice","question":"Synthesis reaction example:","options":["H₂O→H₂+O₂","N₂+3H₂→2NH₃","CH₄+2O₂→CO₂+2H₂O","HCl+NaOH→NaCl+H₂O"],"answer":"N₂+3H₂→2NH₃","explanation":"N₂ + 3H₂ → 2NH₃: two reactants combine to form one product = synthesis."},
+        {"id":"q8","type":"multiple_choice","question":"When balancing equations, you should change:","options":["Subscripts in formulas","The products formed","Coefficients in front of formulas","The type of atoms"],"answer":"Coefficients in front of formulas","explanation":"Balance by changing the large numbers (coefficients) in front of formulas. NEVER change subscripts — that changes the substance."},
+        {"id":"q9","type":"multiple_choice","question":"Fe + CuCl₂ → FeCl₂ + Cu. Which metal is more reactive?","options":["Copper (Cu)","They are equally reactive","Iron (Fe)","Cannot tell"],"answer":"Iron (Fe)","explanation":"Iron displaces copper — iron is more reactive. More reactive metals displace less reactive ones from their compounds."},
+        {"id":"q10","type":"multiple_choice","question":"(aq) state symbol means:","options":["Aqueous — dissolved in water","A gas","Solid","Any liquid"],"answer":"Aqueous — dissolved in water","explanation":"(aq) = aqueous — the substance is dissolved in water to form a solution."}
+      ]}
+    },
+    {
+      "id": "s2_chem_metals_l1",
+      "title": "Metals — Reactivity Series and Extraction",
+      "duration_minutes": 28,
+      "xp_reward": 65,
+      "content": [
+        {"type":"text","body":"Metals are versatile materials used in construction (steel), electronics (copper, gold), jewellery (gold, silver), and transport (aluminium). The reactivity series ranks metals by their tendency to react — this determines how they are extracted from ores and how they corrode."},
+        {"type":"formula","body":"Reactivity Series (most reactive → least reactive):\nPotassium (K)\nSodium (Na)\nCalcium (Ca)\nMagnesium (Mg)\nAluminium (Al)\nZinc (Zn)\nIron (Fe)\nLead (Pb)\nCopper (Cu)\nSilver (Ag)\nGold (Au)\n\nMnemonic: 'Please Stop Calling Me A Zebra In London, Can She Go'"},
+        {"type":"formula","body":"Reactions with water and acid:\nK, Na, Ca: react vigorously with COLD water → H₂ gas + metal hydroxide\n2Na + 2H₂O → 2NaOH + H₂\n\nMg, Zn, Fe: react slowly with steam or dilute acid → H₂ gas\nMg + 2HCl → MgCl₂ + H₂\n\nCu, Ag, Au: NO reaction with water or dilute acid (too unreactive)"},
+        {"type":"example","title":"Extraction of Metals","body":"Very reactive metals (K, Na, Ca, Mg, Al): extracted by ELECTROLYSIS\n(too reactive to be reduced by carbon)\n\nModerately reactive (Zn, Fe): extracted by REDUCTION WITH CARBON\nFe₂O₃ + 3CO → 2Fe + 3CO₂ (blast furnace)\n\nLow reactivity (Cu, Ag, Au): found NATIVE (as pure metal in ground) or extracted by heating/simple reduction\n\nAluminium extraction (Hall-Héroult):\nAl₂O₃ dissolved in molten cryolite → electrolysis → pure Al\nHighly energy-intensive — recycling Al saves 95% of energy!"},
+        {"type":"text","body":"Corrosion:\nIron RUSTS when exposed to BOTH water AND oxygen:\n4Fe + 3O₂ + 6H₂O → 4Fe(OH)₃ (iron hydroxide → rust)\n\nCorrosion prevention:\n• Painting (barrier)\n• Oiling/greasing (barrier)\n• Galvanising: coating with zinc (zinc sacrificed instead of iron — cathodic protection)\n• Stainless steel alloy: Cr and Ni added to iron\n• Electroplating with chromium or tin\n\nSalt water accelerates rusting (electrolyte allows faster electron transfer)"}
+      ],
+      "quiz":{"pass_score":60,"questions":[
+        {"id":"q1","type":"multiple_choice","question":"Which metal is most reactive?","options":["Iron","Copper","Potassium","Gold"],"answer":"Potassium","explanation":"Potassium is at the top of the reactivity series — most reactive common metal."},
+        {"id":"q2","type":"multiple_choice","question":"Sodium reacts with water. Product includes:","options":["NaCl","NaOH and H₂","Na₂O and H₂O","No reaction"],"answer":"NaOH and H₂","explanation":"2Na + 2H₂O → 2NaOH + H₂↑. Sodium reacts vigorously with water, producing sodium hydroxide and hydrogen gas."},
+        {"id":"q3","type":"multiple_choice","question":"Gold does not react with dilute acids because:","options":["It is too rare","It is very unreactive (bottom of reactivity series)","It forms protective oxide","It reacts with bases instead"],"answer":"It is very unreactive (bottom of reactivity series)","explanation":"Gold is at the bottom of the reactivity series — so unreactive it is found native (pure) in nature."},
+        {"id":"q4","type":"multiple_choice","question":"Aluminium is extracted by electrolysis (not carbon reduction) because:","options":["Carbon is too expensive","Aluminium is too reactive to be reduced by carbon","Electrolysis gives purer product","Carbon reacts with aluminium"],"answer":"Aluminium is too reactive to be reduced by carbon","explanation":"Al is above carbon in the reactivity series. Carbon cannot displace it. Electrolysis is needed."},
+        {"id":"q5","type":"multiple_choice","question":"Iron is extracted in a blast furnace by:","options":["Electrolysis","Reduction with carbon (coke)","Simply heating","Adding water"],"answer":"Reduction with carbon (coke)","explanation":"Iron oxide (Fe₂O₃) is reduced by carbon monoxide (from coke) in the blast furnace: Fe₂O₃ + 3CO → 2Fe + 3CO₂."},
+        {"id":"q6","type":"multiple_choice","question":"Rusting requires:","options":["Only water","Only oxygen","Both water AND oxygen","Acid only"],"answer":"Both water AND oxygen","explanation":"Iron rusts only when BOTH water and oxygen are present. Remove either and rusting stops."},
+        {"id":"q7","type":"multiple_choice","question":"Galvanising protects iron by:","options":["Coating with paint","Coating with zinc, which is sacrificed instead of iron","Removing oxygen","Making iron unreactive"],"answer":"Coating with zinc, which is sacrificed instead of iron","explanation":"Zinc is more reactive than iron. Even if scratched, zinc corrodes (sacrificial protection) while iron is protected."},
+        {"id":"q8","type":"multiple_choice","question":"Can copper displace iron from iron sulphate solution?","options":["Yes, copper is more reactive","No, iron is more reactive than copper","Yes, all metals react","Only in acidic solution"],"answer":"No, iron is more reactive than copper","explanation":"Only more reactive metals can displace less reactive ones. Iron is above copper in the reactivity series."},
+        {"id":"q9","type":"multiple_choice","question":"Recycling aluminium saves energy because:","options":["Mining is cheap","Re-melting needs only 5% of energy needed for electrolytic extraction","Recycled Al is purer","Recycling uses no energy"],"answer":"Re-melting needs only 5% of energy needed for electrolytic extraction","explanation":"Aluminium extraction by electrolysis uses enormous amounts of electricity. Re-melting scrap aluminium is 20× cheaper."},
+        {"id":"q10","type":"multiple_choice","question":"Mg + 2HCl → MgCl₂ + ? What gas is produced?","options":["O₂","Cl₂","CO₂","H₂"],"answer":"H₂","explanation":"Metals above hydrogen in reactivity series displace H₂ from dilute acids. Mg + 2HCl → MgCl₂ + H₂↑."}
+      ]}
+    }
+  ]
+}

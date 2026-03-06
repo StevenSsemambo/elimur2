@@ -1,0 +1,64 @@
+{
+  "topic_id": "s2_math_trigonometry",
+  "topic_title": "Trigonometry",
+  "subject": "mathematics",
+  "class_level": "S2",
+  "lessons": [
+    {
+      "id": "s2_math_trig_l1",
+      "title": "Trigonometric Ratios (SOH-CAH-TOA)",
+      "duration_minutes": 28,
+      "xp_reward": 70,
+      "content": [
+        { "type": "text", "body": "Trigonometry is the study of relationships between angles and sides in triangles. The three basic trigonometric ratios — sine, cosine, and tangent — relate the angles of a right-angled triangle to the lengths of its sides." },
+        { "type": "formula", "body": "In a right-angled triangle:\n• Hypotenuse: longest side, opposite the right angle\n• Opposite: side facing the angle θ\n• Adjacent: side next to angle θ (not hypotenuse)\n\nSOH-CAH-TOA:\nSin θ = Opposite / Hypotenuse\nCos θ = Adjacent / Hypotenuse\nTan θ = Opposite / Adjacent" },
+        { "type": "example", "title": "Finding a Side Length", "body": "A right triangle has angle θ = 30° and hypotenuse = 10 cm. Find the opposite side.\nUsing SOH: sin 30° = Opposite / 10\n0.5 = Opposite / 10\nOpposite = 10 × 0.5 = 5 cm" },
+        { "type": "example", "title": "Finding an Angle", "body": "A right triangle has opposite = 6 cm and hypotenuse = 10 cm.\nsin θ = 6/10 = 0.6\nθ = sin⁻¹(0.6) = 36.87° ≈ 37°" },
+        { "type": "formula", "body": "Special Angles (memorise these!):\nAngle: 0°   30°   45°   60°   90°\nSin:   0    1/2   √2/2  √3/2  1\nCos:   1    √3/2  √2/2  1/2   0\nTan:   0    1/√3  1     √3    undefined" }
+      ],
+      "quiz": {
+        "pass_score": 60,
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "SOH-CAH-TOA means:", "options": ["Sin=Opp/Hyp, Cos=Adj/Hyp, Tan=Opp/Adj", "Sin=Adj/Hyp, Cos=Opp/Hyp, Tan=Adj/Opp", "Sin=Hyp/Opp, Cos=Hyp/Adj, Tan=Adj/Opp", "Sin=Opp/Adj, Cos=Adj/Opp, Tan=Opp/Hyp"], "answer": "Sin=Opp/Hyp, Cos=Adj/Hyp, Tan=Opp/Adj", "explanation": "SOH: Sin=Opposite/Hypotenuse, CAH: Cos=Adjacent/Hypotenuse, TOA: Tan=Opposite/Adjacent." },
+          { "id": "q2", "type": "multiple_choice", "question": "What is sin 30°?", "options": ["√3/2", "1/2", "√2/2", "1"], "answer": "1/2", "explanation": "sin 30° = 0.5 = 1/2. A standard value to memorise." },
+          { "id": "q3", "type": "multiple_choice", "question": "What is cos 60°?", "options": ["√3/2", "√2/2", "1/2", "1"], "answer": "1/2", "explanation": "cos 60° = 0.5 = 1/2." },
+          { "id": "q4", "type": "multiple_choice", "question": "A right triangle: opposite=5, hypotenuse=13. Find sin θ.", "options": ["12/13", "5/13", "5/12", "13/5"], "answer": "5/13", "explanation": "sin θ = Opposite/Hypotenuse = 5/13." },
+          { "id": "q5", "type": "multiple_choice", "question": "What is tan 45°?", "options": ["0", "√2", "1/2", "1"], "answer": "1", "explanation": "tan 45° = 1. At 45°, opposite = adjacent, so their ratio is 1." },
+          { "id": "q6", "type": "multiple_choice", "question": "angle θ = 40°, adjacent = 8 cm. Find the hypotenuse using cos.", "options": ["8 × cos 40°", "8/cos 40°", "cos 40°/8", "8 × sin 40°"], "answer": "8/cos 40°", "explanation": "cos θ = Adj/Hyp, so Hyp = Adj/cos θ = 8/cos 40° ≈ 10.44 cm." },
+          { "id": "q7", "type": "multiple_choice", "question": "Which ratio uses the opposite and adjacent sides?", "options": ["Sine", "Cosine", "Tangent", "All of them"], "answer": "Tangent", "explanation": "Tan θ = Opposite/Adjacent. (TOA)" },
+          { "id": "q8", "type": "multiple_choice", "question": "sin θ = 0.8. Find θ.", "options": ["36.87°", "53.13°", "45°", "60°"], "answer": "53.13°", "explanation": "θ = sin⁻¹(0.8) ≈ 53.13°." },
+          { "id": "q9", "type": "multiple_choice", "question": "A ladder of length 5 m leans against a wall at 60°. How high up the wall does it reach?", "options": ["2.5 m", "4.33 m", "5 m", "2.89 m"], "answer": "4.33 m", "explanation": "Height = sin 60° × 5 = (√3/2) × 5 ≈ 4.33 m." },
+          { "id": "q10", "type": "multiple_choice", "question": "What is cos 0°?", "options": ["0", "1/2", "√2/2", "1"], "answer": "1", "explanation": "cos 0° = 1. As the angle approaches 0, the adjacent approaches the hypotenuse." }
+        ]
+      }
+    },
+    {
+      "id": "s2_math_trig_l2",
+      "title": "Pythagoras' Theorem",
+      "duration_minutes": 22,
+      "xp_reward": 60,
+      "content": [
+        { "type": "formula", "body": "Pythagoras' Theorem (right-angled triangles only):\na² + b² = c²\nWhere c is the hypotenuse (longest side)\na and b are the two shorter sides (legs)" },
+        { "type": "example", "title": "Finding the Hypotenuse", "body": "A right triangle has legs a=3 and b=4. Find the hypotenuse.\nc² = 3² + 4² = 9 + 16 = 25\nc = √25 = 5\n\nThis is the famous 3-4-5 Pythagorean triple!" },
+        { "type": "example", "title": "Finding a Leg", "body": "Hypotenuse = 13 cm, one leg = 5 cm. Find the other leg.\na² + 5² = 13²\na² + 25 = 169\na² = 144\na = √144 = 12 cm" },
+        { "type": "text", "body": "Common Pythagorean triples to remember: (3,4,5), (5,12,13), (8,15,17), (7,24,25). These ratios also work as multiples — e.g. (6,8,10), (9,12,15)." },
+        { "type": "example", "title": "Real-World Application", "body": "A football pitch is 100m long and 64m wide. What is the diagonal distance corner-to-corner?\nd² = 100² + 64² = 10000 + 4096 = 14096\nd = √14096 ≈ 118.7 m" }
+      ],
+      "quiz": {
+        "pass_score": 60,
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "State Pythagoras' theorem for a right triangle with hypotenuse c:", "options": ["a+b=c", "a²+b²=c²", "a×b=c", "a²−b²=c²"], "answer": "a²+b²=c²", "explanation": "Pythagoras: a² + b² = c² where c is the hypotenuse." },
+          { "id": "q2", "type": "multiple_choice", "question": "Legs are 5 and 12. Find the hypotenuse.", "options": ["13", "17", "√17", "7"], "answer": "13", "explanation": "c² = 25 + 144 = 169. c = 13. (5-12-13 triple)" },
+          { "id": "q3", "type": "multiple_choice", "question": "Hypotenuse=10, one leg=6. Find the other leg.", "options": ["4", "8", "√136", "16"], "answer": "8", "explanation": "b² = 100 − 36 = 64. b = 8." },
+          { "id": "q4", "type": "multiple_choice", "question": "Is (6, 8, 10) a Pythagorean triple?", "options": ["No, 6²+8²≠10²", "Yes, 36+64=100", "No, only (3,4,5) works", "Yes, but only approximately"], "answer": "Yes, 36+64=100", "explanation": "6²+8²=36+64=100=10². Yes, it is a valid Pythagorean triple (double of 3-4-5)." },
+          { "id": "q5", "type": "multiple_choice", "question": "A right triangle has legs 9 and 40. What is the hypotenuse?", "options": ["49", "41", "31", "√31"], "answer": "41", "explanation": "c² = 81 + 1600 = 1681. c = √1681 = 41." },
+          { "id": "q6", "type": "multiple_choice", "question": "Pythagoras' theorem applies to:", "options": ["All triangles", "Equilateral triangles only", "Right-angled triangles only", "Isosceles triangles only"], "answer": "Right-angled triangles only", "explanation": "Pythagoras' theorem only works for triangles with a 90° angle." },
+          { "id": "q7", "type": "multiple_choice", "question": "Hypotenuse=25, one leg=7. Find the other leg.", "options": ["18", "24", "576", "32"], "answer": "24", "explanation": "b² = 625 − 49 = 576. b = 24." },
+          { "id": "q8", "type": "multiple_choice", "question": "A 10m ladder reaches a wall at 8m height. How far is the base from the wall?", "options": ["2m", "6m", "18m", "√36=6m"], "answer": "6m", "explanation": "base² = 10² − 8² = 100−64 = 36. base = 6m." },
+          { "id": "q9", "type": "multiple_choice", "question": "In the formula a²+b²=c², which side is c?", "options": ["The shortest side", "Any side", "The hypotenuse", "The adjacent side"], "answer": "The hypotenuse", "explanation": "c is always the hypotenuse — the side opposite the right angle and the longest side." },
+          { "id": "q10", "type": "multiple_choice", "question": "Legs are both 1 unit. What is the hypotenuse?", "options": ["2", "√2", "1", "√3"], "answer": "√2", "explanation": "c² = 1²+1² = 2. c = √2 ≈ 1.414." }
+        ]
+      }
+    }
+  ]
+}

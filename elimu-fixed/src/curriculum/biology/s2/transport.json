@@ -1,0 +1,36 @@
+{
+  "topic_id": "s2_bio_transport",
+  "topic_title": "Transport in Plants & Animals",
+  "subject": "biology",
+  "class_level": "S2",
+  "lessons": [
+    {
+      "id": "s2_bio_transport_l1",
+      "title": "The Human Circulatory System",
+      "duration_minutes": 28,
+      "xp_reward": 65,
+      "content": [
+        { "type": "text", "body": "The circulatory system transports blood, nutrients, oxygen, hormones, and waste products throughout the body. Humans have a double circulatory system: blood passes through the heart twice for every complete circuit of the body." },
+        { "type": "formula", "body": "The Heart:\n• 4 chambers: Left Atrium, Right Atrium, Left Ventricle, Right Ventricle\n• Valves prevent backflow of blood\n• Left side pumps oxygenated blood to body (systemic circulation)\n• Right side pumps deoxygenated blood to lungs (pulmonary circulation)\n• Heart rate (resting): ~70 beats per minute" },
+        { "type": "example", "title": "Blood Vessels", "body": "Arteries:\n• Carry blood AWAY from the heart\n• Thick muscular walls to withstand high pressure\n• Carry oxygenated blood (except pulmonary artery)\n\nVeins:\n• Carry blood TOWARD the heart\n• Thin walls, valves to prevent backflow\n• Carry deoxygenated blood (except pulmonary vein)\n\nCapillaries:\n• Tiny vessels one cell thick\n• Site of exchange — O₂ and nutrients diffuse out; CO₂ and waste diffuse in" },
+        { "type": "example", "title": "Blood Components", "body": "Red blood cells (erythrocytes): carry oxygen using haemoglobin; no nucleus; biconcave shape for large surface area\nWhite blood cells (leucocytes): fight infection (some engulf bacteria; some produce antibodies)\nPlatelets: small fragments that help blood clot at wounds\nPlasma: liquid part (~55% of blood); carries dissolved substances — glucose, CO₂, urea, hormones, proteins" },
+        { "type": "text", "body": "Blood pressure: the force of blood against artery walls. Normal: ~120/80 mmHg.\nHypertension (high blood pressure) increases risk of heart attack and stroke.\nFactors increasing blood pressure: obesity, smoking, high salt diet, stress, lack of exercise." }
+      ],
+      "quiz": {
+        "pass_score": 60,
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "How many chambers does the human heart have?", "options": ["2", "3", "4", "6"], "answer": "4", "explanation": "The human heart has 4 chambers: right atrium, left atrium, right ventricle, left ventricle." },
+          { "id": "q2", "type": "multiple_choice", "question": "Which blood vessels carry blood AWAY from the heart?", "options": ["Veins", "Capillaries", "Arteries", "Venules"], "answer": "Arteries", "explanation": "Arteries carry blood away from the heart. Veins carry blood toward the heart." },
+          { "id": "q3", "type": "multiple_choice", "question": "What is the function of haemoglobin?", "options": ["Fights infection", "Clots blood", "Carries oxygen in red blood cells", "Carries CO₂ in plasma"], "answer": "Carries oxygen in red blood cells", "explanation": "Haemoglobin is a protein in red blood cells that binds to oxygen and transports it around the body." },
+          { "id": "q4", "type": "multiple_choice", "question": "Where does exchange of O₂ and CO₂ between blood and tissues occur?", "options": ["In arteries", "In veins", "In capillaries", "In the heart"], "answer": "In capillaries", "explanation": "Capillaries have walls only one cell thick — perfect for diffusion of O₂ and nutrients to cells, and CO₂ and waste back to blood." },
+          { "id": "q5", "type": "multiple_choice", "question": "Veins have valves to:", "options": ["Speed up blood flow", "Prevent backflow of blood", "Filter the blood", "Control heart rate"], "answer": "Prevent backflow of blood", "explanation": "Veins carry blood at low pressure back to the heart. Valves prevent blood from flowing backwards." },
+          { "id": "q6", "type": "multiple_choice", "question": "Which component of blood fights infection?", "options": ["Red blood cells", "Platelets", "Plasma", "White blood cells"], "answer": "White blood cells", "explanation": "White blood cells (leucocytes) are part of the immune system — they engulf bacteria and produce antibodies." },
+          { "id": "q7", "type": "multiple_choice", "question": "Platelets function to:", "options": ["Carry oxygen", "Fight viruses", "Help blood clot at wounds", "Carry CO₂"], "answer": "Help blood clot at wounds", "explanation": "Platelets are small cell fragments that clump together at wound sites to form clots and stop bleeding." },
+          { "id": "q8", "type": "multiple_choice", "question": "The pulmonary artery carries blood:", "options": ["From heart to body", "From lungs to heart", "From heart to lungs", "From body to heart"], "answer": "From heart to lungs", "explanation": "Pulmonary artery: heart → lungs (deoxygenated). Pulmonary vein: lungs → heart (oxygenated)." },
+          { "id": "q9", "type": "multiple_choice", "question": "Why do red blood cells have a biconcave (dimpled) shape?", "options": ["For easy clotting", "To increase surface area for oxygen diffusion", "To squeeze through arteries", "To carry more haemoglobin per cell"], "answer": "To increase surface area for oxygen diffusion", "explanation": "The biconcave disc shape maximises surface area for gas exchange and allows the cell to flex through narrow capillaries." },
+          { "id": "q10", "type": "multiple_choice", "question": "High blood pressure (hypertension) is a risk factor for:", "options": ["Diabetes", "Heart attack and stroke", "Colour blindness", "Malaria"], "answer": "Heart attack and stroke", "explanation": "High blood pressure damages artery walls and makes the heart work harder, increasing risk of heart attack and stroke." }
+        ]
+      }
+    }
+  ]
+}

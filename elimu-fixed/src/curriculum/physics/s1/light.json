@@ -1,0 +1,56 @@
+{
+  "topic_id": "s1_phy_light",
+  "topic_title": "Light & Optics",
+  "subject": "physics",
+  "class_level": "S1",
+  "lessons": [
+    {
+      "id": "s1_phy_light_l1",
+      "title": "Reflection of Light",
+      "duration_minutes": 22,
+      "xp_reward": 55,
+      "content": [
+        {"type":"text","body":"Light travels in straight lines called rays. When light hits a surface, it bounces back — this is called reflection. Mirrors use reflection to create images. Understanding reflection is key to designing cameras, telescopes, and periscopes."},
+        {"type":"formula","body":"Laws of Reflection:\n1. The angle of incidence = the angle of reflection\n   (i = r)\n2. The incident ray, reflected ray, and normal all lie in the same plane\n\nAll angles are measured from the NORMAL (a line perpendicular to the surface at the point of incidence)"},
+        {"type":"example","title":"Plane Mirror Images","body":"Properties of images in a plane (flat) mirror:\n• Same size as the object\n• Same distance behind mirror as object is in front\n• Upright (not inverted)\n• Laterally inverted (left-right reversed)\n• Virtual (cannot be projected on a screen)"},
+        {"type":"example","title":"Types of Mirrors","body":"Concave (converging) mirror: curves inward (like a bowl)\n• Reflects parallel rays to a focal point F\n• Used in: torch reflectors, shaving mirrors, car headlights, satellite dishes\n\nConvex (diverging) mirror: curves outward\n• Reflects parallel rays outward — always produces small, virtual, upright image\n• Used in: rear-view mirrors, shop security mirrors, road junctions"}
+      ],
+      "quiz":{"pass_score":60,"questions":[
+        {"id":"q1","type":"multiple_choice","question":"The angle of incidence equals the angle of reflection. This is:","options":["Snell's Law","Law of Refraction","First Law of Reflection","Law of Absorption"],"answer":"First Law of Reflection","explanation":"The first law of reflection states that the angle of incidence equals the angle of reflection."},
+        {"id":"q2","type":"multiple_choice","question":"Angles of incidence and reflection are measured from:","options":["The mirror surface","The reflected ray","The normal to the surface","The horizontal"],"answer":"The normal to the surface","explanation":"All angles in reflection (and refraction) are measured from the normal — a line perpendicular to the surface."},
+        {"id":"q3","type":"multiple_choice","question":"An image in a plane mirror is:","options":["Real and inverted","Virtual and laterally inverted","Real and upright","Virtual and magnified"],"answer":"Virtual and laterally inverted","explanation":"Plane mirror images are virtual (can't be projected), the same size, upright, and laterally inverted (left-right swapped)."},
+        {"id":"q4","type":"multiple_choice","question":"Object is 8cm from a plane mirror. Image is how far from mirror?","options":["16cm behind","4cm behind","8cm behind","8cm in front"],"answer":"8cm behind","explanation":"In a plane mirror, image distance = object distance. Image is 8cm behind the mirror."},
+        {"id":"q5","type":"multiple_choice","question":"Concave mirrors are used in car headlights because:","options":["They make objects look smaller","They produce a wide field of view","They reflect light into a parallel beam for distance","They are cheaper"],"answer":"They reflect light into a parallel beam for distance","explanation":"A light source at the focal point of a concave mirror produces a parallel beam of light — useful for headlights."},
+        {"id":"q6","type":"multiple_choice","question":"Why are convex mirrors used as rear-view mirrors?","options":["They magnify objects","They give a wide field of view","They show real images","They are cheaper to make"],"answer":"They give a wide field of view","explanation":"Convex mirrors diverge light, creating smaller images but covering a wider area — giving drivers more visibility behind them."},
+        {"id":"q7","type":"multiple_choice","question":"Angle of incidence = 35°. Find angle of reflection.","options":["55°","35°","70°","145°"],"answer":"35°","explanation":"By the law of reflection, angle of reflection = angle of incidence = 35°."},
+        {"id":"q8","type":"multiple_choice","question":"Light travels in:","options":["Curved paths","Straight lines (rays)","Spiral paths","Random directions"],"answer":"Straight lines (rays)","explanation":"Light travels in straight lines — this is why shadows have sharp edges and we can draw ray diagrams."},
+        {"id":"q9","type":"multiple_choice","question":"A periscope uses:","options":["Refraction through lenses","Two plane mirrors at 45°","One concave mirror","Diffraction of light"],"answer":"Two plane mirrors at 45°","explanation":"A periscope uses two plane mirrors at 45° to reflect light around corners, allowing you to see over obstacles."},
+        {"id":"q10","type":"multiple_choice","question":"Which mirror always produces a virtual, upright, diminished image?","options":["Concave mirror","Plane mirror","Convex mirror","Both plane and convex"],"answer":"Convex mirror","explanation":"Convex (diverging) mirrors always produce virtual, upright, and smaller (diminished) images, regardless of object distance."}
+      ]}
+    },
+    {
+      "id": "s1_phy_light_l2",
+      "title": "Refraction of Light",
+      "duration_minutes": 25,
+      "xp_reward": 60,
+      "content": [
+        {"type":"text","body":"Refraction is the bending of light as it passes from one medium to another (e.g. from air into glass). This happens because light changes speed in different media. Refraction explains why swimming pools look shallower than they are, and why lenses can focus light."},
+        {"type":"formula","body":"Snell's Law:\nn₁ sin θ₁ = n₂ sin θ₂\n\nWhere:\nn₁, n₂ = refractive indices of the two media\nθ₁ = angle of incidence\nθ₂ = angle of refraction\n\nRefractive index n = speed of light in vacuum / speed in medium = c/v\nAir/vacuum: n ≈ 1\nWater: n ≈ 1.33\nGlass: n ≈ 1.5"},
+        {"type":"example","title":"Refraction Rules","body":"Light bending rules:\n• Going from less dense to more dense medium (air→glass): bends TOWARD the normal (angle decreases)\n• Going from more dense to less dense (glass→air): bends AWAY from normal (angle increases)\n\nAt 0° incidence (perpendicular to surface): NO bending occurs"},
+        {"type":"formula","body":"Total Internal Reflection (TIR):\nWhen light travels from dense to less dense medium and hits at angle GREATER than critical angle θc:\nsin θc = n₂/n₁ = 1/n (if going from medium to air)\n\nFor glass: θc ≈ 42°\nFor water: θc ≈ 49°\n\nApplications: optical fibres (internet cables!), endoscopes, diamonds (sparkle!), bicycle reflectors"}
+      ],
+      "quiz":{"pass_score":60,"questions":[
+        {"id":"q1","type":"multiple_choice","question":"Refraction occurs because:","options":["Light is absorbed at the surface","Light changes speed in different media","Light always bends at surfaces","Light reflects at boundaries"],"answer":"Light changes speed in different media","explanation":"Refraction is caused by the change in speed of light as it moves from one medium to another."},
+        {"id":"q2","type":"multiple_choice","question":"Light goes from air into glass. It bends:","options":["Away from the normal","Along the surface","Toward the normal","It does not bend"],"answer":"Toward the normal","explanation":"Going from less dense (air) to more dense (glass), light slows and bends toward the normal."},
+        {"id":"q3","type":"multiple_choice","question":"The refractive index of a vacuum is:","options":["0","0.5","1","1.5"],"answer":"1","explanation":"By definition, the refractive index of a vacuum (and approximately air) is 1."},
+        {"id":"q4","type":"multiple_choice","question":"What is total internal reflection?","options":["All light reflects in all media","Light is completely reflected when it hits a surface from a dense medium at > critical angle","Light refracts at 90°","Light is totally absorbed"],"answer":"Light is completely reflected when it hits a surface from a dense medium at > critical angle","explanation":"TIR occurs when light in a dense medium hits a less dense boundary at an angle greater than the critical angle — all light reflects back."},
+        {"id":"q5","type":"multiple_choice","question":"Optical fibres use TIR to:","options":["Generate electricity","Transmit light signals around bends without loss","Reflect sunlight in buildings","Create holograms"],"answer":"Transmit light signals around bends without loss","explanation":"Optical fibres use total internal reflection to carry light/data signals with minimal loss, even around corners."},
+        {"id":"q6","type":"multiple_choice","question":"A swimming pool appears shallower than it is because:","options":["Water absorbs light","Light refracts away from normal as it exits water","The pool is actually tilted","Water magnifies objects"],"answer":"Light refracts away from normal as it exits water","explanation":"Light bends away from the normal going from water (dense) to air (less dense), making the bottom appear closer than it is."},
+        {"id":"q7","type":"multiple_choice","question":"Snell's Law is: n₁sinθ₁ = n₂sinθ₂. If n₁=1, n₂=1.5, θ₁=30°. Find sinθ₂.","options":["0.75","0.5","0.33","1"],"answer":"0.33","explanation":"n₁sinθ₁ = n₂sinθ₂ → 1×sin30° = 1.5×sinθ₂ → sinθ₂ = 0.5/1.5 = 0.33."},
+        {"id":"q8","type":"multiple_choice","question":"A diamond sparkles brightly because:","options":["It is very shiny","It has a low critical angle and undergoes TIR repeatedly","It reflects UV light","It has no refractive index"],"answer":"It has a low critical angle and undergoes TIR repeatedly","explanation":"Diamond has a very high refractive index and low critical angle. Light entering undergoes multiple total internal reflections, creating the sparkle."},
+        {"id":"q9","type":"multiple_choice","question":"When light travels perpendicular to a surface (angle of incidence = 0°):","options":["It bends 90°","It undergoes total internal reflection","It passes straight through without bending","It is fully absorbed"],"answer":"It passes straight through without bending","explanation":"When light hits a surface at 90° (0° from the normal), no refraction occurs — it passes straight through."},
+        {"id":"q10","type":"multiple_choice","question":"An endoscope used by doctors uses:","options":["X-rays","Magnetic fields","Optical fibres and TIR","Ultrasound waves"],"answer":"Optical fibres and TIR","explanation":"Medical endoscopes use bundles of optical fibres — light travels through using TIR — allowing doctors to see inside the body."}
+      ]}
+    }
+  ]
+}

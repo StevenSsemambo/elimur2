@@ -1,0 +1,64 @@
+{
+  "topic_id": "s1_bio_photosynthesis",
+  "topic_title": "Photosynthesis",
+  "subject": "biology",
+  "class_level": "S1",
+  "lessons": [
+    {
+      "id": "s1_bio_photo_l1",
+      "title": "Photosynthesis — The Process of Life",
+      "duration_minutes": 25,
+      "xp_reward": 60,
+      "content": [
+        { "type": "text", "body": "Photosynthesis is the process by which green plants, algae, and some bacteria use sunlight energy to convert carbon dioxide and water into glucose and oxygen. It is the foundation of almost all food chains on Earth." },
+        { "type": "formula", "body": "Photosynthesis equation:\n6CO₂ + 6H₂O + light energy → C₆H₁₂O₆ + 6O₂\nCarbon dioxide + water + light → glucose + oxygen\n\nThis reaction occurs in the CHLOROPLASTS, which contain the green pigment CHLOROPHYLL." },
+        { "type": "example", "title": "Where Photosynthesis Occurs", "body": "Chloroplasts are found mainly in leaf cells, particularly the palisade mesophyll cells.\nChlorophyll absorbs RED and BLUE light most effectively, reflecting GREEN light (which is why plants look green).\nLeaves are thin and flat to maximise surface area for light absorption.\nLeaves have stomata (tiny pores) for gas exchange — CO₂ in, O₂ out." },
+        { "type": "text", "body": "Factors affecting rate of photosynthesis (limiting factors):\n1. Light intensity — more light = faster rate (up to a maximum)\n2. CO₂ concentration — more CO₂ = faster rate\n3. Temperature — higher temp = faster rate (up to optimum ~25-35°C, then enzymes denature)\n4. Water availability — water is a raw material; too little slows the process" },
+        { "type": "example", "title": "Evidence for Photosynthesis", "body": "Starch test: iodine solution turns blue-black in the presence of starch.\nExperiment: Take a leaf, remove chlorophyll with ethanol, test with iodine.\nGreen areas (with chlorophyll): blue-black = starch produced = photosynthesis occurred.\nWhite/yellow areas (no chlorophyll, e.g. variegated leaves): brown/orange = no starch = no photosynthesis." }
+      ],
+      "quiz": {
+        "pass_score": 60,
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "What is the raw material absorbed from air for photosynthesis?", "options": ["Oxygen", "Nitrogen", "Carbon dioxide", "Water vapour"], "answer": "Carbon dioxide", "explanation": "Plants absorb CO₂ from the air through stomata to use in photosynthesis." },
+          { "id": "q2", "type": "multiple_choice", "question": "Where does photosynthesis occur in plant cells?", "options": ["Mitochondria", "Nucleus", "Chloroplasts", "Vacuole"], "answer": "Chloroplasts", "explanation": "Chloroplasts contain chlorophyll and are the site of photosynthesis." },
+          { "id": "q3", "type": "multiple_choice", "question": "What are the products of photosynthesis?", "options": ["CO₂ and water", "Glucose and oxygen", "Starch and CO₂", "Oxygen and water"], "answer": "Glucose and oxygen", "explanation": "Photosynthesis produces glucose (food) and oxygen (released as a by-product)." },
+          { "id": "q4", "type": "multiple_choice", "question": "Which colour of light is most absorbed by chlorophyll?", "options": ["Green and yellow", "Red and blue", "White only", "Infrared"], "answer": "Red and blue", "explanation": "Chlorophyll absorbs red and blue light. It reflects green light, which is why plants appear green." },
+          { "id": "q5", "type": "multiple_choice", "question": "Why do leaves appear green?", "options": ["They absorb green light", "They reflect green light", "They produce green pigment in all cells", "They mix blue and yellow light"], "answer": "They reflect green light", "explanation": "Chlorophyll absorbs red and blue wavelengths but reflects green light to our eyes." },
+          { "id": "q6", "type": "multiple_choice", "question": "Iodine solution is used to test for:", "options": ["Glucose", "Protein", "Starch", "Fat"], "answer": "Starch", "explanation": "Iodine turns blue-black in the presence of starch — it's the test for starch production in leaves." },
+          { "id": "q7", "type": "multiple_choice", "question": "Which of these is a limiting factor for photosynthesis?", "options": ["Oxygen concentration", "Soil temperature only", "Light intensity", "Root length"], "answer": "Light intensity", "explanation": "Light intensity is a key limiting factor — photosynthesis rate increases with more light." },
+          { "id": "q8", "type": "multiple_choice", "question": "What happens to photosynthesis rate if CO₂ concentration increases?", "options": ["It slows down", "It stops", "It speeds up", "It is unaffected"], "answer": "It speeds up", "explanation": "CO₂ is a raw material. More CO₂ means more substrate for the reaction, increasing the rate." },
+          { "id": "q9", "type": "multiple_choice", "question": "Stomata on leaves allow:", "options": ["Water to enter from soil", "CO₂ to enter and O₂ to exit during day", "Only water vapour to exit", "Light to reach chloroplasts"], "answer": "CO₂ to enter and O₂ to exit during day", "explanation": "During daylight, stomata allow CO₂ in for photosynthesis and O₂ out as the by-product." },
+          { "id": "q10", "type": "multiple_choice", "question": "At very high temperatures, photosynthesis rate decreases because:", "options": ["No more CO₂ is available", "Light intensity drops", "Enzymes controlling photosynthesis denature", "Water evaporates"], "answer": "Enzymes controlling photosynthesis denature", "explanation": "High temperatures cause enzymes (biological catalysts) to denature — their active site shape changes and they stop working." }
+        ]
+      }
+    },
+    {
+      "id": "s1_bio_respiration_l1",
+      "title": "Respiration — Releasing Energy from Food",
+      "duration_minutes": 25,
+      "xp_reward": 60,
+      "content": [
+        { "type": "text", "body": "Respiration is the biochemical process occurring in ALL living cells to release energy from glucose. This energy is used for movement, growth, maintaining body temperature, and all other life processes. Respiration is NOT breathing — breathing is how we get oxygen to our cells." },
+        { "type": "formula", "body": "Aerobic Respiration (requires oxygen):\nC₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ENERGY (ATP)\nGlucose + oxygen → carbon dioxide + water + energy\n\nOccurs in: cytoplasm (glycolysis) and MITOCHONDRIA (main energy release)\nEnergy released: ~2870 kJ per mole of glucose" },
+        { "type": "formula", "body": "Anaerobic Respiration (no oxygen needed):\nIn animals/humans: C₆H₁₂O₆ → 2C₃H₆O₃ + energy\nGlucose → lactic acid + small amount of energy\n\nIn yeast/plants: C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂ + energy\nGlucose → ethanol + carbon dioxide + small amount of energy (fermentation!)" },
+        { "type": "example", "title": "Aerobic vs Anaerobic", "body": "Aerobic: more energy released, needs oxygen, produces CO₂ and water, sustainable long-term\nAnaerobic: less energy, no oxygen needed, in humans produces lactic acid (causes muscle cramp), quick burst of energy\n\nWhen you sprint, muscles use anaerobic respiration because oxygen can't be delivered fast enough.\nAfter exercise, you breathe heavily (oxygen debt) to break down the lactic acid that built up." },
+        { "type": "text", "body": "Fermentation is anaerobic respiration in yeast. It is used to make:\n• Bread (CO₂ causes dough to rise)\n• Beer and wine (ethanol is the alcohol produced)\n• Yoghurt (bacteria produce lactic acid from lactose)\nBrewing and baking industries rely entirely on this process." }
+      ],
+      "quiz": {
+        "pass_score": 60,
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "What is the purpose of respiration in cells?", "options": ["To produce oxygen", "To release energy from glucose", "To absorb CO₂", "To produce glucose"], "answer": "To release energy from glucose", "explanation": "Respiration releases chemical energy stored in glucose for use in all life processes." },
+          { "id": "q2", "type": "multiple_choice", "question": "Where does most aerobic respiration energy release occur?", "options": ["Nucleus", "Ribosomes", "Mitochondria", "Chloroplasts"], "answer": "Mitochondria", "explanation": "Mitochondria are the 'powerhouse' of the cell — the main site of aerobic respiration." },
+          { "id": "q3", "type": "multiple_choice", "question": "What are the products of aerobic respiration?", "options": ["Glucose and oxygen", "Lactic acid and CO₂", "CO₂, water and energy", "Ethanol and CO₂"], "answer": "CO₂, water and energy", "explanation": "Aerobic respiration: glucose + O₂ → CO₂ + H₂O + energy (ATP)." },
+          { "id": "q4", "type": "multiple_choice", "question": "Anaerobic respiration in human muscles produces:", "options": ["Ethanol", "Oxygen", "Lactic acid", "Glucose"], "answer": "Lactic acid", "explanation": "In human muscle cells without oxygen, glucose is converted to lactic acid. This causes the burning sensation during intense exercise." },
+          { "id": "q5", "type": "multiple_choice", "question": "Yeast uses anaerobic respiration to produce:", "options": ["Lactic acid and water", "Ethanol and CO₂", "Glucose and oxygen", "Starch and fat"], "answer": "Ethanol and CO₂", "explanation": "Yeast fermentation: glucose → ethanol + carbon dioxide. Used in baking and brewing." },
+          { "id": "q6", "type": "multiple_choice", "question": "Which produces MORE energy per glucose molecule?", "options": ["Anaerobic respiration", "Aerobic respiration", "Fermentation", "They produce equal amounts"], "answer": "Aerobic respiration", "explanation": "Aerobic respiration releases far more energy (~38 ATP) compared to anaerobic (~2 ATP)." },
+          { "id": "q7", "type": "multiple_choice", "question": "Why does bread dough rise during baking?", "options": ["Heat expands flour", "Yeast produces CO₂ through fermentation", "Yeast produces oxygen", "Sugar dissolves and creates bubbles"], "answer": "Yeast produces CO₂ through fermentation", "explanation": "Yeast in dough carries out anaerobic respiration, producing CO₂ which forms bubbles causing dough to rise." },
+          { "id": "q8", "type": "multiple_choice", "question": "After intense exercise, you breathe rapidly to:", "options": ["Cool down your body", "Repay the oxygen debt and remove lactic acid", "Produce more glucose", "Remove excess water"], "answer": "Repay the oxygen debt and remove lactic acid", "explanation": "Heavy breathing after exercise provides O₂ to break down lactic acid that built up during anaerobic respiration." },
+          { "id": "q9", "type": "multiple_choice", "question": "Respiration and breathing are:", "options": ["The same process", "Different: breathing gets oxygen to cells; respiration releases energy in cells", "The same — both occur in lungs", "Both anaerobic processes"], "answer": "Different: breathing gets oxygen to cells; respiration releases energy in cells", "explanation": "Breathing is a mechanical process (ventilation); respiration is a biochemical process in cells." },
+          { "id": "q10", "type": "multiple_choice", "question": "Which organisms can respire anaerobically?", "options": ["Plants only", "Animals only", "All living organisms", "Only bacteria"], "answer": "All living organisms", "explanation": "All living organisms can respire anaerobically (without oxygen) when needed, though most prefer aerobic for more energy." }
+        ]
+      }
+    }
+  ]
+}

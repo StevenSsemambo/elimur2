@@ -1,0 +1,91 @@
+{
+  "topic_id": "s1_math_numbers",
+  "topic_title": "Real Numbers",
+  "subject": "mathematics",
+  "class_level": "S1",
+  "lessons": [
+    {
+      "id": "s1_math_numbers_l1",
+      "title": "Types of Numbers",
+      "duration_minutes": 20,
+      "xp_reward": 50,
+      "content": [
+        { "type": "text", "body": "Numbers are classified into different types based on their properties. Understanding these types helps you know what operations are possible and how numbers relate to each other." },
+        { "type": "formula", "body": "Natural Numbers (ℕ): {1, 2, 3, 4, 5, ...} — counting numbers\nWhole Numbers: {0, 1, 2, 3, 4, ...} — natural numbers plus zero\nIntegers (ℤ): {..., −3, −2, −1, 0, 1, 2, 3, ...} — positive, negative, and zero\nRational Numbers (ℚ): numbers expressible as a fraction p/q where q ≠ 0\nIrrational Numbers: cannot be expressed as fractions — e.g. √2, π\nReal Numbers (ℝ): ALL numbers on the number line — includes all above" },
+        { "type": "example", "title": "Classifying Numbers", "body": "Classify each number:\n• 5 → Natural, Whole, Integer, Rational, Real\n• −3 → Integer, Rational, Real\n• 2/3 → Rational, Real\n• √2 ≈ 1.414... → Irrational, Real\n• π ≈ 3.14159... → Irrational, Real\n• 0.5 = 1/2 → Rational, Real" },
+        { "type": "text", "body": "Rational numbers include all fractions, terminating decimals (e.g. 0.25 = 1/4), and recurring decimals (e.g. 0.333... = 1/3). Irrational numbers have decimal expansions that never terminate and never repeat." }
+      ],
+      "quiz": {
+        "pass_score": 60,
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "Which set of numbers includes negative numbers?", "options": ["Natural numbers", "Whole numbers", "Integers", "Counting numbers"], "answer": "Integers", "explanation": "Integers include all positive, negative numbers and zero: {...,−2,−1,0,1,2,...}" },
+          { "id": "q2", "type": "multiple_choice", "question": "Is √4 rational or irrational?", "options": ["Irrational, because it has a square root", "Rational, because √4 = 2", "Neither", "Both"], "answer": "Rational, because √4 = 2", "explanation": "√4 = 2, which is a whole number and therefore rational." },
+          { "id": "q3", "type": "multiple_choice", "question": "Which of these is an irrational number?", "options": ["0.75", "−5", "√3", "4/7"], "answer": "√3", "explanation": "√3 ≈ 1.7320508... — it never terminates or repeats, making it irrational." },
+          { "id": "q4", "type": "multiple_choice", "question": "All integers are also:", "options": ["Natural numbers", "Rational numbers", "Irrational numbers", "Whole numbers"], "answer": "Rational numbers", "explanation": "Every integer n can be written as n/1, which is a rational number." },
+          { "id": "q5", "type": "multiple_choice", "question": "Which of these is NOT a real number (in standard mathematics)?", "options": ["−7", "√−1", "π", "0"], "answer": "√−1", "explanation": "√−1 is an imaginary number (i), not a real number. Real numbers include all numbers on the number line." },
+          { "id": "q6", "type": "multiple_choice", "question": "0.333... (recurring) is:", "options": ["Irrational", "Rational (= 1/3)", "Not a real number", "An integer"], "answer": "Rational (= 1/3)", "explanation": "0.333... = 1/3, which is a fraction — therefore rational." },
+          { "id": "q7", "type": "multiple_choice", "question": "Which is the largest set of numbers?", "options": ["Integers", "Natural numbers", "Real numbers", "Rational numbers"], "answer": "Real numbers", "explanation": "Real numbers contain all other number types — it is the complete number line." },
+          { "id": "q8", "type": "multiple_choice", "question": "Is 0 a natural number?", "options": ["Yes, always", "No, natural numbers start at 1", "Yes, but only in some systems", "Yes, it is the first natural number"], "answer": "No, natural numbers start at 1", "explanation": "Natural numbers are counting numbers: 1, 2, 3, ... Zero is a whole number but not a natural number." },
+          { "id": "q9", "type": "multiple_choice", "question": "Which statement is TRUE?", "options": ["All rational numbers are integers", "All integers are rational numbers", "All irrational numbers are integers", "All whole numbers are irrational"], "answer": "All integers are rational numbers", "explanation": "Every integer can be written as a fraction (e.g. 5 = 5/1), so all integers are rational." },
+          { "id": "q10", "type": "multiple_choice", "question": "π (pi) belongs to which set?", "options": ["Rational numbers only", "Integers only", "Irrational and Real numbers", "Natural numbers"], "answer": "Irrational and Real numbers", "explanation": "π = 3.14159... never repeats or terminates, so it is irrational. It is also a real number." }
+        ]
+      }
+    },
+    {
+      "id": "s1_math_numbers_l2",
+      "title": "Operations with Integers",
+      "duration_minutes": 22,
+      "xp_reward": 55,
+      "content": [
+        { "type": "text", "body": "Integers include positive numbers, negative numbers and zero. Operations with negative numbers follow specific rules that are different from operations with positive numbers only." },
+        { "type": "formula", "body": "ADDITION & SUBTRACTION:\n(+) + (+) = positive: 3 + 5 = 8\n(−) + (−) = negative: −3 + (−5) = −8\n(+) + (−): subtract, take sign of larger: 8 + (−3) = 5\nSubtracting a negative = adding: 5 − (−3) = 5 + 3 = 8" },
+        { "type": "formula", "body": "MULTIPLICATION & DIVISION:\n(+) × (+) = positive: 4 × 3 = 12\n(−) × (−) = positive: −4 × −3 = 12\n(+) × (−) = negative: 4 × (−3) = −12\n(−) × (+) = negative: −4 × 3 = −12\nSame rule applies for division!" },
+        { "type": "example", "title": "Mixed Operations", "body": "Calculate: (−6) + 4 − (−2) × 3\nStep 1: Multiplication first: (−2) × 3 = −6\nStep 2: Rewrite: (−6) + 4 − (−6)\nStep 3: Subtracting negative: (−6) + 4 + 6\nStep 4: = −6 + 10 = 4" },
+        { "type": "text", "body": "BODMAS/BIDMAS rule: Brackets → Orders (powers/roots) → Division → Multiplication → Addition → Subtraction. Always follow this order when evaluating expressions with multiple operations." }
+      ],
+      "quiz": {
+        "pass_score": 60,
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "Calculate: −8 + 3", "options": ["11", "−5", "5", "−11"], "answer": "−5", "explanation": "8 − 3 = 5, and since −8 has the larger absolute value, the answer is negative: −5." },
+          { "id": "q2", "type": "multiple_choice", "question": "Calculate: (−4) × (−5)", "options": ["−20", "20", "1", "−9"], "answer": "20", "explanation": "Negative × Negative = Positive. (−4) × (−5) = +20." },
+          { "id": "q3", "type": "multiple_choice", "question": "Calculate: 6 − (−4)", "options": ["2", "−10", "10", "−2"], "answer": "10", "explanation": "Subtracting a negative is the same as adding: 6 − (−4) = 6 + 4 = 10." },
+          { "id": "q4", "type": "multiple_choice", "question": "Calculate: (−3) × 7", "options": ["21", "4", "−4", "−21"], "answer": "−21", "explanation": "Positive × Negative = Negative. 3 × 7 = 21, so (−3) × 7 = −21." },
+          { "id": "q5", "type": "multiple_choice", "question": "Calculate: −12 ÷ (−4)", "options": ["−3", "3", "−48", "48"], "answer": "3", "explanation": "Negative ÷ Negative = Positive. 12 ÷ 4 = 3." },
+          { "id": "q6", "type": "multiple_choice", "question": "Calculate: −5 + (−3)", "options": ["2", "−2", "−8", "8"], "answer": "−8", "explanation": "Negative + Negative: add the numbers and keep the negative sign: −(5+3) = −8." },
+          { "id": "q7", "type": "multiple_choice", "question": "What is 3 × (−2) × (−4)?", "options": ["−24", "24", "−9", "9"], "answer": "24", "explanation": "3 × (−2) = −6, then −6 × (−4) = +24. (Two negatives make a positive.)" },
+          { "id": "q8", "type": "multiple_choice", "question": "Calculate: 20 ÷ (−5)", "options": ["4", "−4", "−100", "100"], "answer": "−4", "explanation": "Positive ÷ Negative = Negative. 20 ÷ 5 = 4, so 20 ÷ (−5) = −4." },
+          { "id": "q9", "type": "multiple_choice", "question": "The temperature was −3°C. It rose by 8°C. What is the new temperature?", "options": ["−11°C", "5°C", "11°C", "−5°C"], "answer": "5°C", "explanation": "−3 + 8 = 5°C." },
+          { "id": "q10", "type": "multiple_choice", "question": "Which expression equals a positive number?", "options": ["(−6) + (−4)", "(−3) × (+5)", "(−2) × (−9)", "(+4) × (−2)"], "answer": "(−2) × (−9)", "explanation": "Negative × Negative = Positive. (−2) × (−9) = +18." }
+        ]
+      }
+    },
+    {
+      "id": "s1_math_numbers_l3",
+      "title": "Fractions, Decimals and Percentages",
+      "duration_minutes": 25,
+      "xp_reward": 60,
+      "content": [
+        { "type": "text", "body": "Fractions, decimals and percentages are three ways of expressing the same value. Being able to convert between them is an essential skill." },
+        { "type": "formula", "body": "Fraction to Decimal: divide numerator by denominator\n3/4 = 3 ÷ 4 = 0.75\n\nDecimal to Percentage: multiply by 100\n0.75 × 100 = 75%\n\nPercentage to Fraction: divide by 100 and simplify\n75% = 75/100 = 3/4" },
+        { "type": "example", "title": "Converting Between Forms", "body": "Convert 2/5 to a decimal and percentage:\n2/5 = 2 ÷ 5 = 0.4 (decimal)\n0.4 × 100 = 40% (percentage)\n\nConvert 35% to a fraction:\n35% = 35/100 = 7/20 (simplified by dividing by 5)" },
+        { "type": "formula", "body": "Finding a Percentage of a Number:\nX% of Y = (X/100) × Y\n\nExample: 20% of 150 = (20/100) × 150 = 0.2 × 150 = 30" },
+        { "type": "example", "title": "Percentage Increase and Decrease", "body": "Percentage increase:\n% increase = (increase/original) × 100\nA shirt costs 20,000 UGX. Price rises to 25,000 UGX.\n% increase = (5000/20000) × 100 = 25%\n\nPercentage decrease:\n% decrease = (decrease/original) × 100" }
+      ],
+      "quiz": {
+        "pass_score": 60,
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "Convert 3/5 to a decimal.", "options": ["0.35", "0.6", "0.53", "1.67"], "answer": "0.6", "explanation": "3 ÷ 5 = 0.6" },
+          { "id": "q2", "type": "multiple_choice", "question": "Convert 0.45 to a percentage.", "options": ["4.5%", "0.45%", "45%", "450%"], "answer": "45%", "explanation": "0.45 × 100 = 45%" },
+          { "id": "q3", "type": "multiple_choice", "question": "What is 25% as a fraction in its simplest form?", "options": ["25/10", "1/4", "2/5", "1/25"], "answer": "1/4", "explanation": "25% = 25/100 = 1/4 (divide numerator and denominator by 25)" },
+          { "id": "q4", "type": "multiple_choice", "question": "Find 15% of 200.", "options": ["15", "300", "30", "1500"], "answer": "30", "explanation": "15% of 200 = (15/100) × 200 = 0.15 × 200 = 30" },
+          { "id": "q5", "type": "multiple_choice", "question": "A price increases from 10,000 to 12,000 UGX. What is the percentage increase?", "options": ["2%", "20%", "25%", "12%"], "answer": "20%", "explanation": "% increase = (2000/10000) × 100 = 20%" },
+          { "id": "q6", "type": "multiple_choice", "question": "Convert 7/8 to a decimal.", "options": ["0.785", "0.875", "1.14", "0.78"], "answer": "0.875", "explanation": "7 ÷ 8 = 0.875" },
+          { "id": "q7", "type": "multiple_choice", "question": "Which is largest: 3/5, 0.55, or 58%?", "options": ["3/5", "0.55", "58%", "They are all equal"], "answer": "3/5", "explanation": "3/5 = 0.60 = 60%. Compared: 60% > 58% > 55%. So 3/5 is largest." },
+          { "id": "q8", "type": "multiple_choice", "question": "A score of 48 out of 60. What percentage is this?", "options": ["48%", "80%", "60%", "75%"], "answer": "80%", "explanation": "(48/60) × 100 = 0.8 × 100 = 80%" },
+          { "id": "q9", "type": "multiple_choice", "question": "What is 0.125 as a fraction?", "options": ["1/8", "1/4", "12/5", "1/12"], "answer": "1/8", "explanation": "0.125 = 125/1000 = 1/8 (divide by 125)" },
+          { "id": "q10", "type": "multiple_choice", "question": "A discount of 30% on a 50,000 UGX item. What is the sale price?", "options": ["15,000", "30,000", "35,000", "20,000"], "answer": "35,000", "explanation": "Discount = 30% × 50,000 = 15,000. Sale price = 50,000 − 15,000 = 35,000 UGX." }
+        ]
+      }
+    }
+  ]
+}
